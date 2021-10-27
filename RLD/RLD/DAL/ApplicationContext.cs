@@ -16,6 +16,10 @@ namespace RLD
         }
 
         public DbSet<Radio> Radios { get; set; }
+        public DbSet<Books> Books { get; set; }
+        public DbSet<Settings> Settings { get; set; }
+        public DbSet<Links> Links { get; set; }
+        public DbSet<Cards> Cards { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -32,13 +36,79 @@ namespace RLD
                     new Radio
                     {
                         Id = 1,
-                        Title = "Radio1"
+                        Name = "Хіт ФМ",
+                        SteamURL = "http://www.radiomelodia.com.ua/RadioMelodia.m3u",
+                        Genre = RadioGenre.News,
+                        IsFavorite = true
                     },
                     new Radio
                     {
                         Id = 2,
-                        Title = "Radio2"
+                        Name = "Мелодія ФМ",
+                        SteamURL = "http://www.radiomelodia.com.ua/RadioMelodia.m3u",
+                        Genre = RadioGenre.News,
+                        IsFavorite = false
                     }
+            });
+            modelBuilder.Entity<Books>().HasData(
+                new Books[]
+                {
+                    new Books
+                    {
+                        Id = 1,
+                        Name = "Робінзон Крузо",
+                        Author = "Данієль Дефо",
+                        Genre = BookGenre.Adventure,
+                        YearOfRelease = new DateTime(1719, 4, 25)
+                    },
+                    new Books
+                    {
+                        Id = 2,
+                        Name = "Том Сойер",
+                        Author = "Марк Твен",
+                        Genre = BookGenre.Adventure,
+                        YearOfRelease = new DateTime(1876, 6, 10)
+                    }
+            });
+            modelBuilder.Entity<Cards>().HasData(
+                new Cards[]
+                {
+                    new Cards
+                    {
+                        Id = 1,
+                        Name = "Card1",
+                        Description = "Health card",
+                        Category = CardCategory.Health,
+                        IsInDraft = true
+                    },
+                    new Cards
+                    {
+                        Id = 2,
+                        Name = "Card2",
+                        Description = "Motivational card",
+                        Category = CardCategory.Motivation,
+                        IsInDraft = true
+                    }
+            });
+            modelBuilder.Entity<Settings>().HasData(
+                new Settings[]
+                {
+                    new Settings
+                    {
+                        Id = 1,
+                        Name = "Theme",
+                        Value = "Dark"
+                    },
+            });
+            modelBuilder.Entity<Links>().HasData(
+                new Links[]
+                {
+                    new Links
+                    {
+                        Id = 1,
+                        Name = "Link",
+                        Url = "google.com"
+                    },
             });
         }
     }

@@ -8,7 +8,7 @@ namespace RLD.BLL
 {
     public enum BookGenre
     {
-
+        Adventure
     }
 
     public class Books
@@ -19,6 +19,6 @@ namespace RLD.BLL
         public DateTime YearOfRelease { get; set; }
         public BookGenre Genre { get; set; }
         public byte[] File { get; set; }
-        public string Cover { get; set; }
+        public byte[] Cover { get; set; }
     }
 }

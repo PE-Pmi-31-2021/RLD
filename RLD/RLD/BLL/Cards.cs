@@ -8,7 +8,10 @@ namespace RLD.BLL
 {
     public enum CardCategory
     {
-
+        Sport,
+        Motivation,
+        Health,
+        Studying
     }
 
     public class Cards
