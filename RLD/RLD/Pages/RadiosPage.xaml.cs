@@ -12,31 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using RLD.Pages;
-namespace RLD
+
+namespace RLD.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for RadiosPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class RadiosPage : Page
     {
-        public MainWindow()
+        public RadiosPage()
         {
             InitializeComponent();
-
-            using (ApplicationContext db = new ApplicationContext())
-            {
-
-            }
-
-            RadiosPage radiosPage = new RadiosPage();
-            this.Content = radiosPage;
         }
 
-        private void RadiosButton_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            RadiosPage radiosPage = new RadiosPage();
-            this.Content = radiosPage;
+
         }
     }
 }
