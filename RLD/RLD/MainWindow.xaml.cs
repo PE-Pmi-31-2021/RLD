@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using RLD.Pages;
 namespace RLD
 {
     /// <summary>
@@ -28,6 +28,15 @@ namespace RLD
             {
 
             }
+
+            RadiosPage radiosPage = new RadiosPage();
+            this.Content = radiosPage;
+        }
+
+        private void RadiosButton_Click(object sender, RoutedEventArgs e)
+        {
+            RadiosPage radiosPage = new RadiosPage();
+            this.Content = radiosPage;
         }
     }
 }

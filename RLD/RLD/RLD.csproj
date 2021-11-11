@@ -7,6 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\1.jpg" />
+    <None Remove="Pages\AddIcon.png" />
+    <None Remove="Pages\BooksIcon.png" />
+    <None Remove="Pages\CardsIcon.png" />
+    <None Remove="Pages\EditIcon.png" />
+    <None Remove="Pages\NextIcon.png" />
+    <None Remove="Pages\photo_2021-10-31_22-30-26.jpg" />
+    <None Remove="Pages\PlayIcon.png" />
+    <None Remove="Pages\PreviousIcon.png" />
+    <None Remove="Pages\radio %281%29.png" />
+    <None Remove="Pages\RadiosIcon.png" />
+    <None Remove="Pages\RemoveIcon.png" />
+    <None Remove="Pages\RLDIcon.png" />
+    <None Remove="Pages\SettingsIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.11" />
@@ -15,6 +32,23 @@
   <ItemGroup>
     <Folder Include="BLL\" />
     <Folder Include="Presentation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pages\1.jpg" />
+    <Resource Include="Pages\AddIcon.png" />
+    <Resource Include="Pages\BooksIcon.png" />
+    <Resource Include="Pages\CardsIcon.png" />
+    <Resource Include="Pages\EditIcon.png" />
+    <Resource Include="Pages\NextIcon.png" />
+    <Resource Include="Pages\photo_2021-10-31_22-30-26.jpg" />
+    <Resource Include="Pages\PlayIcon.png" />
+    <Resource Include="Pages\PreviousIcon.png" />
+    <Resource Include="Pages\radio (1).png" />
+    <Resource Include="Pages\RadiosIcon.png" />
+    <Resource Include="Pages\RemoveIcon.png" />
+    <Resource Include="Pages\RLDIcon.png" />
+    <Resource Include="Pages\SettingsIcon.png" />
   </ItemGroup>
 
 </Project>
