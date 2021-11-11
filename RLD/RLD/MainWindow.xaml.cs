@@ -32,11 +32,5 @@ namespace RLD
             RadiosPage radiosPage = new RadiosPage();
             this.Content = radiosPage;
         }
-
-        private void RadiosButton_Click(object sender, RoutedEventArgs e)
-        {
-            RadiosPage radiosPage = new RadiosPage();
-            this.Content = radiosPage;
-        }
     }
 }
