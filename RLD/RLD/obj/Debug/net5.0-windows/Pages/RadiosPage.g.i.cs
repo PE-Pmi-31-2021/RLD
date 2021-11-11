@@ -53,7 +53,7 @@ namespace RLD.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RLD;component/pages/radiospage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RLD;V1.0.0.0;component/pages/radiospage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\RadiosPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
