@@ -36,5 +36,24 @@ namespace RLD.Pages
 
         }
 
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Settings settingsPage = new Settings();
+            this.Content = new Frame() { Content = settingsPage };
+            //Settings settingsPage = new Settings();
+            //this.Content = settingsPage;
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Cards cardsPage = new Cards();
+            this.Content = new Frame() { Content = cardsPage };
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Books booksPage = new Books();
+            this.Content = new Frame() { Content = booksPage };
+        }
     }
 }

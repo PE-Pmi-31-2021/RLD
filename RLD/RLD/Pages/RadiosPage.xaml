@@ -8,6 +8,16 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="RadiosPage">
 
+    <Page.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#2d2d2d"></Setter>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="#FFFFFF"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+        </Style>
+    </Page.Resources>
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
@@ -34,19 +44,19 @@
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center">Radios</Label>
             </WrapPanel>
         </Button>
-        <Button Grid.Column="0" Grid.Row="2">
+        <Button Grid.Column="0" Grid.Row="2" Click="Button_Click_4">
             <WrapPanel>
                 <Image Source="/Pages/BooksIcon.png" Stretch="None"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center">Books</Label>
             </WrapPanel>
         </Button>
-        <Button Grid.Column="0" Grid.Row="3">
+        <Button Grid.Column="0" Grid.Row="3" Click="Button_Click_3">
             <WrapPanel>
                 <Image Source="/Pages/CardsIcon.png" Stretch="None"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center">Cards</Label>
             </WrapPanel>
         </Button>
-        <Button Grid.Column="0" Grid.Row="4">
+        <Button Grid.Column="0" Grid.Row="4" Click="Button_Click_2">
             <WrapPanel>
                 <Image Source="/Pages/SettingsIcon.png" Stretch="None"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center">Settings</Label>
