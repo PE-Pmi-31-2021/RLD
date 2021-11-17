@@ -101,7 +101,15 @@ namespace RLD.Pages
                     {
                         radioLogotype.Source = null;
                     }
-                    radioPlayer.Source = new System.Uri(currentRadio.SteamURL);
+                    try
+                    {
+                        radioPlayer.Source = new System.Uri(currentRadio.SteamURL);
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Invalid radio url");
+                    }
+                    
                 }
             }
             else
