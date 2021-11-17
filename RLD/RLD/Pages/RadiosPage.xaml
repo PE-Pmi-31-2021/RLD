@@ -117,7 +117,7 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Column="0">
+                    <Button Grid.Column="0" Click="Button_Click_6">
                         <WrapPanel>
                             <Image Source="/Pages/AddIcon.png" Stretch="None"/>
                         </WrapPanel>

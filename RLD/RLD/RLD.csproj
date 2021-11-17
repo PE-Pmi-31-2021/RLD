@@ -31,7 +31,6 @@
 
   <ItemGroup>
     <Folder Include="BLL\" />
-    <Folder Include="Presentation\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -19,6 +19,9 @@
     <Compile Update="Pages\Settings.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Presentation\RadioDialogWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
@@ -34,6 +37,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\RadioDialogWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

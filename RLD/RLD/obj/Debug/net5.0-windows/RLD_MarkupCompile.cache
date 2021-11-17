@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 D:\Projects\git\RLD3\RLD\RLD\RLD\App.xaml
-5-108656130
+61469722419
 
-13295165912
+141890550558
 217687877348
-MainWindow.xaml;Pages\Books.xaml;Pages\Cards.xaml;Pages\RadiosPage.xaml;Pages\Settings.xaml;
+MainWindow.xaml;Pages\Books.xaml;Pages\Cards.xaml;Pages\RadiosPage.xaml;Pages\Settings.xaml;Presentation\RadioDialogWindow.xaml;
 
 False
 

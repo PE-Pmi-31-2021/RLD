@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
 using RLD.BLL;
+using RLD.Presentation;
 
 namespace RLD.Pages
 {
@@ -78,6 +79,12 @@ namespace RLD.Pages
                 db.SaveChanges();
             }
             listbox1.Items.RemoveAt(listbox1.Items.IndexOf(listbox1.SelectedItem));
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            RadioDialogWindow window = new RadioDialogWindow();
+            window.ShowDialog();
         }
     }
 }
