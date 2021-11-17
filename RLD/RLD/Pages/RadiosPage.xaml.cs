@@ -87,17 +87,21 @@ namespace RLD.Pages
             {
                 using (var db = new ApplicationContext())
                 {
-                    var currentRadio = from r in db.Radios
-                                       where r.Name == listbox1.SelectedItem.ToString()
-                                       select r;
+                    var currentRadio = db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem.ToString());
 
-                    BitmapImage currentRadioImage = new BitmapImage();
-                    currentRadioImage.BeginInit();
-                    currentRadioImage.StreamSource = new MemoryStream(currentRadio.FirstOrDefault().Logotype);
-                    currentRadioImage.EndInit();
-
-                    radioLogotype.Source = currentRadioImage;
-                    radioPlayer.Source = new System.Uri(currentRadio.FirstOrDefault().SteamURL);
+                    if (currentRadio.Logotype != null)
+                    {
+                        BitmapImage currentRadioImage = new BitmapImage();
+                        currentRadioImage.BeginInit();
+                        currentRadioImage.StreamSource = new MemoryStream(currentRadio.Logotype);
+                        currentRadioImage.EndInit();
+                        radioLogotype.Source = currentRadioImage;
+                    }
+                    else
+                    {
+                        radioLogotype.Source = null;
+                    }
+                    radioPlayer.Source = new System.Uri(currentRadio.SteamURL);
                 }
             }
             else
