@@ -83,20 +83,28 @@ namespace RLD.Pages
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            using (var db = new ApplicationContext())
+            if (listbox1.SelectedItem != null)
             {
-                var currentRadio = from r in db.Radios
-                                   where r.Name == listbox1.SelectedItem.ToString()
-                                   select r;
+                using (var db = new ApplicationContext())
+                {
+                    var currentRadio = from r in db.Radios
+                                       where r.Name == listbox1.SelectedItem.ToString()
+                                       select r;
 
-                BitmapImage currentRadioImage = new BitmapImage();
-                currentRadioImage.BeginInit();
-                currentRadioImage.StreamSource = new MemoryStream(currentRadio.FirstOrDefault().Logotype);
-                currentRadioImage.EndInit();
+                    BitmapImage currentRadioImage = new BitmapImage();
+                    currentRadioImage.BeginInit();
+                    currentRadioImage.StreamSource = new MemoryStream(currentRadio.FirstOrDefault().Logotype);
+                    currentRadioImage.EndInit();
 
-                radioLogotype.Source = currentRadioImage;
-                radioPlayer.Source = new System.Uri(currentRadio.FirstOrDefault().SteamURL);
+                    radioLogotype.Source = currentRadioImage;
+                    radioPlayer.Source = new System.Uri(currentRadio.FirstOrDefault().SteamURL);
+                }
             }
+            else
+            {
+                radioLogotype.Source = null;
+            }
+            
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
