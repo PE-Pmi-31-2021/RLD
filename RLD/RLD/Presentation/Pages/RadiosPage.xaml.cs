@@ -71,8 +71,6 @@ namespace RLD.Pages
         {
             Settings settingsPage = new Settings();
             this.Content = new Frame() { Content = settingsPage };
-            //Settings settingsPage = new Settings();
-            //this.Content = settingsPage;
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -128,14 +126,12 @@ namespace RLD.Pages
                     {
                         MessageBox.Show("Invalid radio url");
                     }
-                    
                 }
             }
             else
             {
                 radioLogotype.Source = defaultImage;
             }
-            
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
