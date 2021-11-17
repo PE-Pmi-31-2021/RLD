@@ -77,7 +77,7 @@
             </Grid.RowDefinitions>
 
             <Border BorderThickness="5" BorderBrush="#FF2D2D2D">
-                <Image x:Name="radioLogotype" Grid.Column="0" Grid.Row="0" Source="/Pages/1.jpg" Stretch="Fill"></Image>
+                <Image x:Name="radioLogotype" Grid.Column="0" Grid.Row="0" Source="/Pages/DefaultRadioIcon.png" Stretch="Fill"></Image>
             </Border>
 
             <Grid Grid.Column="1">

@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Pages\1.jpg" />
     <None Remove="Pages\AddIcon.png" />
     <None Remove="Pages\BooksIcon.png" />
     <None Remove="Pages\CardsIcon.png" />
+    <None Remove="Pages\DefaultRadioIcon.png" />
     <None Remove="Pages\EditIcon.png" />
     <None Remove="Pages\ImageBook.png" />
     <None Remove="Pages\NextIcon.png" />
@@ -21,6 +21,7 @@
     <None Remove="Pages\RadiosIcon.png" />
     <None Remove="Pages\RemoveIcon.png" />
     <None Remove="Pages\RLDIcon.png" />
+    <None Remove="Pages\RWwzJl_1920x1080.png" />
     <None Remove="Pages\SettingsIcon.png" />
     <None Remove="Pages\VolumeMinus.png" />
     <None Remove="Pages\VolumePlus.png" />
@@ -34,13 +35,14 @@
 
   <ItemGroup>
     <Folder Include="BLL\" />
+    <Folder Include="Icons\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Pages\1.jpg" />
     <Resource Include="Pages\AddIcon.png" />
     <Resource Include="Pages\BooksIcon.png" />
     <Resource Include="Pages\CardsIcon.png" />
+    <Resource Include="Pages\DefaultRadioIcon.png" />
     <Resource Include="Pages\EditIcon.png" />
     <Resource Include="Pages\ImageBook.png" />
     <Resource Include="Pages\NextIcon.png" />
@@ -51,6 +53,7 @@
     <Resource Include="Pages\RadiosIcon.png" />
     <Resource Include="Pages\RemoveIcon.png" />
     <Resource Include="Pages\RLDIcon.png" />
+    <Resource Include="Pages\RWwzJl_1920x1080.png" />
     <Resource Include="Pages\SettingsIcon.png" />
     <Resource Include="Pages\VolumeMinus.png" />
     <Resource Include="Pages\VolumePlus.png" />

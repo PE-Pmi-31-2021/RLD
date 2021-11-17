@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RLD.BLL
 {
-    public class Settings
+    public class Setting
     {
         public int Id { get; set; }
         public string Name { get; set; }

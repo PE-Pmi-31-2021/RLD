@@ -16,10 +16,10 @@ namespace RLD
         }
 
         public DbSet<Radio> Radios { get; set; }
-        public DbSet<Books> Books { get; set; }
-        public DbSet<Settings> Settings { get; set; }
-        public DbSet<Links> Links { get; set; }
-        public DbSet<Cards> Cards { get; set; }
+        public DbSet<Book> Books { get; set; }
+        public DbSet<Setting> Settings { get; set; }
+        public DbSet<Link> Links { get; set; }
+        public DbSet<Card> Cards { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -39,7 +39,7 @@ namespace RLD
                     {
                         Id = 1,
                         Name = "Хіт ФМ",
-                        SteamURL = "http://www.radiomelodia.com.ua/RadioMelodia.m3u",
+                        StreamURL = "http://www.radiomelodia.com.ua/RadioMelodia.m3u",
                         Genre = RadioGenre.News,
                         IsFavorite = true
                     },
@@ -47,15 +47,15 @@ namespace RLD
                     {
                         Id = 2,
                         Name = "Мелодія ФМ",
-                        SteamURL = "http://www.radiomelodia.com.ua/RadioMelodia.m3u",
+                        StreamURL = "http://www.radiomelodia.com.ua/RadioMelodia.m3u",
                         Genre = RadioGenre.News,
                         IsFavorite = false
                     }
             });
-            modelBuilder.Entity<Books>().HasData(
-                new Books[]
+            modelBuilder.Entity<Book>().HasData(
+                new Book[]
                 {
-                    new Books
+                    new Book
                     {
                         Id = 1,
                         Name = "Робінзон Крузо",
@@ -63,7 +63,7 @@ namespace RLD
                         Genre = BookGenre.Adventure,
                         YearOfRelease = new DateTime(1719, 4, 25)
                     },
-                    new Books
+                    new Book
                     {
                         Id = 2,
                         Name = "Том Сойер",
@@ -72,10 +72,10 @@ namespace RLD
                         YearOfRelease = new DateTime(1876, 6, 10)
                     }
             });
-            modelBuilder.Entity<Cards>().HasData(
-                new Cards[]
+            modelBuilder.Entity<Card>().HasData(
+                new Card[]
                 {
-                    new Cards
+                    new Card
                     {
                         Id = 1,
                         Name = "Card1",
@@ -83,7 +83,7 @@ namespace RLD
                         Category = CardCategory.Health,
                         IsInDraft = true
                     },
-                    new Cards
+                    new Card
                     {
                         Id = 2,
                         Name = "Card2",
@@ -92,20 +92,20 @@ namespace RLD
                         IsInDraft = true
                     }
             });
-            modelBuilder.Entity<Settings>().HasData(
-                new Settings[]
+            modelBuilder.Entity<Setting>().HasData(
+                new Setting[]
                 {
-                    new Settings
+                    new Setting
                     {
                         Id = 1,
                         Name = "Theme",
                         Value = "Dark"
                     },
             });
-            modelBuilder.Entity<Links>().HasData(
-                new Links[]
+            modelBuilder.Entity<Link>().HasData(
+                new Link[]
                 {
-                    new Links
+                    new Link
                     {
                         Id = 1,
                         Name = "Link",

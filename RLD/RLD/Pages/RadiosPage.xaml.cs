@@ -116,7 +116,7 @@ namespace RLD.Pages
                     }
                     try
                     {
-                        radioPlayer.Source = new System.Uri(currentRadio.SteamURL);
+                        radioPlayer.Source = new System.Uri(currentRadio.StreamURL);
                     }
                     catch
                     {
@@ -191,12 +191,12 @@ namespace RLD.Pages
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
-            radioPlayer.Volume -= 0.1;
+            radioPlayer.Volume -= 0.05;
         }
 
         private void Button_Click_9(object sender, RoutedEventArgs e)
         {
-            radioPlayer.Volume += 0.1;
+            radioPlayer.Volume += 0.05;
         }
     }
 }

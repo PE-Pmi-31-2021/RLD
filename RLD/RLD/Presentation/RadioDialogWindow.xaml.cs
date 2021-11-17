@@ -51,7 +51,7 @@ namespace RLD.Presentation
                     {
                         Radio radio = new Radio();
                         radio.Name = radioNameInput.Text;
-                        radio.SteamURL = radioUrlInput.Text;
+                        radio.StreamURL = radioUrlInput.Text;
                         radio.Logotype = image;
                         db.Radios.Add(radio);
                         db.SaveChanges();

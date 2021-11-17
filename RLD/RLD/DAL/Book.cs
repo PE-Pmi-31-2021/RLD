@@ -11,7 +11,7 @@ namespace RLD.BLL
         Adventure
     }
 
-    public class Books
+    public class Book
     {
         public int Id { get; set; }
         public string Name { get; set; }
