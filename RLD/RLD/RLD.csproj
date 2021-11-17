@@ -7,23 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Pages\1.jpg" />
-    <None Remove="Pages\AddIcon.png" />
-    <None Remove="Pages\BooksIcon.png" />
-    <None Remove="Pages\CardsIcon.png" />
-    <None Remove="Pages\EditIcon.png" />
-    <None Remove="Pages\ImageBook.png" />
-    <None Remove="Pages\NextIcon.png" />
-    <None Remove="Pages\PauseIcon.png" />
-    <None Remove="Pages\PlayIcon.png" />
-    <None Remove="Pages\PreviousIcon.png" />
-    <None Remove="Pages\radio %281%29.png" />
-    <None Remove="Pages\RadiosIcon.png" />
-    <None Remove="Pages\RemoveIcon.png" />
-    <None Remove="Pages\RLDIcon.png" />
-    <None Remove="Pages\SettingsIcon.png" />
-    <None Remove="Pages\VolumeMinus.png" />
-    <None Remove="Pages\VolumePlus.png" />
+    <None Remove="Icons\AddIcon.png" />
+    <None Remove="Icons\BooksIcon.png" />
+    <None Remove="Icons\CardsIcon.png" />
+    <None Remove="Icons\DefaultBookIcon.png" />
+    <None Remove="Icons\DefaultRadioIcon.png" />
+    <None Remove="Icons\EditIcon.png" />
+    <None Remove="Icons\PauseIcon.png" />
+    <None Remove="Icons\PlayIcon.png" />
+    <None Remove="Icons\RadiosIcon.png" />
+    <None Remove="Icons\RemoveIcon.png" />
+    <None Remove="Icons\RLDIcon.png" />
+    <None Remove="Icons\SettingsIcon.png" />
+    <None Remove="Icons\VolumeMinusIcon.png" />
+    <None Remove="Icons\VolumePlusIcon.png" />
+    <None Remove="Presentation\Pages\VolumeMinusIcon.png" />
+    <None Remove="Presentation\Pages\VolumePlusIcon.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,23 +36,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Pages\1.jpg" />
-    <Resource Include="Pages\AddIcon.png" />
-    <Resource Include="Pages\BooksIcon.png" />
-    <Resource Include="Pages\CardsIcon.png" />
-    <Resource Include="Pages\EditIcon.png" />
-    <Resource Include="Pages\ImageBook.png" />
-    <Resource Include="Pages\NextIcon.png" />
-    <Resource Include="Pages\PauseIcon.png" />
-    <Resource Include="Pages\PlayIcon.png" />
-    <Resource Include="Pages\PreviousIcon.png" />
-    <Resource Include="Pages\radio (1).png" />
-    <Resource Include="Pages\RadiosIcon.png" />
-    <Resource Include="Pages\RemoveIcon.png" />
-    <Resource Include="Pages\RLDIcon.png" />
-    <Resource Include="Pages\SettingsIcon.png" />
-    <Resource Include="Pages\VolumeMinus.png" />
-    <Resource Include="Pages\VolumePlus.png" />
+    <Resource Include="Icons\AddIcon.png" />
+    <Resource Include="Icons\BooksIcon.png" />
+    <Resource Include="Icons\CardsIcon.png" />
+    <Resource Include="Icons\DefaultRadioIcon.png" />
+    <Resource Include="Icons\EditIcon.png" />
+    <Resource Include="Icons\DefaultBookIcon.png" />
+    <Resource Include="Icons\PauseIcon.png" />
+    <Resource Include="Icons\PlayIcon.png" />
+    <Resource Include="Icons\RadiosIcon.png" />
+    <Resource Include="Icons\RemoveIcon.png" />
+    <Resource Include="Icons\RLDIcon.png" />
+    <Resource Include="Icons\SettingsIcon.png" />
+    <Resource Include="Icons\VolumeMinusIcon.png" />
+    <Resource Include="Icons\VolumePlusIcon.png" />
   </ItemGroup>
 
 </Project>
