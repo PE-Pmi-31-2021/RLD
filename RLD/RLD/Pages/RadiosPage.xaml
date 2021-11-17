@@ -32,7 +32,7 @@
             <RowDefinition Height="1.25*"/>
         </Grid.RowDefinitions>
 
-        <MediaElement x:Name="radioPlayer" Source="" LoadedBehavior="Manual" UnloadedBehavior="Manual" Volume="0.1"/>
+        <MediaElement x:Name="radioPlayer" Source="" LoadedBehavior="Manual" UnloadedBehavior="Manual"/>
         
         <Button Grid.Column="0" Grid.Row="0">
             <WrapPanel>
@@ -145,19 +145,19 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button Grid.Column="0">
+                <Button Grid.Column="0" Click="Button_Click_8">
                     <WrapPanel>
-                        <Image Source="/Pages/PreviousIcon.png" Stretch="None"/>
+                        <Image Source="/Pages/VolumeMinus.png" Stretch="None"/>
                     </WrapPanel>
                 </Button>
                 <Button Grid.Column="1" Click="Button_Click_7">
                     <WrapPanel>
-                        <Image Source="/Pages/PlayIcon.png" Stretch="None"/>
+                        <Image x:Name="playingIcon" Source="/Pages/PlayIcon.png" Stretch="None"/>
                     </WrapPanel>
                 </Button>
-                <Button Grid.Column="2" Click="Button_Click_8">
+                <Button Grid.Column="2" Click="Button_Click_9">
                     <WrapPanel>
-                        <Image Source="/Pages/NextIcon.png" Stretch="None"/>
+                        <Image Source="/Pages/VolumePlus.png" Stretch="None"/>
 
                     </WrapPanel>
                 </Button>

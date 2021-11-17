@@ -23,6 +23,9 @@ namespace RLD.Pages
     public partial class RadiosPage : Page
     {
         bool isPlaying = false;
+        BitmapImage playIcon = new BitmapImage();
+        BitmapImage pauseIcon = new BitmapImage();
+
         public RadiosPage()
         {
             InitializeComponent();
@@ -37,6 +40,16 @@ namespace RLD.Pages
                     listbox1.Items.Add(item.Name);
                 }
             }
+
+            
+            playIcon.BeginInit();
+            playIcon.UriSource = new Uri(@"/Pages/PlayIcon.png", UriKind.Relative);
+            playIcon.EndInit();
+
+            
+            pauseIcon.BeginInit();
+            pauseIcon.UriSource = new Uri(@"/Pages/PauseIcon.png", UriKind.Relative);
+            pauseIcon.EndInit();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -131,34 +144,27 @@ namespace RLD.Pages
         {
             if (isPlaying)
             {
+
                 radioPlayer.Stop();
                 isPlaying = false;
+                playingIcon.Source = playIcon;
             }
             else
             {
                 radioPlayer.Play();
                 isPlaying = true;
+                playingIcon.Source = pauseIcon;
             }
         }
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
-            using (var db = new ApplicationContext())
-            {
-                var radios = from r in db.Radios
-                             select r;
+            radioPlayer.Volume -= 0.1;
+        }
 
-                var nextRadio = radios.SkipWhile(x => x.Name != listbox1.SelectedItem.ToString()).Skip(1).FirstOrDefault();
-
-                listbox1.SelectedItem = nextRadio.Name;
-                //BitmapImage nextRadioImage = new BitmapImage();
-                //nextRadioImage.BeginInit();
-                //nextRadioImage.StreamSource = new MemoryStream(nextRadio.Logotype);
-                //nextRadioImage.EndInit();
-
-                //radioLogotype.Source = nextRadioImage;
-                //radioPlayer.Source = new System.Uri(nextRadio.SteamURL);
-            }
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            radioPlayer.Volume += 0.1;
         }
     }
 }
