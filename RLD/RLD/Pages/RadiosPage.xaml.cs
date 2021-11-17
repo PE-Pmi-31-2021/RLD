@@ -13,12 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
+using RLD.BLL;
 
 namespace RLD.Pages
 {
-    /// <summary>
-    /// Interaction logic for RadiosPage.xaml
-    /// </summary>
     public partial class RadiosPage : Page
     {
         public RadiosPage()
@@ -70,6 +68,16 @@ namespace RLD.Pages
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            using (var db = new ApplicationContext())
+            {
+                db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem));
+                db.SaveChanges();
+            }
+            listbox1.Items.RemoveAt(listbox1.Items.IndexOf(listbox1.SelectedItem));
         }
     }
 }
