@@ -43,12 +43,12 @@ namespace RLD.Pages
 
             
             playIcon.BeginInit();
-            playIcon.UriSource = new Uri(@"/Pages/PlayIcon.png", UriKind.Relative);
+            playIcon.UriSource = new Uri(@"../../Icons/PlayIcon.png", UriKind.Relative);
             playIcon.EndInit();
 
             
             pauseIcon.BeginInit();
-            pauseIcon.UriSource = new Uri(@"/Pages/PauseIcon.png", UriKind.Relative);
+            pauseIcon.UriSource = new Uri(@"../../Icons/PauseIcon.png", UriKind.Relative);
             pauseIcon.EndInit();
         }
 

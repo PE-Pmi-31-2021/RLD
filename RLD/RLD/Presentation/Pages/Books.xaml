@@ -35,31 +35,31 @@
 
             <Button Grid.Column="0" Grid.Row="0">
                 <WrapPanel>
-                    <Image Source="/Pages/RLDIcon.png" Stretch="None"/>
+                    <Image Source="../../Icons/RLDIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">RLD</Label>
                 </WrapPanel>
             </Button>
             <Button Grid.Column="0" Grid.Row="1" Click="Button_Click_1">
                 <WrapPanel>
-                    <Image Source="/Pages/RadiosIcon.png" Stretch="None"/>
+                    <Image Source="../../Icons/RadiosIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">Radios</Label>
                 </WrapPanel>
             </Button>
             <Button Grid.Column="0" Grid.Row="2">
                 <WrapPanel>
-                    <Image Source="/Pages/BooksIcon.png" Stretch="None"/>
+                    <Image Source="../../Icons/BooksIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">Books</Label>
                 </WrapPanel>
             </Button>
             <Button Grid.Column="0" Grid.Row="3" Click="Button_Click_2">
                 <WrapPanel>
-                    <Image Source="/Pages/CardsIcon.png" Stretch="None"/>
+                    <Image Source="../../Icons/CardsIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">Cards</Label>
                 </WrapPanel>
             </Button>
             <Button Grid.Column="0" Grid.Row="4" Click="Button_Click">
                 <WrapPanel>
-                    <Image Source="/Pages/SettingsIcon.png" Stretch="None"/>
+                    <Image Source="../../Icons/SettingsIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">Settings</Label>
                 </WrapPanel>
             </Button>
@@ -78,7 +78,7 @@
                     <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
                 <TextBox Grid.Column="0" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"></TextBox>
-                <Image Grid.Column="1" Source="/Pages/SearchIcon.png" Stretch="Fill" Width="30" Height="30" ></Image>
+                <Image Grid.Column="1" Source="../../Icons/SearchIcon.png" Stretch="Fill" Width="30" Height="30" ></Image>
             </Grid>
 
             <Grid Grid.Row="1">
@@ -98,7 +98,7 @@
                     </Grid.RowDefinitions>
 
                     <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">Book name</TextBlock>
-                    <Image Grid.Row="1" Source="/Pages/ImageBook.png"></Image>
+                    <Image Grid.Row="1" Source="../../Icons/ImageBook.png"></Image>
                     <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">Book genre</TextBlock>
                     <TextBlock Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center">Author name</TextBlock>
                     <TextBlock Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center">Book year</TextBlock>
@@ -137,7 +137,7 @@
                     <!--<syncfusion:PdfViewerControl x:Name="pdfViewer"></syncfusion:PdfViewerControl>-->
                     <Button Grid.Row="1" Margin="0,0,10,15" Click="Button_Click" Background="#2d2d2d">
                         +Add book
-                        <!--<Image Grid.Row="0" Source="/Pages/radio.svg" Stretch="Fill"></Image>-->
+                        <!--<Image Grid.Row="0" Source="../../Icons/radio.svg" Stretch="Fill"></Image>-->
                     </Button>
                 </Grid>
             </Grid>

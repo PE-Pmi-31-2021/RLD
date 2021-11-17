@@ -34,31 +34,31 @@
 
         <Button Grid.Column="0" Grid.Row="0">
             <WrapPanel>
-                <Image Source="/Pages/RLDIcon.png" Stretch="None"/>
+                <Image Source="../../Icons/RLDIcon.png" Stretch="None"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center">RLD</Label>
             </WrapPanel>
         </Button>
         <Button Grid.Column="0" Grid.Row="1" Click="Button_Click_1">
             <WrapPanel>
-                <Image Source="/Pages/RadiosIcon.png" Stretch="None"/>
+                <Image Source="../../Icons/RadiosIcon.png" Stretch="None"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center">Radios</Label>
             </WrapPanel>
         </Button>
         <Button Grid.Column="0" Grid.Row="2" Click="Button_Click_2">
             <WrapPanel>
-                <Image Source="/Pages/BooksIcon.png" Stretch="None"/>
+                <Image Source="../../Icons/BooksIcon.png" Stretch="None"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center">Books</Label>
             </WrapPanel>
         </Button>
         <Button Grid.Column="0" Grid.Row="3">
             <WrapPanel>
-                <Image Source="/Pages/CardsIcon.png" Stretch="None"/>
+                <Image Source="../../Icons/CardsIcon.png" Stretch="None"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center">Cards</Label>
             </WrapPanel>
         </Button>
         <Button Grid.Column="0" Grid.Row="4" Click="Button_Click">
             <WrapPanel>
-                <Image Source="/Pages/SettingsIcon.png" Stretch="None"/>
+                <Image Source="../../Icons/SettingsIcon.png" Stretch="None"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center">Settings</Label>
             </WrapPanel>
         </Button>
