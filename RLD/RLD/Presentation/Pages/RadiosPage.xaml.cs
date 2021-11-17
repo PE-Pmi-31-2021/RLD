@@ -25,6 +25,7 @@ namespace RLD.Pages
         bool isPlaying = false;
         BitmapImage playIcon = new BitmapImage();
         BitmapImage pauseIcon = new BitmapImage();
+        BitmapImage defaultImage = new BitmapImage();
 
         public RadiosPage()
         {
@@ -50,6 +51,10 @@ namespace RLD.Pages
             pauseIcon.BeginInit();
             pauseIcon.UriSource = new Uri(@"../../Icons/PauseIcon.png", UriKind.Relative);
             pauseIcon.EndInit();
+
+            defaultImage.BeginInit();
+            defaultImage.UriSource = new Uri(@"../../Icons/DefaultRadioIcon.png", UriKind.Relative);
+            defaultImage.EndInit();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -112,8 +117,9 @@ namespace RLD.Pages
                     }
                     else
                     {
-                        radioLogotype.Source = null;
+                        radioLogotype.Source = defaultImage;
                     }
+
                     try
                     {
                         radioPlayer.Source = new System.Uri(currentRadio.StreamURL);
@@ -127,7 +133,7 @@ namespace RLD.Pages
             }
             else
             {
-                radioLogotype.Source = null;
+                radioLogotype.Source = defaultImage;
             }
             
         }
@@ -145,7 +151,6 @@ namespace RLD.Pages
                 {
                     using (var db = new ApplicationContext())
                     {
-
                         db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem));
                         db.SaveChanges();
                     }
@@ -197,6 +202,11 @@ namespace RLD.Pages
         private void Button_Click_9(object sender, RoutedEventArgs e)
         {
             radioPlayer.Volume += 0.05;
+        }
+
+        private void Button_Click_10(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

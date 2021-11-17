@@ -34,7 +34,7 @@
 
         <MediaElement x:Name="radioPlayer" Source="" LoadedBehavior="Manual" UnloadedBehavior="Manual"/>
         
-        <Button Grid.Column="0" Grid.Row="0">
+        <Button Grid.Column="0" Grid.Row="0" Click="Button_Click_10">
             <WrapPanel>
                 <Image Source="../../Icons/RLDIcon.png" Stretch="None"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center">RLD</Label>

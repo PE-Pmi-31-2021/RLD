@@ -22,10 +22,10 @@
         <TextBlock Grid.Row="2">Radio url</TextBlock>
         <TextBox x:Name="radioUrlInput" Grid.Row="3" MinWidth="250" TextChanged="TextBox_TextChanged"></TextBox>
         <TextBlock Grid.Row="4">Radio image</TextBlock>
-        <Button Grid.Row="5" MaxWidth="100" Click="Button_Click">Browse</Button>
+        <Button Background="LightGray" BorderThickness="0" Grid.Row="5" MaxWidth="100" Click="Button_Click">Browse</Button>
         <WrapPanel Grid.Row="6" HorizontalAlignment="Right" Margin="0,15,0,0">
-            <Button IsDefault="True" Click="Accept_Click" MinWidth="60" Margin="0,0,10,0">OK</Button>
-            <Button IsCancel="True" MinWidth="60">Cancel</Button>
+            <Button BorderThickness="0" Background="LightGray" IsDefault="True" Click="Accept_Click" MinWidth="60" Margin="0,0,10,0">OK</Button>
+            <Button BorderThickness="0" Background="LightGray" IsCancel="True" MinWidth="60">Cancel</Button>
         </WrapPanel>
 
     </Grid>
