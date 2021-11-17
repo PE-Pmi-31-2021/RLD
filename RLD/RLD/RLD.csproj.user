@@ -7,22 +7,22 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Pages\Books.xaml.cs">
+    <Compile Update="Presentation\Pages\Books.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Pages\Cards.xaml.cs">
+    <Compile Update="Presentation\Pages\Cards.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Pages\RadiosPage.xaml.cs">
+    <Compile Update="Presentation\Pages\RadiosPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Pages\Settings.xaml.cs">
+    <Compile Update="Presentation\Pages\Settings.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Presentation\RadioConfirmDelete.xaml.cs">
+    <Compile Update="Presentation\Windows\RadioConfirmDelete.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Presentation\RadioDialogWindow.xaml.cs">
+    <Compile Update="Presentation\Windows\RadioDialogWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -30,22 +30,22 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pages\Books.xaml">
+    <Page Update="Presentation\Pages\Books.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pages\Cards.xaml">
+    <Page Update="Presentation\Pages\Cards.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pages\RadiosPage.xaml">
+    <Page Update="Presentation\Pages\RadiosPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pages\Settings.xaml">
+    <Page Update="Presentation\Pages\Settings.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Presentation\RadioConfirmDelete.xaml">
+    <Page Update="Presentation\Windows\RadioConfirmDelete.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Presentation\RadioDialogWindow.xaml">
+    <Page Update="Presentation\Windows\RadioDialogWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

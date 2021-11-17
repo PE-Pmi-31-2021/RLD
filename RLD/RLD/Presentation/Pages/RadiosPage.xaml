@@ -147,7 +147,7 @@
 
                 <Button Grid.Column="0" Click="Button_Click_8">
                     <WrapPanel>
-                        <Image Source="/Pages/VolumeMinus.png" Stretch="None"/>
+                        <Image Source="/Presentation/Pages/VolumeMinusIcon.png" Stretch="None"/>
                     </WrapPanel>
                 </Button>
                 <Button Grid.Column="1" Click="Button_Click_7">
@@ -157,7 +157,7 @@
                 </Button>
                 <Button Grid.Column="2" Click="Button_Click_9">
                     <WrapPanel>
-                        <Image Source="/Pages/VolumePlus.png" Stretch="None"/>
+                        <Image Source="/Presentation/Pages/VolumePlusIcon.png" Stretch="None"/>
 
                     </WrapPanel>
                 </Button>
