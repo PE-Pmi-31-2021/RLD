@@ -43,6 +43,10 @@ namespace RLD.Presentation
                     {
                         MessageBox.Show("Enter radio url");
                     }
+                    //else if (radioUrlInput.Text )
+                    //{
+
+                    //}
                     else
                     {
                         Radio radio = new Radio();

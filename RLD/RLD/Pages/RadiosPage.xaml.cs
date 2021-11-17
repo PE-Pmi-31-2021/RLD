@@ -96,20 +96,40 @@ namespace RLD.Pages
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            using (var db = new ApplicationContext())
+            if (listbox1.SelectedItem != null)
             {
-                var currentRadio = from r in db.Radios
-                                   where r.Name == listbox1.SelectedItem.ToString()
-                                   select r;
+                using (var db = new ApplicationContext())
+                {
+                    var currentRadio = db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem.ToString());
 
-                BitmapImage currentRadioImage = new BitmapImage();
-                currentRadioImage.BeginInit();
-                currentRadioImage.StreamSource = new MemoryStream(currentRadio.FirstOrDefault().Logotype);
-                currentRadioImage.EndInit();
-
-                radioLogotype.Source = currentRadioImage;
-                radioPlayer.Source = new System.Uri(currentRadio.FirstOrDefault().SteamURL);
+                    if (currentRadio.Logotype != null)
+                    {
+                        BitmapImage currentRadioImage = new BitmapImage();
+                        currentRadioImage.BeginInit();
+                        currentRadioImage.StreamSource = new MemoryStream(currentRadio.Logotype);
+                        currentRadioImage.EndInit();
+                        radioLogotype.Source = currentRadioImage;
+                    }
+                    else
+                    {
+                        radioLogotype.Source = null;
+                    }
+                    try
+                    {
+                        radioPlayer.Source = new System.Uri(currentRadio.SteamURL);
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Invalid radio url");
+                    }
+                    
+                }
             }
+            else
+            {
+                radioLogotype.Source = null;
+            }
+            
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
@@ -138,6 +158,18 @@ namespace RLD.Pages
         {
             RadioDialogWindow window = new RadioDialogWindow();
             window.ShowDialog();
+
+            listbox1.Items.Clear();
+            using (var db = new ApplicationContext())
+            {
+                var query = from b in db.Radios
+                            select b;
+
+                foreach (var item in query)
+                {
+                    listbox1.Items.Add(item.Name);
+                }
+            }
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)

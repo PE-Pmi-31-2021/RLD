@@ -294,3 +294,7 @@ D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Pages\Cards.baml
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Pages\Settings.baml
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\RadioConfirmDelete.baml
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\RadioDialogWindow.baml
+D:\Projects\git\RLD4\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\RadioConfirmDelete.g.cs
+D:\Projects\git\RLD4\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\RadioDialogWindow.g.cs
+D:\Projects\git\RLD4\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\RadioConfirmDelete.baml
+D:\Projects\git\RLD4\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\RadioDialogWindow.baml
