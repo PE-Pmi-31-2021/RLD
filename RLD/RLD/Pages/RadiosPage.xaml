@@ -84,8 +84,8 @@
                     <RowDefinition Height="1.5*"/>
                 </Grid.RowDefinitions>
 
-                <ListBox  Grid.Row="0">
-                    <ListBoxItem>Радіо Перше</ListBoxItem>
+                <ListBox x:Name="listbox1"  Grid.Row="0" SelectionChanged="ListBox_SelectionChanged">
+                    <!--<ListBoxItem>Радіо Перше</ListBoxItem>
                     <ListBoxItem>Радіо НВ</ListBoxItem>
                     <ListBoxItem>Радіо РОКС</ListBoxItem>
                     <ListBoxItem>Радіо РОКС Український рок</ListBoxItem>
@@ -108,7 +108,7 @@
                     <ListBoxItem>Radio Italiana</ListBoxItem>
                     <ListBoxItem>Радіо П'ятниця</ListBoxItem>
                     <ListBoxItem>Армія FM</ListBoxItem>
-                    <ListBoxItem>Радіо Львівська хвиля</ListBoxItem>
+                    <ListBoxItem>Радіо Львівська хвиля</ListBoxItem>-->
                 </ListBox>
 
                 <Grid Grid.Row="1">
@@ -117,7 +117,7 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Column="0">
+                    <Button Grid.Column="0" Click="Button_Click_6">
                         <WrapPanel>
                             <Image Source="/Pages/AddIcon.png" Stretch="None"/>
                         </WrapPanel>
@@ -127,7 +127,7 @@
                             <Image Source="/Pages/EditIcon.png" Stretch="None"/>
                         </WrapPanel>
                     </Button>
-                    <Button Grid.Column="2">
+                    <Button Grid.Column="2" Click="Button_Click_5">
                         <WrapPanel>
                             <Image Source="/Pages/RemoveIcon.png" Stretch="None"/>
                         </WrapPanel>

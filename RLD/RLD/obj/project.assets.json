@@ -6028,11 +6028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\git\\RLD4\\RLD\\RLD\\RLD\\RLD.csproj",
+      "projectUniqueName": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\RLD.csproj",
       "projectName": "RLD",
-      "projectPath": "D:\\Projects\\git\\RLD4\\RLD\\RLD\\RLD\\RLD.csproj",
+      "projectPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\RLD.csproj",
       "packagesPath": "C:\\Users\\swatik\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\git\\RLD4\\RLD\\RLD\\RLD\\obj\\",
+      "outputPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\swatik\\AppData\\Roaming\\NuGet\\NuGet.Config",

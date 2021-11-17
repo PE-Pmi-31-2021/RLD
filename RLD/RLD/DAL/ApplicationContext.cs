@@ -28,6 +28,8 @@ namespace RLD
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Radio>().HasIndex(r => r.Name).IsUnique();
+
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Radio>().HasData(

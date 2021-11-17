@@ -13,17 +13,27 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
+using RLD.BLL;
+using RLD.Presentation;
 
 namespace RLD.Pages
 {
-    /// <summary>
-    /// Interaction logic for RadiosPage.xaml
-    /// </summary>
     public partial class RadiosPage : Page
     {
         public RadiosPage()
         {
             InitializeComponent();
+
+            using (var db = new ApplicationContext())
+            {
+                var query = from b in db.Radios
+                            select b;
+
+                foreach (var item in query)
+                {
+                    listbox1.Items.Add(item.Name);
+                }
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -54,6 +64,39 @@ namespace RLD.Pages
         {
             Books booksPage = new Books();
             this.Content = new Frame() { Content = booksPage };
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            if (listbox1.SelectedItem != null)
+            {
+                RadioConfirmDelete window = new RadioConfirmDelete();
+                window.ShowDialog();
+
+                bool? result = window.DialogResult;
+
+                if (result.HasValue && result == true)
+                {
+                    using (var db = new ApplicationContext())
+                    {
+
+                        db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem));
+                        db.SaveChanges();
+                    }
+                    listbox1.Items.RemoveAt(listbox1.Items.IndexOf(listbox1.SelectedItem));
+                }
+            }
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            RadioDialogWindow window = new RadioDialogWindow();
+            window.ShowDialog();
         }
     }
 }
