@@ -24,6 +24,17 @@ namespace RLD.Pages
         public RadiosPage()
         {
             InitializeComponent();
+
+            using (var db = new ApplicationContext())
+            {
+                var query = from b in db.Radios
+                            select b;
+
+                foreach (var item in query)
+                {
+                    listbox1.Items.Add(item.Name);
+                }
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -54,6 +65,11 @@ namespace RLD.Pages
         {
             Books booksPage = new Books();
             this.Content = new Frame() { Content = booksPage };
+        }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
