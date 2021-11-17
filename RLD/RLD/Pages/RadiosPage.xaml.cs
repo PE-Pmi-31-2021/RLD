@@ -15,11 +15,14 @@ using System.Windows.Shapes;
 using Microsoft.Win32;
 using RLD.BLL;
 using RLD.Presentation;
+using System.IO;
+
 
 namespace RLD.Pages
 {
     public partial class RadiosPage : Page
     {
+        bool isPlaying = false;
         public RadiosPage()
         {
             InitializeComponent();
@@ -66,9 +69,34 @@ namespace RLD.Pages
             this.Content = new Frame() { Content = booksPage };
         }
 
+        public byte[] StreamToBytes(Stream image)
+        {
+            byte[] fileData = null;
+
+            using (var binaryReader = new BinaryReader(image))
+            {
+                fileData = binaryReader.ReadBytes((int)image.Length);
+            }
+
+            return fileData;
+        }
+
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            using (var db = new ApplicationContext())
+            {
+                var currentRadio = from r in db.Radios
+                                   where r.Name == listbox1.SelectedItem.ToString()
+                                   select r;
 
+                BitmapImage currentRadioImage = new BitmapImage();
+                currentRadioImage.BeginInit();
+                currentRadioImage.StreamSource = new MemoryStream(currentRadio.FirstOrDefault().Logotype);
+                currentRadioImage.EndInit();
+
+                radioLogotype.Source = currentRadioImage;
+                radioPlayer.Source = new System.Uri(currentRadio.FirstOrDefault().SteamURL);
+            }
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
@@ -97,6 +125,40 @@ namespace RLD.Pages
         {
             RadioDialogWindow window = new RadioDialogWindow();
             window.ShowDialog();
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            if (isPlaying)
+            {
+                radioPlayer.Stop();
+                isPlaying = false;
+            }
+            else
+            {
+                radioPlayer.Play();
+                isPlaying = true;
+            }
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            using (var db = new ApplicationContext())
+            {
+                var radios = from r in db.Radios
+                             select r;
+
+                var nextRadio = radios.SkipWhile(x => x.Name != listbox1.SelectedItem.ToString()).Skip(1).FirstOrDefault();
+
+                listbox1.SelectedItem = nextRadio.Name;
+                //BitmapImage nextRadioImage = new BitmapImage();
+                //nextRadioImage.BeginInit();
+                //nextRadioImage.StreamSource = new MemoryStream(nextRadio.Logotype);
+                //nextRadioImage.EndInit();
+
+                //radioLogotype.Source = nextRadioImage;
+                //radioPlayer.Source = new System.Uri(nextRadio.SteamURL);
+            }
         }
     }
 }
