@@ -73,20 +73,23 @@ namespace RLD.Pages
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            RadioConfirmDelete window = new RadioConfirmDelete();
-            window.ShowDialog();
-
-            bool? result = window.DialogResult;
-
-            if (result.HasValue && result == true)
+            if (listbox1.SelectedItem != null)
             {
-                using (var db = new ApplicationContext())
-                {
+                RadioConfirmDelete window = new RadioConfirmDelete();
+                window.ShowDialog();
 
-                    db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem));
-                    db.SaveChanges();
+                bool? result = window.DialogResult;
+
+                if (result.HasValue && result == true)
+                {
+                    using (var db = new ApplicationContext())
+                    {
+
+                        db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem));
+                        db.SaveChanges();
+                    }
+                    listbox1.Items.RemoveAt(listbox1.Items.IndexOf(listbox1.SelectedItem));
                 }
-                listbox1.Items.RemoveAt(listbox1.Items.IndexOf(listbox1.SelectedItem));
             }
         }
 
