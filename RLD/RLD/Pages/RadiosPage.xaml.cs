@@ -73,12 +73,21 @@ namespace RLD.Pages
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            using (var db = new ApplicationContext())
+            RadioConfirmDelete window = new RadioConfirmDelete();
+            window.ShowDialog();
+
+            bool? result = window.DialogResult;
+
+            if (result.HasValue && result == true)
             {
-                db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem));
-                db.SaveChanges();
+                using (var db = new ApplicationContext())
+                {
+
+                    db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem));
+                    db.SaveChanges();
+                }
+                listbox1.Items.RemoveAt(listbox1.Items.IndexOf(listbox1.SelectedItem));
             }
-            listbox1.Items.RemoveAt(listbox1.Items.IndexOf(listbox1.SelectedItem));
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)

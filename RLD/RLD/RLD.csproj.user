@@ -19,6 +19,9 @@
     <Compile Update="Pages\Settings.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Presentation\RadioConfirmDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Presentation\RadioDialogWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -37,6 +40,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\RadioConfirmDelete.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Presentation\RadioDialogWindow.xaml">

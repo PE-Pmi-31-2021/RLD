@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 D:\Projects\git\RLD3\RLD\RLD\RLD\App.xaml
-61469722419
+7-248420242
 
-141890550558
+15-639869555
 217687877348
-MainWindow.xaml;Pages\Books.xaml;Pages\Cards.xaml;Pages\RadiosPage.xaml;Pages\Settings.xaml;Presentation\RadioDialogWindow.xaml;
+MainWindow.xaml;Pages\Books.xaml;Pages\Cards.xaml;Pages\RadiosPage.xaml;Pages\Settings.xaml;Presentation\RadioConfirmDelete.xaml;Presentation\RadioDialogWindow.xaml;
 
 False
 
