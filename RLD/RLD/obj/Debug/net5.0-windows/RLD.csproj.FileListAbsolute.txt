@@ -298,3 +298,5 @@ D:\Projects\git\RLD3\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Boo
 D:\Projects\git\RLD3\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Cards.baml
 D:\Projects\git\RLD3\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\RadiosPage.baml
 D:\Projects\git\RLD3\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Settings.baml
+D:\Projects\git\RLD3\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioEditDialog.g.cs
+D:\Projects\git\RLD3\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioEditDialog.baml

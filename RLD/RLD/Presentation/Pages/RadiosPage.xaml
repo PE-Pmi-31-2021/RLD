@@ -124,7 +124,7 @@
                             <Image Source="../../Icons/AddIcon.png" Stretch="None"/>
                         </WrapPanel>
                     </Button>
-                    <Button Grid.Column="1">
+                    <Button Grid.Column="1" Click="Button_Click_11">
                         <WrapPanel>
                             <Image Source="../../Icons/EditIcon.png" Stretch="None"/>
                         </WrapPanel>

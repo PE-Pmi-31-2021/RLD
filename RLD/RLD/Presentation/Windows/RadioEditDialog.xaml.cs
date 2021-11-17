@@ -14,18 +14,20 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using RLD.BLL;
 
-namespace RLD.Presentation
+namespace RLD.Presentation.Windows
 {
-    /// <summary>
-    /// Interaction logic for RadioDialogWindow.xaml
-    /// </summary>
-    public partial class RadioDialogWindow : Window
+    public partial class RadioEditDialog : Window
     {
         byte[] image { get; set; }
+        string previousName { get; set; }
+        bool imageChanged = false;
 
-        public RadioDialogWindow()
+        public RadioEditDialog(string radioName, string radioUrl)
         {
             InitializeComponent();
+            previousName = radioName;
+            radioNameInput.Text = radioName;
+            radioUrlInput.Text = radioUrl;
         }
 
         private void Accept_Click(object sender, RoutedEventArgs e)
@@ -34,7 +36,30 @@ namespace RLD.Presentation
             {
                 var existingRadio = db.Radios.FirstOrDefault(item => item.Name == radioNameInput.Text);
                 
-                if (existingRadio == null)
+                if (existingRadio != null)
+                {
+                    if (radioNameInput.Text == "")
+                    {
+                        MessageBox.Show("Enter radio name");
+                    }
+                    else if (radioUrlInput.Text == "")
+                    {
+                        MessageBox.Show("Enter radio url");
+                    }
+                    else
+                    {
+                        existingRadio.Name = radioNameInput.Text;
+                        existingRadio.StreamURL = radioUrlInput.Text;
+                        if (imageChanged)
+                        {
+                            existingRadio.Logotype = image;
+                        }
+                        db.Update(existingRadio);
+                        db.SaveChanges();
+                        this.DialogResult = true;
+                    }
+                }
+                else
                 {
                     if (radioNameInput.Text == "")
                     {
@@ -51,13 +76,10 @@ namespace RLD.Presentation
                         radio.StreamURL = radioUrlInput.Text;
                         radio.Logotype = image;
                         db.Radios.Add(radio);
+                        db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == previousName));
                         db.SaveChanges();
                         this.DialogResult = true;
                     }
-                }
-                else
-                {
-                    MessageBox.Show("Radio with this name already exists");
                 }
             }
         }
@@ -69,6 +91,7 @@ namespace RLD.Presentation
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            imageChanged = true;
             var dialog = new Microsoft.Win32.OpenFileDialog();
             dialog.FileName = "Image";
             dialog.DefaultExt = ".png";

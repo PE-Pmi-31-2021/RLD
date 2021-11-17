@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using Microsoft.Win32;
 using RLD.BLL;
 using RLD.Presentation;
+using RLD.Presentation.Windows;
 using System.IO;
 
 
@@ -147,7 +148,7 @@ namespace RLD.Pages
                 {
                     using (var db = new ApplicationContext())
                     {
-                        db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem));
+                        db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem.ToString()));
                         db.SaveChanges();
                     }
                     listbox1.Items.RemoveAt(listbox1.Items.IndexOf(listbox1.SelectedItem));
@@ -203,6 +204,33 @@ namespace RLD.Pages
         private void Button_Click_10(object sender, RoutedEventArgs e)
         {
             
+        }
+
+        private void Button_Click_11(object sender, RoutedEventArgs e)
+        {
+            if (listbox1.SelectedItem != null)
+            {
+                Radio radio;
+                using (var db = new ApplicationContext())
+                {
+                    radio = db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem.ToString());
+                }
+
+                RadioEditDialog window = new RadioEditDialog(radio.Name, radio.StreamURL);
+                window.ShowDialog();
+
+                listbox1.Items.Clear();
+                using (var db = new ApplicationContext())
+                {
+                    var query = from b in db.Radios
+                                select b;
+
+                    foreach (var item in query)
+                    {
+                        listbox1.Items.Add(item.Name);
+                    }
+                }
+            }
         }
     }
 }
