@@ -13,11 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using RLD.Pages;
+
 namespace RLD
-{
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+{ 
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -26,11 +24,28 @@ namespace RLD
 
             using (ApplicationContext db = new ApplicationContext())
             {
-
+                var startPage = db.Settings.FirstOrDefault(item => item.Name == "StartPage");
+                if (startPage.Value == "Radios")
+                {
+                    RadiosPage radiosPage = new RadiosPage();
+                    this.Content = radiosPage;
+                }
+                else if (startPage.Value == "Books")
+                {
+                    Books booksPage = new Books();
+                    this.Content = booksPage;
+                }
+                else if (startPage.Value == "Cards")
+                {
+                    Cards cardsPage = new Cards();
+                    this.Content = cardsPage;
+                }
+                else
+                {
+                    RadiosPage radiosPage = new RadiosPage();
+                    this.Content = radiosPage;
+                }
             }
-
-            RadiosPage radiosPage = new RadiosPage();
-            this.Content = radiosPage;
         }
     }
 }

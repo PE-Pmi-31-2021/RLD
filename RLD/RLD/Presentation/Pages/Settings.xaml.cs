@@ -15,14 +15,31 @@ using System.Windows.Shapes;
 
 namespace RLD.Pages
 {
-    /// <summary>
-    /// Interaction logic for Settings.xaml
-    /// </summary>
     public partial class Settings : Page
     {
         public Settings()
         {
             InitializeComponent();
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                var startPage = db.Settings.FirstOrDefault(item => item.Name == "StartPage");
+                if (startPage != null)
+                {
+                    if (startPage.Value == "Radios")
+                    {
+                        radioButtonRadios.IsChecked = true;
+                    }
+                    else if (startPage.Value == "Cards")
+                    {
+                        radioButtonCards.IsChecked = true;
+                    }
+                    else if (startPage.Value == "Books")
+                    {
+                        radioButtonBooks.IsChecked = true;
+                    }
+                }
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -41,6 +58,45 @@ namespace RLD.Pages
         {
             Books booksPage = new Books();
             this.Content = new Frame() { Content = booksPage };
+        }
+
+        private void radioButtonBooks_Checked(object sender, RoutedEventArgs e)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                var startPage = db.Settings.FirstOrDefault(item => item.Name == "StartPage");
+                if (startPage != null)
+                {
+                    startPage.Value = "Books";
+                    db.SaveChanges();
+                }
+            }
+        }
+
+        private void radioButtonRadios_Checked(object sender, RoutedEventArgs e)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                var startPage = db.Settings.FirstOrDefault(item => item.Name == "StartPage");
+                if (startPage != null)
+                {
+                    startPage.Value = "Radios";
+                    db.SaveChanges();
+                }
+            }
+        }
+
+        private void radioButtonCards_Checked(object sender, RoutedEventArgs e)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                var startPage = db.Settings.FirstOrDefault(item => item.Name == "StartPage");
+                if (startPage != null)
+                {
+                    startPage.Value = "Cards";
+                    db.SaveChanges();
+                }
+            }
         }
     }
 }
