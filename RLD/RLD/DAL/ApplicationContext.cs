@@ -41,7 +41,7 @@ namespace RLD
                         Name = "Хіт ФМ",
                         StreamURL = "http://www.radiomelodia.com.ua/RadioMelodia.m3u",
                         Genre = RadioGenre.News,
-                        IsFavorite = true
+                        IsFavorite = false
                     },
                     new Radio
                     {
@@ -100,6 +100,12 @@ namespace RLD
                         Id = 1,
                         Name = "Theme",
                         Value = "Dark"
+                    },
+                    new Setting
+                    {
+                        Id = 2,
+                        Name = "StartPage",
+                        Value = "Radios"
                     },
             });
             modelBuilder.Entity<Link>().HasData(
