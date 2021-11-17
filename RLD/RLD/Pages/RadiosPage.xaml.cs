@@ -125,6 +125,18 @@ namespace RLD.Pages
         {
             RadioDialogWindow window = new RadioDialogWindow();
             window.ShowDialog();
+
+            listbox1.Items.Clear();
+            using (var db = new ApplicationContext())
+            {
+                var query = from b in db.Radios
+                            select b;
+
+                foreach (var item in query)
+                {
+                    listbox1.Items.Add(item.Name);
+                }
+            }
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)

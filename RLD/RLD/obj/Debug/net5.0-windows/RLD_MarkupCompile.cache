@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\
+D:\Projects\git\RLD4\RLD\RLD\RLD\obj\Debug\net5.0-windows\
 RLD
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-D:\Repositories\University\RLD\RLD\RLD\App.xaml
+D:\Projects\git\RLD4\RLD\RLD\RLD\App.xaml
 7-248420242
 
 15-639869555
-217-1581067987
+217687877348
 MainWindow.xaml;Pages\Books.xaml;Pages\Cards.xaml;Pages\RadiosPage.xaml;Pages\Settings.xaml;Presentation\RadioConfirmDelete.xaml;Presentation\RadioDialogWindow.xaml;
 
 False
