@@ -46,25 +46,80 @@ namespace RLD
                     new Radio
                     {
                         Id = 2,
-                        Name = "Новини",
-                        StreamURL = "http://krainafm.com.ua/xml/news.mp3",
+                        Name = "Радіо Хіт FM",
+                        StreamURL = "https://online.hitfm.ua/HitFM_HD",
                         Genre = RadioGenre.News,
                         IsFavorite = false
                     },
-                    
+                    new Radio
+                    {
+                        Id = 3,
+                        Name = "Радіо Хіт FM Сучасні хіти",
+                        StreamURL = "https://online.hitfm.ua/HitFM_Top_HD",
+                        Genre = RadioGenre.News,
+                        IsFavorite = false
+                    },
                     new Radio
                     {
                         Id = 4,
-                        Name = "Рок",
-                        StreamURL = "http://185.65.245.34:8000/rock",
+                        Name = "Радіо Хіт FM Українські хіти",
+                        StreamURL = "https://online.hitfm.ua/HitFM_Ukr_HD",
                         Genre = RadioGenre.News,
                         IsFavorite = false
                     },
                     new Radio
                     {
                         Id = 5,
-                        Name = "Лірика",
-                        StreamURL = "http://185.65.245.34:8000/lyrica",
+                        Name = "Радіо Хіт FM Найбільші хіти",
+                        StreamURL = "https://online.hitfm.ua/HitFM_Top_HD",
+                        Genre = RadioGenre.News,
+                        IsFavorite = false
+                    },
+                    new Radio
+                    {
+                        Id = 6,
+                        Name = "Радіо Максимум",
+                        StreamURL = "https://streamvideo.luxnet.ua/maximum/smil:maximum.stream.smil/playlist.m3u8",
+                        Genre = RadioGenre.News,
+                        IsFavorite = false
+                    },
+                    new Radio
+                    {
+                        Id = 7,
+                        Name = "UA:Радіо Промінь",
+                        StreamURL = "http://radio.ukr.radio:8000/ur2-mp3",
+                        Genre = RadioGenre.News,
+                        IsFavorite = false
+                    },
+                    new Radio
+                    {
+                        Id = 8,
+                        Name = "UA:Українське радіо Львів ",
+                        StreamURL = "http://radio.ukr.radio:8000/ur1-lv-mp3",
+                        Genre = RadioGenre.News,
+                        IsFavorite = false
+                    },
+                    new Radio
+                    {
+                        Id = 9,
+                        Name = "UA:Радіо Культура",
+                        StreamURL = "http://radio.ukr.radio:8000/ur3-mp3",
+                        Genre = RadioGenre.News,
+                        IsFavorite = false
+                    },
+                    new Radio
+                    {
+                        Id = 10,
+                        Name = "Дуже радіо",
+                        StreamURL = "http://178.136.125.252:8000/duzhefm",
+                        Genre = RadioGenre.News,
+                        IsFavorite = false
+                    },
+                    new Radio
+                    {
+                        Id = 11,
+                        Name = "Радіо Люкс FM",
+                        StreamURL = "https://streamvideo.luxnet.ua/lux/smil:lux.stream.smil/playlist.m3u8",
                         Genre = RadioGenre.News,
                         IsFavorite = false
                     },
