@@ -21,6 +21,7 @@
     <None Remove="Icons\SettingsIcon.png" />
     <None Remove="Icons\VolumeMinusIcon.png" />
     <None Remove="Icons\VolumePlusIcon.png" />
+    <None Remove="Presentation\Pages\BooksIcon.png" />
     <None Remove="Presentation\Pages\VolumeMinusIcon.png" />
     <None Remove="Presentation\Pages\VolumePlusIcon.png" />
   </ItemGroup>
@@ -49,6 +50,7 @@
     <Resource Include="Icons\SettingsIcon.png" />
     <Resource Include="Icons\VolumeMinusIcon.png" />
     <Resource Include="Icons\VolumePlusIcon.png" />
+    <Resource Include="Icons\BooksIcon.png" />
   </ItemGroup>
 
 </Project>

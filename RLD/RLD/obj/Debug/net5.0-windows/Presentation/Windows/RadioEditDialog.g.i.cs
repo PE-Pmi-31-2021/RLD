@@ -69,7 +69,7 @@ namespace RLD.Presentation.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RLD;V1.0.0.0;component/presentation/windows/radioeditdialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RLD;component/presentation/windows/radioeditdialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Presentation\Windows\RadioEditDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -35,31 +35,31 @@
 
             <Button Grid.Column="0" Grid.Row="0">
                 <WrapPanel>
-                    <Image Source="../../Icons/RLDIcon.png" Stretch="None"/>
+                    <Image Source="/Icons/RLDIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">RLD</Label>
                 </WrapPanel>
             </Button>
             <Button Grid.Column="0" Grid.Row="1" Click="Button_Click_1">
                 <WrapPanel>
-                    <Image Source="../../Icons/RadiosIcon.png" Stretch="None"/>
+                    <Image Source="/Icons/RadiosIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">Radios</Label>
                 </WrapPanel>
             </Button>
             <Button Grid.Column="0" Grid.Row="2">
                 <WrapPanel>
-                    <Image Source="../../Icons/BooksIcon.png" Stretch="None"/>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Center">Books</Label>
+                    <Image Source="/Icons/BooksIcon.png" Stretch="None"/>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Books"/>
                 </WrapPanel>
             </Button>
             <Button Grid.Column="0" Grid.Row="3" Click="Button_Click_2">
                 <WrapPanel>
-                    <Image Source="../../Icons/CardsIcon.png" Stretch="None"/>
+                    <Image Source="/Icons/CardsIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">Cards</Label>
                 </WrapPanel>
             </Button>
             <Button Grid.Column="0" Grid.Row="4" Click="Button_Click">
                 <WrapPanel>
-                    <Image Source="../../Icons/SettingsIcon.png" Stretch="None"/>
+                    <Image Source="/Icons/SettingsIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">Settings</Label>
                 </WrapPanel>
             </Button>
@@ -77,8 +77,8 @@
                     <ColumnDefinition Width="9*"/>
                     <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
-                <TextBox Grid.Column="0" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"></TextBox>
-                <Image Grid.Column="1" Source="../../Icons/SearchIcon.png" Stretch="Fill" Width="30" Height="30" ></Image>
+                <TextBox Margin="10,10,10,10" Name="txtNameToSearch" TextChanged="txtNameToSearch_TextChanged" />
+                <Image Grid.Column="1" Source="/Icons/SearchIcon.png" Stretch="Fill" Width="30" Height="30" ></Image>
             </Grid>
 
             <Grid Grid.Row="1">
@@ -97,8 +97,9 @@
                         <RowDefinition Height="1*"/>
                     </Grid.RowDefinitions>
 
+
                     <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">Book name</TextBlock>
-                    <Image Grid.Row="1" Source="../../Icons/ImageBook.png"></Image>
+                    <Image Grid.Row="1" Source="/Icons/DefaultBookIcon.png"></Image>
                     <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">Book genre</TextBlock>
                     <TextBlock Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center">Author name</TextBlock>
                     <TextBlock Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center">Book year</TextBlock>
@@ -108,37 +109,27 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="7*"/>
                         <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
                     </Grid.RowDefinitions>
 
-                    <Grid Grid.Row="0">
-                        <ListView  Grid.Row="0"  Margin="0, 10, 10, 0" ItemsSource="{Binding MyFilteredItems}" >
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                            <ListViewItem>1</ListViewItem>
-                        </ListView>
-                    </Grid>
-                    <!--<syncfusion:PdfViewerControl x:Name="pdfViewer"></syncfusion:PdfViewerControl>-->
-                    <Button Grid.Row="1" Margin="0,0,10,15" Click="Button_Click" Background="#2d2d2d">
+                    <ListBox Grid.Row="0" Margin="0,0,10,0" Name="BooksDate" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}"></TextBlock>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Button Grid.Row="1" Margin="0,10,10,0" Click="addBook" Background="#2d2d2d">
                         +Add book
-                        <!--<Image Grid.Row="0" Source="../../Icons/radio.svg" Stretch="Fill"></Image>-->
                     </Button>
+                    <Button Grid.Row="2" Margin="0,10,10,0" Click="readBook" Background="#2d2d2d">
+                        Read book
+                    </Button>
+                    <Button Grid.Row="3" Margin="0,10,10,0" Click="deleteBook" Background="#2d2d2d">
+                        -Delete book
+                    </Button>
+                    <WebBrowser Grid.Row="2" x:Name="browserHost" Margin="42,268,197,-255" Width="0" Height="0"/>
                 </Grid>
             </Grid>
         </Grid>

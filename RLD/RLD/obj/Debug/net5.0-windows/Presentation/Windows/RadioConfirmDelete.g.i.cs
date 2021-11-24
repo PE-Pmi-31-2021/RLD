@@ -53,7 +53,7 @@ namespace RLD.Presentation {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RLD;V1.0.0.0;component/presentation/windows/radioconfirmdelete.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RLD;component/presentation/windows/radioconfirmdelete.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Presentation\Windows\RadioConfirmDelete.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
