@@ -75,21 +75,29 @@ namespace RLD.Presentation
             dialog.Filter = "Image (.png)|*.png";
 
             bool? result = dialog.ShowDialog();
-            var file = dialog.OpenFile();
 
-            using (var db = new ApplicationContext())
+            Stream file;
+            try
             {
-                byte[] fileData = null;
-
-                using (var binaryReader = new BinaryReader(file))
+                file = dialog.OpenFile();
+                using (var db = new ApplicationContext())
                 {
-                    fileData = binaryReader.ReadBytes((int)file.Length);
-                }
+                    byte[] fileData = null;
 
-                if (fileData != null)
-                {
-                    image = fileData;
+                    using (var binaryReader = new BinaryReader(file))
+                    {
+                        fileData = binaryReader.ReadBytes((int)file.Length);
+                    }
+
+                    if (fileData != null)
+                    {
+                        image = fileData;
+                    }
                 }
+            }
+            catch (Exception)
+            {
+                return;
             }
         }
     }

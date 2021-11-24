@@ -38,19 +38,37 @@ namespace RLD
                     new Radio
                     {
                         Id = 1,
-                        Name = "Хіт ФМ",
-                        StreamURL = "http://www.radiomelodia.com.ua/RadioMelodia.m3u",
+                        Name = "Країна ФМ",
+                        StreamURL = "http://185.65.246.132:8000/kiev320s.mp3",
                         Genre = RadioGenre.News,
                         IsFavorite = false
                     },
                     new Radio
                     {
                         Id = 2,
-                        Name = "Мелодія ФМ",
-                        StreamURL = "http://www.radiomelodia.com.ua/RadioMelodia.m3u",
+                        Name = "Новини",
+                        StreamURL = "http://krainafm.com.ua/xml/news.mp3",
                         Genre = RadioGenre.News,
                         IsFavorite = false
-                    }
+                    },
+                    
+                    new Radio
+                    {
+                        Id = 4,
+                        Name = "Рок",
+                        StreamURL = "http://185.65.245.34:8000/rock",
+                        Genre = RadioGenre.News,
+                        IsFavorite = false
+                    },
+                    new Radio
+                    {
+                        Id = 5,
+                        Name = "Лірика",
+                        StreamURL = "http://185.65.245.34:8000/lyrica",
+                        Genre = RadioGenre.News,
+                        IsFavorite = false
+                    },
+
             });
             modelBuilder.Entity<Book>().HasData(
                 new Book[]
