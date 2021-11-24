@@ -46,7 +46,7 @@ namespace RLD
                     new Radio
                     {
                         Id = 2,
-                        Name = "Радіо Хіт FM",
+                        Name = "Хіт FM",
                         StreamURL = "https://online.hitfm.ua/HitFM_HD",
                         Genre = RadioGenre.News,
                         IsFavorite = false
@@ -54,7 +54,7 @@ namespace RLD
                     new Radio
                     {
                         Id = 3,
-                        Name = "Радіо Хіт FM Сучасні хіти",
+                        Name = "Хіт FM Сучасні хіти",
                         StreamURL = "https://online.hitfm.ua/HitFM_Top_HD",
                         Genre = RadioGenre.News,
                         IsFavorite = false
@@ -62,7 +62,7 @@ namespace RLD
                     new Radio
                     {
                         Id = 4,
-                        Name = "Радіо Хіт FM Українські хіти",
+                        Name = "Хіт FM Українські хіти",
                         StreamURL = "https://online.hitfm.ua/HitFM_Ukr_HD",
                         Genre = RadioGenre.News,
                         IsFavorite = false
@@ -70,7 +70,7 @@ namespace RLD
                     new Radio
                     {
                         Id = 5,
-                        Name = "Радіо Хіт FM Найбільші хіти",
+                        Name = "Хіт FM Найбільші хіти",
                         StreamURL = "https://online.hitfm.ua/HitFM_Top_HD",
                         Genre = RadioGenre.News,
                         IsFavorite = false
@@ -118,7 +118,7 @@ namespace RLD
                     new Radio
                     {
                         Id = 11,
-                        Name = "Радіо Люкс FM",
+                        Name = "Люкс FM",
                         StreamURL = "https://streamvideo.luxnet.ua/lux/smil:lux.stream.smil/playlist.m3u8",
                         Genre = RadioGenre.News,
                         IsFavorite = false
