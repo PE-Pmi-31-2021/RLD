@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace RLD.BLL
 {
-    public enum BookGenre
-    {
-        Adventure
-    }
 
     public class Book
     {
@@ -17,8 +13,8 @@ namespace RLD.BLL
         public string Name { get; set; }
         public string Author { get; set; }
         public DateTime YearOfRelease { get; set; }
-        public BookGenre Genre { get; set; }
-        public byte[] File { get; set; }
-        public byte[] Cover { get; set; }
+        public string Genre { get; set; }
+        public byte[] Picture { get; set; }
+        public string bookURL { get; set; }
     }
 }

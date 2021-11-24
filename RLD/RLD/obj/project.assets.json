@@ -6023,19 +6023,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\swatik\\.nuget\\packages\\": {}
+    "C:\\Users\\Dmytro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\RLD\\RLD.csproj",
+      "projectUniqueName": "C:\\Users\\Dmytro\\Desktop\\Універ\\3 курс\\Семестр 1\\Програмна  Інженерія\\RLD\\RLD\\RLD\\RLD.csproj",
       "projectName": "RLD",
-      "projectPath": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\RLD\\RLD.csproj",
-      "packagesPath": "C:\\Users\\swatik\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\RLD\\obj\\",
+      "projectPath": "C:\\Users\\Dmytro\\Desktop\\Універ\\3 курс\\Семестр 1\\Програмна  Інженерія\\RLD\\RLD\\RLD\\RLD.csproj",
+      "packagesPath": "C:\\Users\\Dmytro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dmytro\\Desktop\\Універ\\3 курс\\Семестр 1\\Програмна  Інженерія\\RLD\\RLD\\RLD\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\swatik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dmytro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6092,7 +6099,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

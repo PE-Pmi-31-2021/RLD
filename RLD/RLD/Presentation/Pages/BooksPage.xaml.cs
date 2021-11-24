@@ -1,8 +1,10 @@
 ﻿using RLD.BLL;
 using RLD.Presentation;
+using RLD.Presentation.Windows;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +27,7 @@ namespace RLD.Pages
     {
         public List<Book> booksList { get; set; }
         public WebBrowser browser { get; set; }
+        BitmapImage defaultImage = new BitmapImage();
 
         public BooksPage()
         {
@@ -37,8 +40,11 @@ namespace RLD.Pages
             var db = new ApplicationContext(); ;
             db.Books.Load();
             booksList = db.Books.Local.ToList();
-            BooksDate.ItemsSource = booksList;
+            booksDate.ItemsSource = booksList;
 
+            defaultImage.BeginInit();
+            defaultImage.UriSource = new Uri(@"../../Icons/DefaultRadioIcon.png", UriKind.Relative);
+            defaultImage.EndInit();
         }
 
         private void txtNameToSearch_TextChanged(object sender, TextChangedEventArgs e)
@@ -52,83 +58,133 @@ namespace RLD.Pages
                                 where ename.StartsWith(lower) || ename.StartsWith(upper) || ename.Contains(txtOrig)
                                 select book;
 
-            BooksDate.ItemsSource = booksFiltered;
+            booksDate.ItemsSource = booksFiltered;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void SettingsMenu(object sender, RoutedEventArgs e)
         {
             Setting settingsPage = new Setting();
             this.Content = new Frame() { Content = settingsPage };
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void RadiosMenu(object sender, RoutedEventArgs e)
         {
             RadiosPage radiosPage = new RadiosPage();
             this.Content = new Frame() { Content = radiosPage };
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void CardsMenu(object sender, RoutedEventArgs e)
         {
             Cards cardsPage = new Cards();
             this.Content = new Frame() { Content = cardsPage };
         }
         private void addBook(object sender, RoutedEventArgs e)
         {
-            /*RadioDialogWindow window = new RadioDialogWindow();
+            var window = new BookDialogWindow();
             window.ShowDialog();
+            //BooksDate.Items.Clear();
 
-            listbox1.Items.Clear();
             using (var db = new ApplicationContext())
             {
-                var query = from b in db.Radios
+                var query = from b in db.Books
                             select b;
 
-                foreach (var item in query)
-                {
-                    listbox1.Items.Add(item.Name);
-                }
-            }*/
+                booksDate.ItemsSource = query.ToList();
+            }
         }
         private void readBook(object sender, RoutedEventArgs e)
         {
-            string link = "C:/Users/Dmytro/Downloads/WPFTestFile.pdf";
-            browserHost.Navigate(new Uri(String.Format("file:///" + link)));
-
-
-            /*RadioDialogWindow window = new RadioDialogWindow();
-            window.ShowDialog();
-
-            listbox1.Items.Clear();
-            using (var db = new ApplicationContext())
+            var currentBook = (Book)booksDate.SelectedItem;
+            try
             {
-                var query = from b in db.Radios
-                            select b;
+                browserHost.Navigate(new Uri(String.Format("file:///" + currentBook.bookURL.Replace("\"", ""))));
+            }
+            catch
+            {
+                MessageBox.Show("Invalid book url");
+            }
 
-                foreach (var item in query)
-                {
-                    listbox1.Items.Add(item.Name);
-                }
-            }*/
         }
         private void deleteBook(object sender, RoutedEventArgs e)
         {
-            //if (BooksDate.SelectedItem != null)
-            //{
-            //    RadioConfirmDelete window = new RadioConfirmDelete();
-            //    window.ShowDialog();
+            if (booksDate.SelectedItem != null)
+            {
+                var window = new BookConfirmDelete();
+                window.ShowDialog();
 
-            //    bool? result = window.DialogResult;
+                bool? result = window.DialogResult;
 
-            //    if (result.HasValue && result == true)
-            //    {
-            //        using (var db = new ApplicationContext())
-            //        {
-            //            db.Books.Remove(db.Books.FirstOrDefault(item => item.Name == BooksDate.SelectedItem.ToString()));
-            //            db.SaveChanges();
-            //        }
-            //        BooksDate.Items.RemoveAt(BooksDate.Items.IndexOf(BooksDate.SelectedItem));
-            //    }
-            //}
+                if (result.HasValue && result == true)
+                {
+                    using (var db = new ApplicationContext())
+                    {
+                        var book = (Book)booksDate.SelectedItem;
+                        db.Books.Remove(db.Books.FirstOrDefault(item => item.Name == book.Name));
+                        db.SaveChanges();
+
+                        var query = from b in db.Books
+                                    select b;
+
+                        booksDate.ItemsSource = query.ToList();
+                    }
+                }
+            }
+        }
+
+        private void BooksDate_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (booksDate.SelectedItem != null)
+            {
+                using (var db = new ApplicationContext())
+                {
+                    var currentBook  = (Book) booksDate.SelectedItem;
+
+                    bookName.Text = currentBook.Name;
+                    bookAuthor.Text = currentBook.Author;
+                    bookGenre.Text = currentBook.Genre;
+                    bookYear.Text = currentBook.YearOfRelease.Date.ToString();
+
+                    if (currentBook.Picture != null)
+                    {
+                        var currentBookImage = new BitmapImage();
+                        currentBookImage.BeginInit();
+                        currentBookImage.StreamSource = new MemoryStream(currentBook.Picture);
+                        currentBookImage.EndInit();
+                        bookImage.Source = currentBookImage;
+                    }
+                    else
+                        bookImage.Source = defaultImage;
+                }
+            }
+            else
+                bookImage.Source = defaultImage;
+        }
+
+        private void editBook(object sender, RoutedEventArgs e)
+        {
+            /*if (booksDate.SelectedItem != null)
+            {
+                var selectedBook = (Book) booksDate.SelectedItem;
+                using (var db = new ApplicationContext())
+                {
+                    var book = db.Radios.FirstOrDefault(item => item.Name == selectedBook.Name);
+                }
+
+                var window = new RadioEditDialog(radio.Name, radio.StreamURL);
+                window.ShowDialog();
+
+                listbox1.Items.Clear();
+                using (var db = new ApplicationContext())
+                {
+                    var query = from b in db.Radios
+                                select b;
+
+                    foreach (var item in query)
+                    {
+                        listbox1.Items.Add(item.Name);
+                    }
+                }
+            }*/
         }
     }
 }

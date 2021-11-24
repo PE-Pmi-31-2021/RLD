@@ -39,7 +39,7 @@
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">RLD</Label>
                 </WrapPanel>
             </Button>
-            <Button Grid.Column="0" Grid.Row="1" Click="Button_Click_1">
+            <Button Grid.Column="0" Grid.Row="1" Click="RadiosMenu">
                 <WrapPanel>
                     <Image Source="/Icons/RadiosIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">Radios</Label>
@@ -51,13 +51,13 @@
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Books"/>
                 </WrapPanel>
             </Button>
-            <Button Grid.Column="0" Grid.Row="3" Click="Button_Click_2">
+            <Button Grid.Column="0" Grid.Row="3" Click="CardsMenu">
                 <WrapPanel>
                     <Image Source="/Icons/CardsIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">Cards</Label>
                 </WrapPanel>
             </Button>
-            <Button Grid.Column="0" Grid.Row="4" Click="Button_Click">
+            <Button Grid.Column="0" Grid.Row="4" Click="SettingsMenu">
                 <WrapPanel>
                     <Image Source="/Icons/SettingsIcon.png" Stretch="None"/>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Center">Settings</Label>
@@ -98,11 +98,11 @@
                     </Grid.RowDefinitions>
 
 
-                    <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">Book name</TextBlock>
-                    <Image Grid.Row="1" Source="/Icons/DefaultBookIcon.png"></Image>
-                    <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">Book genre</TextBlock>
-                    <TextBlock Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center">Author name</TextBlock>
-                    <TextBlock Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center">Book year</TextBlock>
+                    <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Name="bookName">Book name</TextBlock>
+                    <Image Grid.Row="1" Source="/Icons/DefaultBookIcon.png" Name="bookImage"></Image>
+                    <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Name="bookGenre">Book genre</TextBlock>
+                    <TextBlock Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Name="bookAuthor">Author name</TextBlock>
+                    <TextBlock Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" Name="bookYear">Book year</TextBlock>
                 </Grid>
 
                 <Grid Grid.Column="1">
@@ -113,7 +113,7 @@
                         <RowDefinition Height="1*"/>
                     </Grid.RowDefinitions>
 
-                    <ListBox Grid.Row="0" Margin="0,0,10,0" Name="BooksDate" >
+                    <ListBox Grid.Row="0" Margin="0,0,10,0" Name="booksDate" SelectionChanged="BooksDate_SelectionChanged" >
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <TextBlock Text="{Binding Name}"></TextBlock>
@@ -121,13 +121,24 @@
                         </ListBox.ItemTemplate>
                     </ListBox>
                     <Button Grid.Row="1" Margin="0,10,10,0" Click="addBook" Background="#2d2d2d">
-                        +Add book
+                        Add book
                     </Button>
-                    <Button Grid.Row="2" Margin="0,10,10,0" Click="readBook" Background="#2d2d2d">
-                        Read book
-                    </Button>
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Button Grid.Column ="0" Margin="0,10,10,0" Click="readBook" Background="#2d2d2d">
+                            Read book
+                        </Button>
+                        <Button Grid.Column ="1" Margin="0,10,10,0" Click="editBook" Background="#2d2d2d">
+                            Edit book
+                        </Button>
+                    </Grid>
                     <Button Grid.Row="3" Margin="0,10,10,0" Click="deleteBook" Background="#2d2d2d">
-                        -Delete book
+                        Delete book
                     </Button>
                     <WebBrowser Grid.Row="2" x:Name="browserHost" Margin="42,268,197,-255" Width="0" Height="0"/>
                 </Grid>
