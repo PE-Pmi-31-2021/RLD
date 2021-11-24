@@ -18,9 +18,9 @@ namespace RLD.Pages
     /// <summary>
     /// Interaction logic for Books.xaml
     /// </summary>
-    public partial class Books : Page
+    public partial class BooksPage : Page
     {
-        public Books()
+        public BooksPage()
         {
             InitializeComponent();
         }

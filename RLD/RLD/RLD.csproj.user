@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Presentation\Pages\Books.xaml.cs">
+    <Compile Update="Presentation\Pages\BooksPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Presentation\Pages\Cards.xaml.cs">
@@ -33,7 +33,7 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Presentation\Pages\Books.xaml">
+    <Page Update="Presentation\Pages\BooksPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Presentation\Pages\Cards.xaml">

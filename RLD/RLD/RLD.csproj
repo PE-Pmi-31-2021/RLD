@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <None Remove="Icons\AddIcon.png" />
-    <None Remove="Icons\BooksIcon.png" />
+    <None Remove="Icons\BooksPageIcon.png" />
     <None Remove="Icons\CardsIcon.png" />
     <None Remove="Icons\DefaultBookIcon.png" />
     <None Remove="Icons\DefaultRadioIcon.png" />
@@ -37,7 +37,6 @@
 
   <ItemGroup>
     <Resource Include="Icons\AddIcon.png" />
-    <Resource Include="Icons\BooksIcon.png" />
     <Resource Include="Icons\CardsIcon.png" />
     <Resource Include="Icons\DefaultRadioIcon.png" />
     <Resource Include="Icons\EditIcon.png" />

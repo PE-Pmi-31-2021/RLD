@@ -82,7 +82,7 @@ namespace RLD.Pages
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            Books booksPage = new Books();
+            BooksPage booksPage = new BooksPage();
             this.Content = new Frame() { Content = booksPage };
         }
 
