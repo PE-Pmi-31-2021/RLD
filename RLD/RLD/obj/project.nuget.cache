@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g6E92uEeTN9O+7nY33ir+LX+BVkEdFUYugGKQoXycabdoPnyBE7fx2wun88Isz80ri2pVeraGIYdpcfIK2I9bA==",
+  "dgSpecHash": "mGpz7CmRdb6Yyu02CRy7PHQEBhzdM0leAYEAPmZoyr+NR7fVPYefW9RkE0gaRjgEyDRbMSj0QLjI1KYAYBV90A==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\git\\RLD4\\RLD\\RLD\\RLD\\RLD.csproj",
+  "projectFilePath": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\RLD\\RLD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\swatik\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\swatik\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -104,8 +104,7 @@
     "C:\\Users\\swatik\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\swatik\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\swatik\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\swatik\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\swatik\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+    "C:\\Users\\swatik\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

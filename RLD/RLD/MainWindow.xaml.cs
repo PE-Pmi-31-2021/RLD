@@ -32,7 +32,7 @@ namespace RLD
                 }
                 else if (startPage.Value == "Books")
                 {
-                    Books booksPage = new Books();
+                    BooksPage booksPage = new BooksPage();
                     this.Content = booksPage;
                 }
                 else if (startPage.Value == "Cards")
