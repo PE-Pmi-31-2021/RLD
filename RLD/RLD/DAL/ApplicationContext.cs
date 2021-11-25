@@ -133,7 +133,7 @@ namespace RLD
                         Id = 1,
                         Name = "Робінзон Крузо",
                         Author = "Данієль Дефо",
-                        Genre = BookGenre.Adventure,
+                        Genre = "Adventure",
                         YearOfRelease = new DateTime(1719, 4, 25)
                     },
                     new Book
@@ -141,7 +141,7 @@ namespace RLD
                         Id = 2,
                         Name = "Том Сойер",
                         Author = "Марк Твен",
-                        Genre = BookGenre.Adventure,
+                        Genre = "Adventure",
                         YearOfRelease = new DateTime(1876, 6, 10)
                     }
             });

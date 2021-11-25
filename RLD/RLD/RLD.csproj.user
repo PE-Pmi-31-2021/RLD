@@ -19,6 +19,12 @@
     <Compile Update="Presentation\Pages\Settings.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Presentation\Windows\BookConfirmDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Presentation\Windows\BookDialogWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Presentation\Windows\RadioConfirmDelete.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -43,6 +49,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Presentation\Pages\Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\Windows\BookConfirmDelete.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Presentation\Windows\BookDialogWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Presentation\Windows\RadioConfirmDelete.xaml">
