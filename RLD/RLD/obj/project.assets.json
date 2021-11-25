@@ -6039,19 +6039,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kopyt\\.nuget\\packages\\": {}
+    "C:\\Users\\swatik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
+      "projectUniqueName": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\RLD\\RLD.csproj",
       "projectName": "RLD",
-      "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
-      "packagesPath": "C:\\Users\\kopyt\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\obj\\",
+      "projectPath": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\RLD\\RLD.csproj",
+      "packagesPath": "C:\\Users\\swatik\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\RLD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kopyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\swatik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6065,8 +6065,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\Repositories\\University\\RLD\\RLD\\Resources\\Icons.csproj": {
-              "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\Icons.csproj"
+            "D:\\Projects\\git\\RLD6\\RLD\\RLD\\Resources\\Icons.csproj": {
+              "projectPath": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\Resources\\Icons.csproj"
             }
           }
         }
@@ -6112,7 +6112,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

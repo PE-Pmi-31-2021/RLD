@@ -142,6 +142,19 @@ namespace RLD.Pages
                         radioButtonBooks.IsChecked = true;
                     }
                 }
+
+                var theme = db.Settings.FirstOrDefault(item => item.Name == "Theme");
+                if (theme != null)
+                {
+                    if (theme.Value == "Dark")
+                    {
+                        radioButtonDark.IsChecked = true;
+                    }
+                    else if (theme.Value == "Light")
+                    {
+                        radioButtonLight.IsChecked = true;
+                    }
+                }
             }
         }
 
@@ -197,6 +210,32 @@ namespace RLD.Pages
                 if (startPage != null)
                 {
                     startPage.Value = "Cards";
+                    db.SaveChanges();
+                }
+            }
+        }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                var theme = db.Settings.FirstOrDefault(item => item.Name == "Theme");
+                if (theme != null)
+                {
+                    theme.Value = "Dark";
+                    db.SaveChanges();
+                }
+            }
+        }
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                var theme = db.Settings.FirstOrDefault(item => item.Name == "Theme");
+                if (theme != null)
+                {
+                    theme.Value = "Light";
                     db.SaveChanges();
                 }
             }

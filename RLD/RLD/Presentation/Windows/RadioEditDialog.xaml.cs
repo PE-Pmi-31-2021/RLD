@@ -61,6 +61,11 @@ namespace RLD.Presentation.Windows
                 }
                 else
                 {
+                    var previousRadio = db.Radios.FirstOrDefault(item => item.Name == previousName);
+                    if (previousRadio != null)
+                    {
+                        image = previousRadio.Logotype;
+                    }
                     if (radioNameInput.Text == "")
                     {
                         MessageBox.Show("Enter radio name");
