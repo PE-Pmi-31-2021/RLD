@@ -12,3 +12,17 @@ D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.csproj.CoreC
 D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.dll
 D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\ref\Icons.dll
 D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.pdb
+D:\Projects\git\RLD6\RLD\RLD\Resources\bin\Debug\net5.0\Icons.deps.json
+D:\Projects\git\RLD6\RLD\RLD\Resources\bin\Debug\net5.0\Icons.dll
+D:\Projects\git\RLD6\RLD\RLD\Resources\bin\Debug\net5.0\ref\Icons.dll
+D:\Projects\git\RLD6\RLD\RLD\Resources\bin\Debug\net5.0\Icons.pdb
+D:\Projects\git\RLD6\RLD\RLD\Resources\obj\Debug\net5.0\Icons.csproj.AssemblyReference.cache
+D:\Projects\git\RLD6\RLD\RLD\Resources\obj\Debug\net5.0\Icons.IconsResources.resources
+D:\Projects\git\RLD6\RLD\RLD\Resources\obj\Debug\net5.0\Icons.csproj.GenerateResource.cache
+D:\Projects\git\RLD6\RLD\RLD\Resources\obj\Debug\net5.0\Icons.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\git\RLD6\RLD\RLD\Resources\obj\Debug\net5.0\Icons.AssemblyInfoInputs.cache
+D:\Projects\git\RLD6\RLD\RLD\Resources\obj\Debug\net5.0\Icons.AssemblyInfo.cs
+D:\Projects\git\RLD6\RLD\RLD\Resources\obj\Debug\net5.0\Icons.csproj.CoreCompileInputs.cache
+D:\Projects\git\RLD6\RLD\RLD\Resources\obj\Debug\net5.0\Icons.dll
+D:\Projects\git\RLD6\RLD\RLD\Resources\obj\Debug\net5.0\ref\Icons.dll
+D:\Projects\git\RLD6\RLD\RLD\Resources\obj\Debug\net5.0\Icons.pdb
