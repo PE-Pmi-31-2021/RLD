@@ -30,10 +30,12 @@ namespace RLD.Pages
         BitmapImage radiosIcon = new BitmapImage();
         BitmapImage RLDIcon = new BitmapImage();
         BitmapImage settingsIcon = new BitmapImage();
+        BitmapImage defaultBooksIcon = new BitmapImage();
+        BitmapImage searchIcon = new BitmapImage();
 
         public List<Book> booksList { get; set; }
         public WebBrowser browser { get; set; }
-        BitmapImage defaultImage = new BitmapImage();
+        
 
         public BooksPage()
         {
@@ -86,14 +88,19 @@ namespace RLD.Pages
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
 
+                    defaultBooksIcon.BeginInit();
+                    defaultBooksIcon.StreamSource = new MemoryStream(Icons.IconsResources.DefaultBooksIconLight);
+                    defaultBooksIcon.EndInit();
+                    bookImage.Source = defaultBooksIcon;
 
-
+                    searchIcon.BeginInit();
+                    searchIcon.StreamSource = new MemoryStream(Icons.IconsResources.SearchIconLight);
+                    searchIcon.EndInit();
+                    searchIconXAML.Source = searchIcon;
                 }
 
                 else if (db2.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
-
-
                     RLDLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
                     radiosLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
                     booksLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
@@ -131,6 +138,16 @@ namespace RLD.Pages
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
 
+                    defaultBooksIcon.BeginInit();
+                    defaultBooksIcon.StreamSource = new MemoryStream(Icons.IconsResources.DefaultBooksIconLight);
+                    defaultBooksIcon.EndInit();
+                    bookImage.Source = defaultBooksIcon;
+
+                    searchIcon.BeginInit();
+                    searchIcon.StreamSource = new MemoryStream(Icons.IconsResources.SearchIconLight);
+                    searchIcon.EndInit();
+                    searchIconXAML.Source = searchIcon;
+
 
                 }
             }
@@ -143,10 +160,6 @@ namespace RLD.Pages
             db.Books.Load();
             booksList = db.Books.Local.ToList();
             booksDate.ItemsSource = booksList;
-
-            defaultImage.BeginInit();
-            defaultImage.UriSource = new Uri(@"../../Icons/DefaultRadioIcon.png", UriKind.Relative);
-            defaultImage.EndInit();
         }
 
         private void txtNameToSearch_TextChanged(object sender, TextChangedEventArgs e)
@@ -256,11 +269,11 @@ namespace RLD.Pages
                         bookImage.Source = currentBookImage;
                     }
                     else
-                        bookImage.Source = defaultImage;
+                        bookImage.Source = defaultBooksIcon;
                 }
             }
             else
-                bookImage.Source = defaultImage;
+                bookImage.Source = defaultBooksIcon;
         }
 
         private void editBook(object sender, RoutedEventArgs e)
