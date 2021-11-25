@@ -1571,6 +1571,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Icons/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Icons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Icons.dll": {}
+        }
       }
     }
   },
@@ -6013,29 +6023,35 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Icons/1.0.0": {
+      "type": "project",
+      "path": "../Resources/Icons.csproj",
+      "msbuildProject": "../Resources/Icons.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "EntityFramework >= 6.4.4",
+      "Icons >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\swatik\\.nuget\\packages\\": {}
+    "C:\\Users\\kopyt\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\RLD\\RLD.csproj",
+      "projectUniqueName": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
       "projectName": "RLD",
-      "projectPath": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\RLD\\RLD.csproj",
-      "packagesPath": "C:\\Users\\swatik\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\git\\RLD6\\RLD\\RLD\\RLD\\obj\\",
+      "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
+      "packagesPath": "C:\\Users\\kopyt\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\swatik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kopyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6048,7 +6064,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Repositories\\University\\RLD\\RLD\\Resources\\Icons.csproj": {
+              "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\Icons.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6092,7 +6112,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

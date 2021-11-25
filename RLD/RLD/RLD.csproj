@@ -7,23 +7,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Icons\AddIcon.png" />
-    <None Remove="Icons\BooksPageIcon.png" />
-    <None Remove="Icons\CardsIcon.png" />
-    <None Remove="Icons\DefaultBookIcon.png" />
-    <None Remove="Icons\DefaultRadioIcon.png" />
-    <None Remove="Icons\EditIcon.png" />
-    <None Remove="Icons\PauseIcon.png" />
-    <None Remove="Icons\PlayIcon.png" />
-    <None Remove="Icons\RadiosIcon.png" />
-    <None Remove="Icons\RemoveIcon.png" />
-    <None Remove="Icons\RLDIcon.png" />
-    <None Remove="Icons\SettingsIcon.png" />
-    <None Remove="Icons\VolumeMinusIcon.png" />
-    <None Remove="Icons\VolumePlusIcon.png" />
+    <None Remove="Presentation\Pages\AddIcon.png" />
     <None Remove="Presentation\Pages\BooksIcon.png" />
     <None Remove="Presentation\Pages\VolumeMinusIcon.png" />
     <None Remove="Presentation\Pages\VolumePlusIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+    <COMReference Include="{d37e2a3e-8545-3a39-9f4f-31827c9124ab}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>d37e2a3e-8545-3a39-9f4f-31827c9124ab</Guid>
+    </COMReference>
   </ItemGroup>
 
   <ItemGroup>
@@ -37,20 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Icons\AddIcon.png" />
-    <Resource Include="Icons\CardsIcon.png" />
-    <Resource Include="Icons\DefaultRadioIcon.png" />
-    <Resource Include="Icons\EditIcon.png" />
-    <Resource Include="Icons\DefaultBookIcon.png" />
-    <Resource Include="Icons\PauseIcon.png" />
-    <Resource Include="Icons\PlayIcon.png" />
-    <Resource Include="Icons\RadiosIcon.png" />
-    <Resource Include="Icons\RemoveIcon.png" />
-    <Resource Include="Icons\RLDIcon.png" />
-    <Resource Include="Icons\SettingsIcon.png" />
-    <Resource Include="Icons\VolumeMinusIcon.png" />
-    <Resource Include="Icons\VolumePlusIcon.png" />
-    <Resource Include="Icons\BooksIcon.png" />
+    <ProjectReference Include="..\Resources\Icons.csproj" />
   </ItemGroup>
 
 </Project>
