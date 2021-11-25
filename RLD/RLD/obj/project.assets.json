@@ -1571,6 +1571,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Icons/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Icons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Icons.dll": {}
+        }
       }
     }
   },
@@ -6013,36 +6023,35 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Icons/1.0.0": {
+      "type": "project",
+      "path": "../Resources/Icons.csproj",
+      "msbuildProject": "../Resources/Icons.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "EntityFramework >= 6.4.4",
+      "Icons >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dmytro\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\kopyt\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dmytro\\Desktop\\Універ\\3 курс\\Семестр 1\\Програмна  Інженерія\\RLD\\RLD\\RLD\\RLD.csproj",
+      "projectUniqueName": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
       "projectName": "RLD",
-      "projectPath": "C:\\Users\\Dmytro\\Desktop\\Універ\\3 курс\\Семестр 1\\Програмна  Інженерія\\RLD\\RLD\\RLD\\RLD.csproj",
-      "packagesPath": "C:\\Users\\Dmytro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dmytro\\Desktop\\Універ\\3 курс\\Семестр 1\\Програмна  Інженерія\\RLD\\RLD\\RLD\\obj\\",
+      "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
+      "packagesPath": "C:\\Users\\kopyt\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dmytro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\kopyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6055,7 +6064,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Repositories\\University\\RLD\\RLD\\Resources\\Icons.csproj": {
+              "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\Icons.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6099,7 +6112,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

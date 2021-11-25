@@ -1,0 +1,14 @@
+D:\Repositories\University\RLD\RLD\Resources\bin\Debug\net5.0\Icons.deps.json
+D:\Repositories\University\RLD\RLD\Resources\bin\Debug\net5.0\Icons.dll
+D:\Repositories\University\RLD\RLD\Resources\bin\Debug\net5.0\ref\Icons.dll
+D:\Repositories\University\RLD\RLD\Resources\bin\Debug\net5.0\Icons.pdb
+D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.csproj.AssemblyReference.cache
+D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.IconsResources.resources
+D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.csproj.GenerateResource.cache
+D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.AssemblyInfoInputs.cache
+D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.AssemblyInfo.cs
+D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.csproj.CoreCompileInputs.cache
+D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.dll
+D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\ref\Icons.dll
+D:\Repositories\University\RLD\RLD\Resources\obj\Debug\net5.0\Icons.pdb

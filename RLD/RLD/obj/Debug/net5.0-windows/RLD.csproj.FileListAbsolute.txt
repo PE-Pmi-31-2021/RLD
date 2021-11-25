@@ -182,12 +182,10 @@ D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win\lib
 D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.AssemblyReference.cache
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\MainWindow.g.cs
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Pages\RadiosPage.g.cs
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\App.g.cs
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD_MarkupCompile.cache
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD_MarkupCompile.lref
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\MainWindow.baml
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Pages\RadiosPage.baml
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.g.resources
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.GeneratedMSBuildEditorConfig.editorconfig
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.AssemblyInfoInputs.cache
@@ -264,16 +262,6 @@ D:\Projects\git\RLD4\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.CoreCompile
 D:\Projects\git\RLD4\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.CopyComplete
 D:\Projects\git\RLD4\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.dll
 D:\Projects\git\RLD4\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.genruntimeconfig.cache
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Pages\Books.g.cs
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Pages\Cards.g.cs
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Pages\Settings.g.cs
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\RadioConfirmDelete.g.cs
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\RadioDialogWindow.g.cs
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Pages\Books.baml
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Pages\Cards.baml
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Pages\Settings.baml
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\RadioConfirmDelete.baml
-D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\RadioDialogWindow.baml
 D:\Projects\git\RLD3\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioConfirmDelete.g.cs
 D:\Projects\git\RLD3\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioDialogWindow.g.cs
 D:\Projects\git\RLD3\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioConfirmDelete.baml
@@ -462,89 +450,20 @@ D:\Projects\git\RLD6\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.AssemblyInfo.cs
 D:\Projects\git\RLD6\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.CoreCompileInputs.cache
 D:\Projects\git\RLD6\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.CopyComplete
 D:\Projects\git\RLD6\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.genruntimeconfig.cache
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.AssemblyReference.cache
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\MainWindow.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\BooksPage.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Cards.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\RadiosPage.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Settings.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookConfirmDelete.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioConfirmDelete.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioDialogWindow.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioEditDialog.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\App.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD_MarkupCompile.cache
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD_MarkupCompile.lref
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\ref\RLD.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.pdb
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\RLD.exe
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\RLD.deps.json
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\RLD.runtimeconfig.json
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\RLD.runtimeconfig.dev.json
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\RLD.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\ref\RLD.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\RLD.pdb
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\EntityFramework.SqlServer.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\EntityFramework.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\MainWindow.baml
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\BooksPage.baml
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Cards.baml
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\RadiosPage.baml
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Settings.baml
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookConfirmDelete.baml
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioConfirmDelete.baml
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioDialogWindow.baml
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioEditDialog.baml
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.g.resources
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.AssemblyInfoInputs.cache
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.AssemblyInfo.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.CoreCompileInputs.cache
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.CopyComplete
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.genruntimeconfig.cache
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookDialogWindow.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookDialogWindow.baml
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookEditDialog.g.cs
-C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookEditDialog.baml
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\BooksPage.g.cs
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Cards.g.cs
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\RadiosPage.g.cs
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Settings.g.cs
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioConfirmDelete.g.cs
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioDialogWindow.g.cs
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioEditDialog.g.cs
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\BooksPage.baml
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Cards.baml
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\RadiosPage.baml
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Pages\Settings.baml
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioConfirmDelete.baml
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioDialogWindow.baml
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioEditDialog.baml
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.ResolveComReference.cache
+D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\Icons.dll
+D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\Icons.pdb

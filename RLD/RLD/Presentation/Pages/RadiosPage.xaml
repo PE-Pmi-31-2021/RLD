@@ -9,15 +9,11 @@
       Title="RadiosPage">
 
     <Page.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Background" Value="#2d2d2d"></Setter>
-        </Style>
         <Style TargetType="Label">
-            <Setter Property="Foreground" Value="#FFFFFF"></Setter>
             <Setter Property="FontSize" Value="20"></Setter>
         </Style>
     </Page.Resources>
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
@@ -33,35 +29,35 @@
         </Grid.RowDefinitions>
 
         <MediaElement x:Name="radioPlayer" Source="" LoadedBehavior="Manual" UnloadedBehavior="Manual"/>
-        
-        <Button Grid.Column="0" Grid.Row="0" Click="Button_Click_10">
+
+        <Button x:Name="RLDButton" Grid.Column="0" Grid.Row="0" Click="Button_Click_10">
             <WrapPanel>
-                <Image Source="../../Icons/RLDIcon.png" Stretch="None"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center">RLD</Label>
+                <Image x:Name="RLDIconXAML" Source="../../Icons/RLDIcon.png" Stretch="None"/>
+                <Label x:Name="RLDLabel" HorizontalAlignment="Center" VerticalAlignment="Center">RLD</Label>
             </WrapPanel>
         </Button>
-        <Button Grid.Column="0" Grid.Row="1" Click="Button_Click_1">
+        <Button x:Name="radiosButton" Grid.Column="0" Grid.Row="1" Click="Button_Click_1">
             <WrapPanel>
-                <Image Source="../../Icons/RadiosIcon.png" Stretch="None"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center">Radios</Label>
+                <Image x:Name="radiosIconXAML" Source="../../Icons/RadiosIcon.png" Stretch="None"/>
+                <Label x:Name="radiosLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Radios</Label>
             </WrapPanel>
         </Button>
-        <Button Grid.Column="0" Grid.Row="2" Click="Button_Click_4">
+        <Button x:Name="booksButton" Grid.Column="0" Grid.Row="2" Click="Button_Click_4">
             <WrapPanel>
-                <Image Source="../../Icons/BooksIcon.png" Stretch="None"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center">Books</Label>
+                <Image x:Name="booksIconXAML" Source="../../Icons/BooksIcon.png" Stretch="None"/>
+                <Label x:Name="booksLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Books</Label>
             </WrapPanel>
         </Button>
-        <Button Grid.Column="0" Grid.Row="3" Click="Button_Click_3">
+        <Button x:Name="cardsButton" Grid.Column="0" Grid.Row="3" Click="Button_Click_3">
             <WrapPanel>
-                <Image Source="../../Icons/CardsIcon.png" Stretch="None"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center">Cards</Label>
+                <Image x:Name="cardsIconXAML" Source="../../Icons/CardsIcon.png" Stretch="None"/>
+                <Label x:Name="cardsLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Cards</Label>
             </WrapPanel>
         </Button>
-        <Button Grid.Column="0" Grid.Row="4" Click="Button_Click_2">
+        <Button x:Name="settingsButton" Grid.Column="0" Grid.Row="4" Click="Button_Click_2">
             <WrapPanel>
-                <Image Source="../../Icons/SettingsIcon.png" Stretch="None"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center">Settings</Label>
+                <Image x:Name="settingsIconXAML" Source="../../Icons/SettingsIcon.png" Stretch="None"/>
+                <Label x:Name="settingsLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Settings</Label>
             </WrapPanel>
         </Button>
 
@@ -76,8 +72,8 @@
                 <RowDefinition Height="2.5*"/>
             </Grid.RowDefinitions>
 
-            <Border BorderThickness="5" BorderBrush="#FF2D2D2D">
-                <Image x:Name="radioLogotype" Grid.Column="0" Grid.Row="0" Source="../../Icons/DefaultRadioIcon.png" Stretch="Fill"></Image>
+            <Border BorderThickness="1" BorderBrush="#FF2D2D2D">
+                <Image x:Name="defaultRadioIconXAML" Grid.Column="0" Grid.Row="0" Source="../../Icons/DefaultRadioIcon.png" Stretch="Fill"></Image>
             </Border>
 
             <Grid Grid.Column="1">
@@ -119,19 +115,19 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Column="0" Click="Button_Click_6">
+                    <Button x:Name="addButton" Grid.Column="0" Click="Button_Click_6">
                         <WrapPanel>
-                            <Image Source="../../Icons/AddIcon.png" Stretch="None"/>
+                            <Image x:Name="addIconXAML" Source="../../Icons/AddIcon.png" Stretch="None"/>
                         </WrapPanel>
                     </Button>
-                    <Button Grid.Column="1" Click="Button_Click_11">
+                    <Button x:Name="editButton" Grid.Column="1" Click="Button_Click_11">
                         <WrapPanel>
-                            <Image Source="../../Icons/EditIcon.png" Stretch="None"/>
+                            <Image x:Name="editIconXAML" Source="../../Icons/EditIcon.png" Stretch="None"/>
                         </WrapPanel>
                     </Button>
-                    <Button Grid.Column="2" Click="Button_Click_5">
+                    <Button x:Name="removeButton" Grid.Column="2" Click="Button_Click_5">
                         <WrapPanel>
-                            <Image Source="../../Icons/RemoveIcon.png" Stretch="None"/>
+                            <Image x:Name="removeIconXAML" Source="../../Icons/RemoveIcon.png" Stretch="None"/>
                         </WrapPanel>
                     </Button>
                 </Grid>
@@ -145,20 +141,19 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button Grid.Column="0" Click="Button_Click_8">
+                <Button x:Name="volumeMinusButton" Grid.Column="0" Click="Button_Click_8">
                     <WrapPanel>
-                        <Image Source="/Presentation../../Icons/VolumeMinusIcon.png" Stretch="None"/>
+                        <Image x:Name="volumeMinusIconXAML" Source="/Presentation../../Icons/VolumeMinusIcon.png" Stretch="None"/>
                     </WrapPanel>
                 </Button>
-                <Button Grid.Column="1" Click="Button_Click_7">
+                <Button x:Name="playButton" Grid.Column="1" Click="Button_Click_7">
                     <WrapPanel>
-                        <Image x:Name="playingIcon" Source="../../Icons/PlayIcon.png" Stretch="None"/>
+                        <Image x:Name="playIconXAML" Source="../../Icons/PlayIcon.png" Stretch="None"/>
                     </WrapPanel>
                 </Button>
-                <Button Grid.Column="2" Click="Button_Click_9">
+                <Button x:Name="volumePlusButton" Grid.Column="2" Click="Button_Click_9">
                     <WrapPanel>
-                        <Image Source="/Presentation../../Icons/VolumePlusIcon.png" Stretch="None"/>
-
+                        <Image x:Name="volumePlusIconXAML" Source="/Presentation../../Icons/VolumePlusIcon.png" Stretch="None"/>
                     </WrapPanel>
                 </Button>
             </Grid>
