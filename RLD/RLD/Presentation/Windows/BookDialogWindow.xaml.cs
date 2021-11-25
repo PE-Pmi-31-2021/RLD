@@ -1,4 +1,5 @@
-﻿using RLD.BLL;
+﻿using Microsoft.Win32;
+using RLD.BLL;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -22,6 +23,7 @@ namespace RLD.Presentation.Windows
     public partial class BookDialogWindow : Window
     {
         byte[] image { get; set; }
+        string sFileName { get; set; }
         public BookDialogWindow()
         {
             InitializeComponent();
@@ -56,10 +58,10 @@ namespace RLD.Presentation.Windows
                         Book book = new Book();
                         book.Name = bookNameInput.Text;
                         book.Author = authorNameInput.Text;
-                        book.YearOfRelease = new DateTime(1719, 4, 25);
+                        book.YearOfRelease = bookYearInput.SelectedDate.Value;
                         book.Genre = bookGenreInput.Text;
                         book.Picture = image;
-                        book.bookURL = bookUrlInput.Text;
+                        book.bookURL = sFileName;
                         db.Books.Add(book);
                         db.SaveChanges();
                         this.DialogResult = true;
@@ -72,7 +74,7 @@ namespace RLD.Presentation.Windows
             }
         }
 
-        private void Browse_Click(object sender, RoutedEventArgs e)
+        private void Browse_Image(object sender, RoutedEventArgs e)
         {
             var dialog = new Microsoft.Win32.OpenFileDialog();
             dialog.FileName = "Image";
@@ -80,21 +82,45 @@ namespace RLD.Presentation.Windows
             dialog.Filter = "Image (.png)|*.png";
 
             bool? result = dialog.ShowDialog();
-            var file = dialog.OpenFile();
 
-            using (var db = new ApplicationContext())
+            Stream file;
+            try
             {
-                byte[] fileData = null;
+                file = dialog.OpenFile();
 
-                using (var binaryReader = new BinaryReader(file))
+                using (var db = new ApplicationContext())
                 {
-                    fileData = binaryReader.ReadBytes((int)file.Length);
-                }
+                    byte[] fileData = null;
 
-                if (fileData != null)
-                {
-                    image = fileData;
+                    using (var binaryReader = new BinaryReader(file))
+                    {
+                        fileData = binaryReader.ReadBytes((int)file.Length);
+                    }
+
+                    if (fileData != null)
+                    {
+                        image = fileData;
+                    }
                 }
+            }
+            catch (Exception)
+            {
+                return;
+            }
+        }
+
+        private void Browse_Book(object sender, RoutedEventArgs e)
+        {
+            var choofdlog = new OpenFileDialog();
+            choofdlog.Filter = "Pdf Files|*.pdf";
+            choofdlog.ShowDialog();
+            try
+            {
+                sFileName = choofdlog.FileName;
+            }
+            catch (Exception)
+            {
+                return;
             }
         }
     }

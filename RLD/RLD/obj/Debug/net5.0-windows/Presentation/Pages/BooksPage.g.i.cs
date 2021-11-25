@@ -117,7 +117,7 @@ namespace RLD.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RLD;V1.0.0.0;component/presentation/pages/bookspage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RLD;component/presentation/pages/bookspage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Presentation\Pages\BooksPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

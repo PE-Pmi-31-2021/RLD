@@ -63,7 +63,7 @@ namespace RLD.Pages
 
         private void SettingsMenu(object sender, RoutedEventArgs e)
         {
-            Setting settingsPage = new Setting();
+            Settings settingsPage = new Settings();
             this.Content = new Frame() { Content = settingsPage };
         }
 
@@ -82,13 +82,13 @@ namespace RLD.Pages
         {
             var window = new BookDialogWindow();
             window.ShowDialog();
-            //BooksDate.Items.Clear();
 
             using (var db = new ApplicationContext())
             {
                 var query = from b in db.Books
                             select b;
 
+                booksList = query.ToList();
                 booksDate.ItemsSource = query.ToList();
             }
         }
@@ -125,6 +125,7 @@ namespace RLD.Pages
                         var query = from b in db.Books
                                     select b;
 
+                        booksList = query.ToList();
                         booksDate.ItemsSource = query.ToList();
                     }
                 }
@@ -142,7 +143,7 @@ namespace RLD.Pages
                     bookName.Text = currentBook.Name;
                     bookAuthor.Text = currentBook.Author;
                     bookGenre.Text = currentBook.Genre;
-                    bookYear.Text = currentBook.YearOfRelease.Date.ToString();
+                    bookYear.Text = currentBook.YearOfRelease.Year.ToString();
 
                     if (currentBook.Picture != null)
                     {
@@ -162,29 +163,27 @@ namespace RLD.Pages
 
         private void editBook(object sender, RoutedEventArgs e)
         {
-            /*if (booksDate.SelectedItem != null)
+            if (booksDate.SelectedItem != null)
             {
                 var selectedBook = (Book) booksDate.SelectedItem;
+                Book book;
                 using (var db = new ApplicationContext())
                 {
-                    var book = db.Radios.FirstOrDefault(item => item.Name == selectedBook.Name);
+                    book = db.Books.FirstOrDefault(item => item.Name == selectedBook.Name);
                 }
 
-                var window = new RadioEditDialog(radio.Name, radio.StreamURL);
+                var window = new BookEditDialog(book.Name, book.Author, book.Genre, book.YearOfRelease);
                 window.ShowDialog();
 
-                listbox1.Items.Clear();
                 using (var db = new ApplicationContext())
                 {
-                    var query = from b in db.Radios
+                    var query = from b in db.Books
                                 select b;
 
-                    foreach (var item in query)
-                    {
-                        listbox1.Items.Add(item.Name);
-                    }
+                    booksList = query.ToList();
+                    booksDate.ItemsSource = query.ToList();
                 }
-            }*/
+            }
         }
     }
 }

@@ -546,3 +546,5 @@ C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програм�
 C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.genruntimeconfig.cache
 C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookDialogWindow.g.cs
 C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookDialogWindow.baml
+C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookEditDialog.g.cs
+C:\Users\Dmytro\Desktop\Універ\3 курс\Семестр 1\Програмна  Інженерія\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookEditDialog.baml
