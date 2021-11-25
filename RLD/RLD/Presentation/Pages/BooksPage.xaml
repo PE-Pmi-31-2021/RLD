@@ -10,10 +10,10 @@
 
     <Page.Resources>
         <Style TargetType="Button">
-            <Setter Property="Background" Value="#2d2d2d"></Setter>
+            <!--<Setter Property="Background" Value="#2d2d2d"></Setter>-->
         </Style>
         <Style TargetType="Label">
-            <Setter Property="Foreground" Value="#FFFFFF"></Setter>
+            <!--<Setter Property="Foreground" Value="#FFFFFF"></Setter>-->
             <Setter Property="FontSize" Value="20"></Setter>
         </Style>
     </Page.Resources>
@@ -33,34 +33,34 @@
                 <RowDefinition Height="1.25*"/>
             </Grid.RowDefinitions>
 
-            <Button Grid.Column="0" Grid.Row="0">
+            <Button x:Name="RLDButton" Grid.Column="0" Grid.Row="0">
                 <WrapPanel>
-                    <Image Source="/Icons/RLDIcon.png" Stretch="None"/>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Center">RLD</Label>
+                    <Image x:Name="RLDIconXAML" Stretch="None"/>
+                    <Label x:Name="RLDLabel" HorizontalAlignment="Center" VerticalAlignment="Center">RLD</Label>
                 </WrapPanel>
             </Button>
-            <Button Grid.Column="0" Grid.Row="1" Click="Button_Click_1">
+            <Button x:Name="radiosButton" Grid.Column="0" Grid.Row="1" Click="Button_Click_1">
                 <WrapPanel>
-                    <Image Source="/Icons/RadiosIcon.png" Stretch="None"/>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Center">Radios</Label>
+                    <Image x:Name="radiosIconXAML"  Stretch="None"/>
+                    <Label x:Name="radiosLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Radios</Label>
                 </WrapPanel>
             </Button>
-            <Button Grid.Column="0" Grid.Row="2">
+            <Button x:Name="booksButton" Grid.Column="0" Grid.Row="2">
                 <WrapPanel>
-                    <Image Source="/Icons/BooksIcon.png" Stretch="None"/>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Books"/>
+                    <Image x:Name="booksIconXAML"  Stretch="None"/>
+                    <Label x:Name="booksLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Books</Label>
                 </WrapPanel>
             </Button>
-            <Button Grid.Column="0" Grid.Row="3" Click="Button_Click_2">
+            <Button x:Name="cardsButton" Grid.Column="0" Grid.Row="3"  Click="Button_Click_2">
                 <WrapPanel>
-                    <Image Source="/Icons/CardsIcon.png" Stretch="None"/>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Center">Cards</Label>
+                    <Image x:Name="cardsIconXAML"  Stretch="None"/>
+                    <Label x:Name="cardsLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Cards</Label>
                 </WrapPanel>
             </Button>
-            <Button Grid.Column="0" Grid.Row="4" Click="Button_Click">
+            <Button x:Name="settingsButton" Grid.Column="0" Grid.Row="4" Click="Button_Click">
                 <WrapPanel>
-                    <Image Source="/Icons/SettingsIcon.png" Stretch="None"/>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Center">Settings</Label>
+                    <Image x:Name="settingsIconXAML" Stretch="None"/>
+                    <Label x:Name="settingsLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Settings</Label>
                 </WrapPanel>
             </Button>
         </Grid>
