@@ -9,11 +9,7 @@
       Title="Cards">
 
     <Page.Resources>
-        <Style TargetType="Button">
-            <!--<Setter Property="Background" Value="#2d2d2d"></Setter>-->
-        </Style>
         <Style TargetType="Label">
-            <!--<Setter Property="Foreground" Value="#FFFFFF"></Setter>-->
             <Setter Property="FontSize" Value="20"></Setter>
         </Style>
     </Page.Resources>
@@ -34,31 +30,31 @@
 
         <Button x:Name="RLDButton" Grid.Column="0" Grid.Row="0">
             <WrapPanel>
-                <Image x:Name="RLDIconXAML" Source="../../Icons/RLDIcon.png" Stretch="None"/>
+                <Image x:Name="RLDIconXAML" Stretch="None"/>
                 <Label x:Name="RLDLabel" HorizontalAlignment="Center" VerticalAlignment="Center">RLD</Label>
             </WrapPanel>
         </Button>
         <Button x:Name="radiosButton" Grid.Column="0" Grid.Row="1" Click="Button_Click_1">
             <WrapPanel>
-                <Image x:Name="radiosIconXAML" Source="../../Icons/RadiosIcon.png" Stretch="None"/>
+                <Image x:Name="radiosIconXAML" Stretch="None"/>
                 <Label x:Name="radiosLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Radios</Label>
             </WrapPanel>
         </Button>
         <Button x:Name="booksButton" Grid.Column="0" Grid.Row="2" Click="Button_Click_2">
             <WrapPanel>
-                <Image x:Name="booksIconXAML" Source="../../Icons/BooksIcon.png" Stretch="None"/>
+                <Image x:Name="booksIconXAML" Stretch="None"/>
                 <Label x:Name="booksLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Books</Label>
             </WrapPanel>
         </Button>
         <Button x:Name="cardsButton" Grid.Column="0" Grid.Row="3">
             <WrapPanel>
-                <Image x:Name="cardsIconXAML" Source="../../Icons/CardsIcon.png" Stretch="None"/>
+                <Image x:Name="cardsIconXAML" Stretch="None"/>
                 <Label x:Name="cardsLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Cards</Label>
             </WrapPanel>
         </Button>
         <Button x:Name="settingsButton" Grid.Column="0" Grid.Row="4" Click="Button_Click">
             <WrapPanel>
-                <Image x:Name="settingsIconXAML" Source="../../Icons/SettingsIcon.png" Stretch="None"/>
+                <Image x:Name="settingsIconXAML" Stretch="None"/>
                 <Label x:Name="settingsLabel" HorizontalAlignment="Center" VerticalAlignment="Center">Settings</Label>
             </WrapPanel>
         </Button>
@@ -78,23 +74,23 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.Column="0" Grid.RowSpan="6" Margin="10" Background="WhiteSmoke">
+            <StackPanel x:Name="creationPanel" Grid.Column="0" Grid.RowSpan="6" Margin="10">
                 <Label Height="25"></Label>
-                <TextBox TextAlignment="Center" MinWidth="100" FontSize="20" BorderThickness="0" Background="Transparent" Text="Category"/>
+                <TextBox x:Name="categoryTextBlock" TextAlignment="Center" MinWidth="100" FontSize="20" BorderThickness="0" Background="Transparent" Text="Category"/>
                 <Separator MaxWidth="200"></Separator>
                 <Label Height="25"></Label>
-                <TextBox TextAlignment="Center" MinWidth="100" FontSize="20" BorderThickness="0" Background="Transparent" Text="Title"/>
+                <TextBox x:Name="titleTextBlock" TextAlignment="Center" MinWidth="100" FontSize="20" BorderThickness="0" Background="Transparent" Text="Title"/>
                 <Separator MaxWidth="150"></Separator>
                 <Label Height="25"></Label>
-                <TextBlock TextAlignment="Center" FontSize="20">Description</TextBlock>
-                <TextBox TextAlignment="Center" TextWrapping="Wrap" MinHeight="200" FontSize="16" AcceptsReturn="True" BorderThickness="0" Background="Transparent">Text</TextBox>
+                <TextBlock x:Name="descriptionTextBlock" TextAlignment="Center" FontSize="20">Description</TextBlock>
+                <TextBox x:Name="textTextBox" TextAlignment="Center" TextWrapping="Wrap" MinHeight="200" FontSize="16" AcceptsReturn="True" BorderThickness="0" Background="Transparent">Text</TextBox>
             </StackPanel>
 
 
-            <Button Grid.Column="1" FontSize="16" BorderThickness="0" Grid.Row="0" Grid.RowSpan="3" Margin="10" Background="LightGray">Add background</Button>
-            <Button Grid.Column="1" FontSize="16" BorderThickness="0" Grid.Row="3" Margin="10" Background="LightGray">Reset to default</Button>
-            <Button Grid.Column="1" FontSize="16" BorderThickness="0" Grid.Row="4" Margin="10" Background="LightGray">Save in draft</Button>
-            <Button Grid.Column="1" FontSize="16" BorderThickness="0" Grid.Row="5" Margin="10" Background="LightGray">Add</Button>
+            <Button x:Name="addBackgroundButton" Grid.Column="1" FontSize="16" Grid.Row="0" Grid.RowSpan="3" Margin="10">Add background</Button>
+            <Button x:Name="resetButton" Grid.Column="1" FontSize="16" Grid.Row="3" Margin="10">Reset to default</Button>
+            <Button x:Name="saveButton" Grid.Column="1" FontSize="16" Grid.Row="4" Margin="10">Save in draft</Button>
+            <Button x:Name="addButton" Grid.Column="1" FontSize="16" Grid.Row="5" Margin="10">Add</Button>
         </Grid>
 
     </Grid>

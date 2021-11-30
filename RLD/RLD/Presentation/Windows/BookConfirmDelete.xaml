@@ -12,10 +12,10 @@
             <RowDefinition Height="30" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="1" FontSize="16" HorizontalAlignment="Center" Margin="0,0,0,0">Sure want to delete book?</TextBlock>
+        <TextBlock x:Name="sureTextBlock" Grid.Row="1" FontSize="16" HorizontalAlignment="Center" Margin="0,0,0,0">Sure want to delete book?</TextBlock>
         <WrapPanel Grid.Row="2" HorizontalAlignment="Center" Margin="0,10,0,0">
-            <Button BorderThickness="0" Background="LightGray" IsDefault="True" Click="Book_Accept_Click" MinWidth="100" MinHeight="25" Margin="0,0,10,0">OK</Button>
-            <Button BorderThickness="0" Background="LightGray" IsCancel="True" MinWidth="100" MinHeight="25">Cancel</Button>
+            <Button x:Name="OKButton" IsDefault="True" Click="Book_Accept_Click" MinWidth="100" MinHeight="25" Margin="0,0,10,0">OK</Button>
+            <Button x:Name="cancelButton" IsCancel="True" MinWidth="100" MinHeight="25">Cancel</Button>
         </WrapPanel>
     </Grid>
 </Window>

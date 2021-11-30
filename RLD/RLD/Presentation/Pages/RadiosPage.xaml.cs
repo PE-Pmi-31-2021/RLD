@@ -57,6 +57,8 @@ namespace RLD.Pages
                     var darkColor = new SolidColorBrush(Color.FromRgb(45, 45, 45));
                     var lightColor = new SolidColorBrush(Color.FromRgb(255, 255, 255));
 
+                    Background = darkColor;
+
                     RLDLabel.Foreground = lightColor;
                     radiosLabel.Foreground = lightColor;
                     booksLabel.Foreground = lightColor;
@@ -68,6 +70,10 @@ namespace RLD.Pages
                     booksButton.Background = darkColor;
                     cardsButton.Background = darkColor;
                     settingsButton.Background = darkColor;
+
+                    radiosListBox.Background = darkColor;
+                    radiosListBox.Foreground = lightColor;
+
                     addButton.Background = darkColor;
                     editButton.Background = darkColor;
                     removeButton.Background = darkColor;
@@ -133,12 +139,19 @@ namespace RLD.Pages
                     volumePlusIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.VolumePlus);
                     volumePlusIcon.EndInit();
                     volumePlusIconXAML.Source = volumePlusIcon;
+
+                    defaultRadioIcon.BeginInit();
+                    defaultRadioIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.DefaultRadio);
+                    defaultRadioIcon.EndInit();
+                    defaultRadioIconXAML.Source = defaultRadioIcon;
                 }
 
                 else if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
                     var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
                     var darkColor = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+
+                    Background = lightColor;
 
                     RLDLabel.Foreground = darkColor;
                     radiosLabel.Foreground = darkColor;
@@ -151,6 +164,10 @@ namespace RLD.Pages
                     booksButton.Background = lightColor;
                     cardsButton.Background = lightColor;
                     settingsButton.Background = lightColor;
+
+                    radiosListBox.Background = lightColor;
+                    radiosListBox.Foreground = darkColor;
+
                     addButton.Background = lightColor;
                     editButton.Background = lightColor;
                     removeButton.Background = lightColor;
@@ -216,12 +233,12 @@ namespace RLD.Pages
                     volumePlusIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.VolumePlus);
                     volumePlusIcon.EndInit();
                     volumePlusIconXAML.Source = volumePlusIcon;
-                }
 
-                defaultRadioIcon.BeginInit();
-                defaultRadioIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.DefaultRadio);
-                defaultRadioIcon.EndInit();
-                defaultRadioIconXAML.Source = defaultRadioIcon;
+                    defaultRadioIcon.BeginInit();
+                    defaultRadioIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.DefaultRadio);
+                    defaultRadioIcon.EndInit();
+                    defaultRadioIconXAML.Source = defaultRadioIcon;
+                }
             }
         }
 
