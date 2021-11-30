@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLD", "RLD\RLD.csproj", "{81A1B9D3-F642-4C07-9210-A683DE43C589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icons", "Resources\Icons.csproj", "{3A8A1687-EF48-4026-9083-6D02F68F6FFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLD.Resources", "Resources\RLD.Resources.csproj", "{3A8A1687-EF48-4026-9083-6D02F68F6FFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

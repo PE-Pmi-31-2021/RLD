@@ -57,44 +57,38 @@ namespace RLD.Pages
                     cardsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
                     settingsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
 
-                    RLDButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    radiosButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    booksButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    cardsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    settingsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-
                     booksIcon.BeginInit();
-                    booksIcon.StreamSource = new MemoryStream(Icons.IconsResources.BooksIconDark);
+                    booksIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Books);
                     booksIcon.EndInit();
                     booksIconXAML.Source = booksIcon;
 
                     cardsIcon.BeginInit();
-                    cardsIcon.StreamSource = new MemoryStream(Icons.IconsResources.CardsIconDark);
+                    cardsIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Cards);
                     cardsIcon.EndInit();
                     cardsIconXAML.Source = cardsIcon;
 
                     radiosIcon.BeginInit();
-                    radiosIcon.StreamSource = new MemoryStream(Icons.IconsResources.RadiosIconDark);
+                    radiosIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Radios);
                     radiosIcon.EndInit();
                     radiosIconXAML.Source = radiosIcon;
 
                     RLDIcon.BeginInit();
-                    RLDIcon.StreamSource = new MemoryStream(Icons.IconsResources.RLDIconDark);
+                    RLDIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.RLD);
                     RLDIcon.EndInit();
                     RLDIconXAML.Source = RLDIcon;
 
                     settingsIcon.BeginInit();
-                    settingsIcon.StreamSource = new MemoryStream(Icons.IconsResources.SettingsIconDark);
+                    settingsIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Settings);
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
 
                     defaultBooksIcon.BeginInit();
-                    defaultBooksIcon.StreamSource = new MemoryStream(Icons.IconsResources.DefaultBooksIconLight);
+                    defaultBooksIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.DefaultBook);
                     defaultBooksIcon.EndInit();
                     bookImage.Source = defaultBooksIcon;
 
                     searchIcon.BeginInit();
-                    searchIcon.StreamSource = new MemoryStream(Icons.IconsResources.SearchIconLight);
+                    searchIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Search);
                     searchIcon.EndInit();
                     searchIconXAML.Source = searchIcon;
                 }
@@ -114,37 +108,37 @@ namespace RLD.Pages
                     settingsButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
 
                     booksIcon.BeginInit();
-                    booksIcon.StreamSource = new MemoryStream(Icons.IconsResources.BooksIconLight);
+                    booksIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Books);
                     booksIcon.EndInit();
                     booksIconXAML.Source = booksIcon;
 
                     cardsIcon.BeginInit();
-                    cardsIcon.StreamSource = new MemoryStream(Icons.IconsResources.CardsIconLight);
+                    cardsIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Cards);
                     cardsIcon.EndInit();
                     cardsIconXAML.Source = cardsIcon;
 
                     radiosIcon.BeginInit();
-                    radiosIcon.StreamSource = new MemoryStream(Icons.IconsResources.RadiosIconLight);
+                    radiosIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Radios);
                     radiosIcon.EndInit();
                     radiosIconXAML.Source = radiosIcon;
 
                     RLDIcon.BeginInit();
-                    RLDIcon.StreamSource = new MemoryStream(Icons.IconsResources.RLDIconLight);
+                    RLDIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.RLD);
                     RLDIcon.EndInit();
                     RLDIconXAML.Source = RLDIcon;
 
                     settingsIcon.BeginInit();
-                    settingsIcon.StreamSource = new MemoryStream(Icons.IconsResources.SettingsIconLight);
+                    settingsIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Settings);
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
 
                     defaultBooksIcon.BeginInit();
-                    defaultBooksIcon.StreamSource = new MemoryStream(Icons.IconsResources.DefaultBooksIconLight);
+                    defaultBooksIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.DefaultBook);
                     defaultBooksIcon.EndInit();
                     bookImage.Source = defaultBooksIcon;
 
                     searchIcon.BeginInit();
-                    searchIcon.StreamSource = new MemoryStream(Icons.IconsResources.SearchIconLight);
+                    searchIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Search);
                     searchIcon.EndInit();
                     searchIconXAML.Source = searchIcon;
 

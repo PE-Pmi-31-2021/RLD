@@ -465,8 +465,6 @@ D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Win
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioDialogWindow.baml
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\RadioEditDialog.baml
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.ResolveComReference.cache
-D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\Icons.dll
-D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\Icons.pdb
 D:\Projects\git\RLD6\RLD\RLD\RLD\bin\Debug\net5.0-windows\Icons.dll
 D:\Projects\git\RLD6\RLD\RLD\RLD\bin\Debug\net5.0-windows\Icons.pdb
 D:\Projects\git\RLD6\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD.csproj.ResolveComReference.cache
@@ -482,3 +480,5 @@ D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Win
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookConfirmDelete.baml
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookDialogWindow.baml
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\Presentation\Windows\BookEditDialog.baml
+D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\RLD.Resources.dll
+D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\RLD.Resources.pdb

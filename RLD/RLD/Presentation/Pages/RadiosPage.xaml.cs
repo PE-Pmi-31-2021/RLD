@@ -69,66 +69,66 @@ namespace RLD.Pages
                     settingsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
 
                     addIcon.BeginInit();
-                    addIcon.StreamSource = new MemoryStream(Icons.IconsResources.AddIconDark);
+                    addIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Add);
                     addIcon.EndInit();
                     addIconXAML.Source = addIcon;
 
                     booksIcon.BeginInit();
-                    booksIcon.StreamSource = new MemoryStream(Icons.IconsResources.BooksIconDark);
+                    booksIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Books);
                     booksIcon.EndInit();
                     booksIconXAML.Source = booksIcon;
 
                     cardsIcon.BeginInit();
-                    cardsIcon.StreamSource = new MemoryStream(Icons.IconsResources.CardsIconDark);
+                    cardsIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Cards);
                     cardsIcon.EndInit();
                     cardsIconXAML.Source = cardsIcon;
 
                     editIcon.BeginInit();
-                    editIcon.StreamSource = new MemoryStream(Icons.IconsResources.EditIconDark);
+                    editIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Edit);
                     editIcon.EndInit();
                     editIconXAML.Source = editIcon;
 
                     playIcon.BeginInit();
-                    playIcon.StreamSource = new MemoryStream(Icons.IconsResources.PlayIconDark);
+                    playIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Play);
                     playIcon.EndInit();
                     playIconXAML.Source = playIcon;
 
                     pauseIcon.BeginInit();
-                    pauseIcon.StreamSource = new MemoryStream(Icons.IconsResources.PauseIconDark);
+                    pauseIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Pause);
                     pauseIcon.EndInit();
 
                     defaultRadioIcon.BeginInit();
-                    defaultRadioIcon.StreamSource = new MemoryStream(Icons.IconsResources.DefaultRadioIconDark);
+                    defaultRadioIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.DefaultRadio);
                     defaultRadioIcon.EndInit();
                     defaultRadioIconXAML.Source = defaultRadioIcon;
 
                     radiosIcon.BeginInit();
-                    radiosIcon.StreamSource = new MemoryStream(Icons.IconsResources.RadiosIconDark);
+                    radiosIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Radios);
                     radiosIcon.EndInit();
                     radiosIconXAML.Source = radiosIcon;
 
                     removeIcon.BeginInit();
-                    removeIcon.StreamSource = new MemoryStream(Icons.IconsResources.RemoveIconDark);
+                    removeIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Remove);
                     removeIcon.EndInit();
                     removeIconXAML.Source = removeIcon;
 
                     RLDIcon.BeginInit();
-                    RLDIcon.StreamSource = new MemoryStream(Icons.IconsResources.RLDIconDark);
+                    RLDIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.RLD);
                     RLDIcon.EndInit();
                     RLDIconXAML.Source = RLDIcon;
 
                     settingsIcon.BeginInit();
-                    settingsIcon.StreamSource = new MemoryStream(Icons.IconsResources.SettingsIconDark);
+                    settingsIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Settings);
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
 
                     volumeMinusIcon.BeginInit();
-                    volumeMinusIcon.StreamSource = new MemoryStream(Icons.IconsResources.VolumeMinusIconDark);
+                    volumeMinusIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.VolumeMinus);
                     volumeMinusIcon.EndInit();
                     volumeMinusIconXAML.Source = volumeMinusIcon;
 
                     volumePlusIcon.BeginInit();
-                    volumePlusIcon.StreamSource = new MemoryStream(Icons.IconsResources.VolumePlusIconDark);
+                    volumePlusIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.VolumePlus);
                     volumePlusIcon.EndInit();
                     volumePlusIconXAML.Source = volumePlusIcon;
 
@@ -155,66 +155,66 @@ namespace RLD.Pages
                     settingsButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
 
                     addIcon.BeginInit();
-                    addIcon.StreamSource = new MemoryStream(Icons.IconsResources.AddIconLight);
+                    addIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Add);
                     addIcon.EndInit();
                     addIconXAML.Source = addIcon;
 
                     booksIcon.BeginInit();
-                    booksIcon.StreamSource = new MemoryStream(Icons.IconsResources.BooksIconLight);
+                    booksIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Books);
                     booksIcon.EndInit();
                     booksIconXAML.Source = booksIcon;
 
                     cardsIcon.BeginInit();
-                    cardsIcon.StreamSource = new MemoryStream(Icons.IconsResources.CardsIconLight);
+                    cardsIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Cards);
                     cardsIcon.EndInit();
                     cardsIconXAML.Source = cardsIcon;
 
                     editIcon.BeginInit();
-                    editIcon.StreamSource = new MemoryStream(Icons.IconsResources.EditIconLight);
+                    editIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Edit);
                     editIcon.EndInit();
                     editIconXAML.Source = editIcon;
 
                     playIcon.BeginInit();
-                    playIcon.StreamSource = new MemoryStream(Icons.IconsResources.PlayIconLight);
+                    playIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Play);
                     playIcon.EndInit();
                     playIconXAML.Source = playIcon;
 
                     pauseIcon.BeginInit();
-                    pauseIcon.StreamSource = new MemoryStream(Icons.IconsResources.PauseIconLight);
+                    pauseIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Pause);
                     pauseIcon.EndInit();
 
                     defaultRadioIcon.BeginInit();
-                    defaultRadioIcon.StreamSource = new MemoryStream(Icons.IconsResources.DefaultRadioIconDark);
+                    defaultRadioIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.DefaultRadio);
                     defaultRadioIcon.EndInit();
                     defaultRadioIconXAML.Source = defaultRadioIcon;
 
                     radiosIcon.BeginInit();
-                    radiosIcon.StreamSource = new MemoryStream(Icons.IconsResources.RadiosIconLight);
+                    radiosIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Radios);
                     radiosIcon.EndInit();
                     radiosIconXAML.Source = radiosIcon;
 
                     removeIcon.BeginInit();
-                    removeIcon.StreamSource = new MemoryStream(Icons.IconsResources.RemoveIconLight);
+                    removeIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Remove);
                     removeIcon.EndInit();
                     removeIconXAML.Source = removeIcon;
 
                     RLDIcon.BeginInit();
-                    RLDIcon.StreamSource = new MemoryStream(Icons.IconsResources.RLDIconLight);
+                    RLDIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.RLD);
                     RLDIcon.EndInit();
                     RLDIconXAML.Source = RLDIcon;
 
                     settingsIcon.BeginInit();
-                    settingsIcon.StreamSource = new MemoryStream(Icons.IconsResources.SettingsIconLight);
+                    settingsIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Settings);
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
 
                     volumeMinusIcon.BeginInit();
-                    volumeMinusIcon.StreamSource = new MemoryStream(Icons.IconsResources.VolumeMinusIconLight);
+                    volumeMinusIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.VolumeMinus);
                     volumeMinusIcon.EndInit();
                     volumeMinusIconXAML.Source = volumeMinusIcon;
 
                     volumePlusIcon.BeginInit();
-                    volumePlusIcon.StreamSource = new MemoryStream(Icons.IconsResources.VolumePlusIconLight);
+                    volumePlusIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.VolumePlus);
                     volumePlusIcon.EndInit();
                     volumePlusIconXAML.Source = volumePlusIcon;
 
