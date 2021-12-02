@@ -1572,14 +1572,14 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Icons/1.0.0": {
+      "RLD.Resources/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Icons.dll": {}
+          "bin/placeholder/RLD.Resources.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Icons.dll": {}
+          "bin/placeholder/RLD.Resources.dll": {}
         }
       }
     }
@@ -6024,22 +6024,23 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Icons/1.0.0": {
+    "RLD.Resources/1.0.0": {
       "type": "project",
-      "path": "../Resources/Icons.csproj",
-      "msbuildProject": "../Resources/Icons.csproj"
+      "path": "../Resources/RLD.Resources.csproj",
+      "msbuildProject": "../Resources/RLD.Resources.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "EntityFramework >= 6.4.4",
-      "Icons >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.11",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11",
+      "RLD.Resources >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kopyt\\.nuget\\packages\\": {}
+    "C:\\Users\\kopyt\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -6050,8 +6051,12 @@
       "packagesPath": "C:\\Users\\kopyt\\.nuget\\packages\\",
       "outputPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\kopyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6065,8 +6070,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\Repositories\\University\\RLD\\RLD\\Resources\\Icons.csproj": {
-              "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\Icons.csproj"
+            "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj": {
+              "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj"
             }
           }
         }
@@ -6112,7 +6117,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

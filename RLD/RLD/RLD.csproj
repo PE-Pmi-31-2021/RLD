@@ -39,7 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Resources\Icons.csproj" />
+    <ProjectReference Include="..\Resources\RLD.Resources.csproj" />
   </ItemGroup>
 
 </Project>

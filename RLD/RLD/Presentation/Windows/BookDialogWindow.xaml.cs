@@ -27,6 +27,63 @@ namespace RLD.Presentation.Windows
         public BookDialogWindow()
         {
             InitializeComponent();
+
+            using (var db = new ApplicationContext())
+            {
+                if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Dark")
+                {
+                    var darkColor = new SolidColorBrush(Color.FromRgb(45, 45, 45));
+                    var lightColor = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+
+                    Background = darkColor;
+                    Foreground = lightColor;
+
+                    bookGenreInput.Background = darkColor;
+                    bookGenreInput.Foreground = lightColor;
+                    bookNameInput.Background = darkColor;
+                    bookNameInput.Foreground = lightColor;
+                    authorNameInput.Background = darkColor;
+                    authorNameInput.Foreground = lightColor;
+                    bookYearInput.Background = darkColor;
+                    bookYearInput.Foreground = darkColor;
+
+                    browseBookButton.Background = darkColor;
+                    browseBookButton.Foreground = lightColor;
+                    browseIconButton.Background = darkColor;
+                    browseIconButton.Foreground = lightColor;
+                    OKButton.Background = darkColor;
+                    OKButton.Foreground = lightColor;
+                    cancelButton.Background = darkColor;
+                    cancelButton.Foreground = lightColor;
+                }
+
+                else if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
+                {
+                    var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
+                    var darkColor = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+
+                    Background = lightColor;
+                    Foreground = darkColor;
+
+                    bookGenreInput.Background = lightColor;
+                    bookGenreInput.Foreground = darkColor;
+                    bookNameInput.Background = lightColor;
+                    bookNameInput.Foreground = darkColor;
+                    authorNameInput.Background = lightColor;
+                    authorNameInput.Foreground = darkColor;
+                    bookYearInput.Background = lightColor;
+                    bookYearInput.Foreground = darkColor;
+
+                    browseBookButton.Background = lightColor;
+                    browseBookButton.Foreground = darkColor;
+                    browseIconButton.Background = lightColor;
+                    browseIconButton.Foreground = darkColor;
+                    OKButton.Background = lightColor;
+                    OKButton.Foreground = darkColor;
+                    cancelButton.Background = lightColor;
+                    cancelButton.Foreground = darkColor;
+                }
+            }
         }
 
         private void Book_Add_Click(object sender, RoutedEventArgs e)

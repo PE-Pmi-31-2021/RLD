@@ -32,95 +32,114 @@ namespace RLD.Pages
             {
                 if (db2.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Dark")
                 {
-                    RLDLabel.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
-                    radiosLabel.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
-                    booksLabel.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
-                    cardsLabel.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
-                    settingsLabel.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+                    var darkColor = new SolidColorBrush(Color.FromRgb(45, 45, 45));
+                    var lightColor = new SolidColorBrush(Color.FromRgb(255, 255, 255));
 
-                    RLDButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    radiosButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    booksButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    cardsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    settingsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
+                    Background = darkColor;
+                    Foreground = lightColor;
 
-                    RLDButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    radiosButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    booksButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    cardsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    settingsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
+                    RLDLabel.Foreground = lightColor;
+                    radiosLabel.Foreground = lightColor;
+                    booksLabel.Foreground = lightColor;
+                    cardsLabel.Foreground = lightColor;
+                    settingsLabel.Foreground = lightColor;
+
+                    RLDButton.Background = darkColor;
+                    radiosButton.Background = darkColor;
+                    booksButton.Background = darkColor;
+                    cardsButton.Background = darkColor;
+                    settingsButton.Background = darkColor;
+
+                    themeLabel.Foreground = lightColor;
+                    startupPageLabel.Foreground = lightColor;
+                    linksLabel.Foreground = lightColor;
+
+                    radioButtonDark.Foreground = lightColor;
+                    radioButtonLight.Foreground = lightColor;
+                    radioButtonBooks.Foreground = lightColor;
+                    radioButtonRadios.Foreground = lightColor;
+                    radioButtonCards.Foreground = lightColor;
 
                     booksIcon.BeginInit();
-                    booksIcon.StreamSource = new MemoryStream(Icons.IconsResources.BooksIconDark);
+                    booksIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Books);
                     booksIcon.EndInit();
                     booksIconXAML.Source = booksIcon;
 
                     cardsIcon.BeginInit();
-                    cardsIcon.StreamSource = new MemoryStream(Icons.IconsResources.CardsIconDark);
+                    cardsIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Cards);
                     cardsIcon.EndInit();
                     cardsIconXAML.Source = cardsIcon;
 
                     radiosIcon.BeginInit();
-                    radiosIcon.StreamSource = new MemoryStream(Icons.IconsResources.RadiosIconDark);
+                    radiosIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Radios);
                     radiosIcon.EndInit();
                     radiosIconXAML.Source = radiosIcon;
 
                     RLDIcon.BeginInit();
-                    RLDIcon.StreamSource = new MemoryStream(Icons.IconsResources.RLDIconDark);
+                    RLDIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.RLD);
                     RLDIcon.EndInit();
                     RLDIconXAML.Source = RLDIcon;
 
                     settingsIcon.BeginInit();
-                    settingsIcon.StreamSource = new MemoryStream(Icons.IconsResources.SettingsIconDark);
+                    settingsIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Settings);
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
-
-
-
                 }
 
                 else if (db2.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
+                    var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
+                    var darkColor = new SolidColorBrush(Color.FromRgb(0, 0, 0));
 
+                    Background = lightColor;
+                    Foreground = darkColor;
 
-                    RLDLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-                    radiosLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-                    booksLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-                    cardsLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-                    settingsLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+                    RLDLabel.Foreground = darkColor;
+                    radiosLabel.Foreground = darkColor;
+                    booksLabel.Foreground = darkColor;
+                    cardsLabel.Foreground = darkColor;
+                    settingsLabel.Foreground = darkColor;
 
-                    RLDButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    radiosButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    booksButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    cardsButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    settingsButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
+                    RLDButton.Background = lightColor;
+                    radiosButton.Background = lightColor;
+                    booksButton.Background = lightColor;
+                    cardsButton.Background = lightColor;
+                    settingsButton.Background = lightColor;
+
+                    themeLabel.Foreground = darkColor;
+                    startupPageLabel.Foreground = darkColor;
+                    linksLabel.Foreground = darkColor;
+
+                    radioButtonDark.Foreground = darkColor;
+                    radioButtonLight.Foreground = darkColor;
+                    radioButtonBooks.Foreground = darkColor;
+                    radioButtonRadios.Foreground = darkColor;
+                    radioButtonCards.Foreground = darkColor;
 
                     booksIcon.BeginInit();
-                    booksIcon.StreamSource = new MemoryStream(Icons.IconsResources.BooksIconLight);
+                    booksIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Books);
                     booksIcon.EndInit();
                     booksIconXAML.Source = booksIcon;
 
                     cardsIcon.BeginInit();
-                    cardsIcon.StreamSource = new MemoryStream(Icons.IconsResources.CardsIconLight);
+                    cardsIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Cards);
                     cardsIcon.EndInit();
                     cardsIconXAML.Source = cardsIcon;
 
                     radiosIcon.BeginInit();
-                    radiosIcon.StreamSource = new MemoryStream(Icons.IconsResources.RadiosIconLight);
+                    radiosIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Radios);
                     radiosIcon.EndInit();
                     radiosIconXAML.Source = radiosIcon;
 
                     RLDIcon.BeginInit();
-                    RLDIcon.StreamSource = new MemoryStream(Icons.IconsResources.RLDIconLight);
+                    RLDIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.RLD);
                     RLDIcon.EndInit();
                     RLDIconXAML.Source = RLDIcon;
 
                     settingsIcon.BeginInit();
-                    settingsIcon.StreamSource = new MemoryStream(Icons.IconsResources.SettingsIconLight);
+                    settingsIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Settings);
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
-
-
                 }
             }
 

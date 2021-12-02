@@ -18,26 +18,25 @@ using RLD.Presentation;
 using RLD.Presentation.Windows;
 using System.IO;
 
-
 namespace RLD.Pages
 {
     public partial class RadiosPage : Page
     {
-        bool isPlaying = false;
-
-        BitmapImage addIcon = new BitmapImage();
+        BitmapImage RLDIcon = new BitmapImage();
+        BitmapImage radiosIcon = new BitmapImage();
         BitmapImage booksIcon = new BitmapImage();
         BitmapImage cardsIcon = new BitmapImage();
+        BitmapImage settingsIcon = new BitmapImage();
+        BitmapImage addIcon = new BitmapImage();
         BitmapImage editIcon = new BitmapImage();
+        BitmapImage removeIcon = new BitmapImage();
         BitmapImage playIcon = new BitmapImage();
         BitmapImage pauseIcon = new BitmapImage();
-        BitmapImage defaultRadioIcon = new BitmapImage();
-        BitmapImage radiosIcon = new BitmapImage();
-        BitmapImage removeIcon = new BitmapImage();
-        BitmapImage RLDIcon = new BitmapImage();
-        BitmapImage settingsIcon = new BitmapImage();
         BitmapImage volumeMinusIcon = new BitmapImage();
         BitmapImage volumePlusIcon = new BitmapImage();
+        BitmapImage defaultRadioIcon = new BitmapImage();
+
+        bool isRadioPlaying = false;
 
         public RadiosPage()
         {
@@ -45,262 +44,258 @@ namespace RLD.Pages
 
             using (var db = new ApplicationContext())
             {
-                var query = from b in db.Radios
-                            select b;
+                var radios = from r in db.Radios
+                             select r;
 
-                foreach (var item in query)
+                foreach (var radio in radios)
                 {
-                    listbox1.Items.Add(item.Name);
+                    radiosListBox.Items.Add(radio.Name);
                 }
 
                 if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Dark")
                 {
-                  
-                    RLDLabel.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
-                    radiosLabel.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
-                    booksLabel.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
-                    cardsLabel.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
-                    settingsLabel.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+                    var darkColor = new SolidColorBrush(Color.FromRgb(45, 45, 45));
+                    var lightColor = new SolidColorBrush(Color.FromRgb(255, 255, 255));
 
-                    RLDButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    radiosButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    booksButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    cardsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    settingsButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
+                    Background = darkColor;
 
-                    addIcon.BeginInit();
-                    addIcon.StreamSource = new MemoryStream(Icons.IconsResources.AddIconDark);
-                    addIcon.EndInit();
-                    addIconXAML.Source = addIcon;
+                    RLDLabel.Foreground = lightColor;
+                    radiosLabel.Foreground = lightColor;
+                    booksLabel.Foreground = lightColor;
+                    cardsLabel.Foreground = lightColor;
+                    settingsLabel.Foreground = lightColor;
+
+                    RLDButton.Background = darkColor;
+                    radiosButton.Background = darkColor;
+                    booksButton.Background = darkColor;
+                    cardsButton.Background = darkColor;
+                    settingsButton.Background = darkColor;
+
+                    radiosListBox.Background = darkColor;
+                    radiosListBox.Foreground = lightColor;
+
+                    addButton.Background = darkColor;
+                    editButton.Background = darkColor;
+                    removeButton.Background = darkColor;
+                    playButton.Background = darkColor;
+                    volumeMinusButton.Background = darkColor;
+                    volumePlusButton.Background = darkColor;
+
+                    RLDIcon.BeginInit();
+                    RLDIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.RLD);
+                    RLDIcon.EndInit();
+                    RLDIconXAML.Source = RLDIcon;
+
+                    radiosIcon.BeginInit();
+                    radiosIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Radios);
+                    radiosIcon.EndInit();
+                    radiosIconXAML.Source = radiosIcon;
 
                     booksIcon.BeginInit();
-                    booksIcon.StreamSource = new MemoryStream(Icons.IconsResources.BooksIconDark);
+                    booksIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Books);
                     booksIcon.EndInit();
                     booksIconXAML.Source = booksIcon;
 
                     cardsIcon.BeginInit();
-                    cardsIcon.StreamSource = new MemoryStream(Icons.IconsResources.CardsIconDark);
+                    cardsIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Cards);
                     cardsIcon.EndInit();
                     cardsIconXAML.Source = cardsIcon;
 
+                    settingsIcon.BeginInit();
+                    settingsIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Settings);
+                    settingsIcon.EndInit();
+                    settingsIconXAML.Source = settingsIcon;
+
+                    addIcon.BeginInit();
+                    addIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Add);
+                    addIcon.EndInit();
+                    addIconXAML.Source = addIcon;
+
                     editIcon.BeginInit();
-                    editIcon.StreamSource = new MemoryStream(Icons.IconsResources.EditIconDark);
+                    editIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Edit);
                     editIcon.EndInit();
                     editIconXAML.Source = editIcon;
 
+                    removeIcon.BeginInit();
+                    removeIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Remove);
+                    removeIcon.EndInit();
+                    removeIconXAML.Source = removeIcon;
+
                     playIcon.BeginInit();
-                    playIcon.StreamSource = new MemoryStream(Icons.IconsResources.PlayIconDark);
+                    playIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Play);
                     playIcon.EndInit();
                     playIconXAML.Source = playIcon;
 
                     pauseIcon.BeginInit();
-                    pauseIcon.StreamSource = new MemoryStream(Icons.IconsResources.PauseIconDark);
+                    pauseIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.Pause);
                     pauseIcon.EndInit();
 
-                    defaultRadioIcon.BeginInit();
-                    defaultRadioIcon.StreamSource = new MemoryStream(Icons.IconsResources.DefaultRadioIconDark);
-                    defaultRadioIcon.EndInit();
-                    defaultRadioIconXAML.Source = defaultRadioIcon;
-
-                    radiosIcon.BeginInit();
-                    radiosIcon.StreamSource = new MemoryStream(Icons.IconsResources.RadiosIconDark);
-                    radiosIcon.EndInit();
-                    radiosIconXAML.Source = radiosIcon;
-
-                    removeIcon.BeginInit();
-                    removeIcon.StreamSource = new MemoryStream(Icons.IconsResources.RemoveIconDark);
-                    removeIcon.EndInit();
-                    removeIconXAML.Source = removeIcon;
-
-                    RLDIcon.BeginInit();
-                    RLDIcon.StreamSource = new MemoryStream(Icons.IconsResources.RLDIconDark);
-                    RLDIcon.EndInit();
-                    RLDIconXAML.Source = RLDIcon;
-
-                    settingsIcon.BeginInit();
-                    settingsIcon.StreamSource = new MemoryStream(Icons.IconsResources.SettingsIconDark);
-                    settingsIcon.EndInit();
-                    settingsIconXAML.Source = settingsIcon;
-
                     volumeMinusIcon.BeginInit();
-                    volumeMinusIcon.StreamSource = new MemoryStream(Icons.IconsResources.VolumeMinusIconDark);
+                    volumeMinusIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.VolumeMinus);
                     volumeMinusIcon.EndInit();
                     volumeMinusIconXAML.Source = volumeMinusIcon;
 
                     volumePlusIcon.BeginInit();
-                    volumePlusIcon.StreamSource = new MemoryStream(Icons.IconsResources.VolumePlusIconDark);
+                    volumePlusIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.VolumePlus);
                     volumePlusIcon.EndInit();
                     volumePlusIconXAML.Source = volumePlusIcon;
 
-                    addButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    editButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    removeButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    playButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    volumeMinusButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
-                    volumePlusButton.Background = new SolidColorBrush(Color.FromRgb(45, 45, 45));
+                    defaultRadioIcon.BeginInit();
+                    defaultRadioIcon.StreamSource = new MemoryStream(RLD.Resources.DarkThemeIcons.DefaultRadio);
+                    defaultRadioIcon.EndInit();
+                    defaultRadioIconXAML.Source = defaultRadioIcon;
                 }
 
                 else if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
-                    RLDLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-                    radiosLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-                    booksLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-                    cardsLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-                    settingsLabel.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+                    var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
+                    var darkColor = new SolidColorBrush(Color.FromRgb(0, 0, 0));
 
-                    RLDButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    radiosButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    booksButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    cardsButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    settingsButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
+                    Background = lightColor;
 
-                    addIcon.BeginInit();
-                    addIcon.StreamSource = new MemoryStream(Icons.IconsResources.AddIconLight);
-                    addIcon.EndInit();
-                    addIconXAML.Source = addIcon;
+                    RLDLabel.Foreground = darkColor;
+                    radiosLabel.Foreground = darkColor;
+                    booksLabel.Foreground = darkColor;
+                    cardsLabel.Foreground = darkColor;
+                    settingsLabel.Foreground = darkColor;
+
+                    RLDButton.Background = lightColor;
+                    radiosButton.Background = lightColor;
+                    booksButton.Background = lightColor;
+                    cardsButton.Background = lightColor;
+                    settingsButton.Background = lightColor;
+
+                    radiosListBox.Background = lightColor;
+                    radiosListBox.Foreground = darkColor;
+
+                    addButton.Background = lightColor;
+                    editButton.Background = lightColor;
+                    removeButton.Background = lightColor;
+                    playButton.Background = lightColor;
+                    volumeMinusButton.Background = lightColor;
+                    volumePlusButton.Background = lightColor;
+
+                    RLDIcon.BeginInit();
+                    RLDIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.RLD);
+                    RLDIcon.EndInit();
+                    RLDIconXAML.Source = RLDIcon;
+
+                    radiosIcon.BeginInit();
+                    radiosIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Radios);
+                    radiosIcon.EndInit();
+                    radiosIconXAML.Source = radiosIcon;
 
                     booksIcon.BeginInit();
-                    booksIcon.StreamSource = new MemoryStream(Icons.IconsResources.BooksIconLight);
+                    booksIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Books);
                     booksIcon.EndInit();
                     booksIconXAML.Source = booksIcon;
 
                     cardsIcon.BeginInit();
-                    cardsIcon.StreamSource = new MemoryStream(Icons.IconsResources.CardsIconLight);
+                    cardsIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Cards);
                     cardsIcon.EndInit();
                     cardsIconXAML.Source = cardsIcon;
 
+                    settingsIcon.BeginInit();
+                    settingsIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Settings);
+                    settingsIcon.EndInit();
+                    settingsIconXAML.Source = settingsIcon;
+
+                    addIcon.BeginInit();
+                    addIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Add);
+                    addIcon.EndInit();
+                    addIconXAML.Source = addIcon;
+
                     editIcon.BeginInit();
-                    editIcon.StreamSource = new MemoryStream(Icons.IconsResources.EditIconLight);
+                    editIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Edit);
                     editIcon.EndInit();
                     editIconXAML.Source = editIcon;
 
+                    removeIcon.BeginInit();
+                    removeIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Remove);
+                    removeIcon.EndInit();
+                    removeIconXAML.Source = removeIcon;
+
                     playIcon.BeginInit();
-                    playIcon.StreamSource = new MemoryStream(Icons.IconsResources.PlayIconLight);
+                    playIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Play);
                     playIcon.EndInit();
                     playIconXAML.Source = playIcon;
 
                     pauseIcon.BeginInit();
-                    pauseIcon.StreamSource = new MemoryStream(Icons.IconsResources.PauseIconLight);
+                    pauseIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.Pause);
                     pauseIcon.EndInit();
 
-                    defaultRadioIcon.BeginInit();
-                    defaultRadioIcon.StreamSource = new MemoryStream(Icons.IconsResources.DefaultRadioIconDark);
-                    defaultRadioIcon.EndInit();
-                    defaultRadioIconXAML.Source = defaultRadioIcon;
-
-                    radiosIcon.BeginInit();
-                    radiosIcon.StreamSource = new MemoryStream(Icons.IconsResources.RadiosIconLight);
-                    radiosIcon.EndInit();
-                    radiosIconXAML.Source = radiosIcon;
-
-                    removeIcon.BeginInit();
-                    removeIcon.StreamSource = new MemoryStream(Icons.IconsResources.RemoveIconLight);
-                    removeIcon.EndInit();
-                    removeIconXAML.Source = removeIcon;
-
-                    RLDIcon.BeginInit();
-                    RLDIcon.StreamSource = new MemoryStream(Icons.IconsResources.RLDIconLight);
-                    RLDIcon.EndInit();
-                    RLDIconXAML.Source = RLDIcon;
-
-                    settingsIcon.BeginInit();
-                    settingsIcon.StreamSource = new MemoryStream(Icons.IconsResources.SettingsIconLight);
-                    settingsIcon.EndInit();
-                    settingsIconXAML.Source = settingsIcon;
-
                     volumeMinusIcon.BeginInit();
-                    volumeMinusIcon.StreamSource = new MemoryStream(Icons.IconsResources.VolumeMinusIconLight);
+                    volumeMinusIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.VolumeMinus);
                     volumeMinusIcon.EndInit();
                     volumeMinusIconXAML.Source = volumeMinusIcon;
 
                     volumePlusIcon.BeginInit();
-                    volumePlusIcon.StreamSource = new MemoryStream(Icons.IconsResources.VolumePlusIconLight);
+                    volumePlusIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.VolumePlus);
                     volumePlusIcon.EndInit();
                     volumePlusIconXAML.Source = volumePlusIcon;
 
-                    addButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    editButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    removeButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    playButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    volumeMinusButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
-                    volumePlusButton.Background = new SolidColorBrush(Color.FromRgb(235, 235, 235));
+                    defaultRadioIcon.BeginInit();
+                    defaultRadioIcon.StreamSource = new MemoryStream(RLD.Resources.LightThemeIcons.DefaultRadio);
+                    defaultRadioIcon.EndInit();
+                    defaultRadioIconXAML.Source = defaultRadioIcon;
                 }
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void booksButton_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            if (isPlaying)
+            if (isRadioPlaying)
             {
                 radioPlayer.Stop();
-                isPlaying = false;
+                isRadioPlaying = false;
                 playIconXAML.Source = playIcon;
             }
-            Settings settingsPage = new Settings();
-            this.Content = new Frame() { Content = settingsPage };
-        }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-            if (isPlaying)
-            {
-                radioPlayer.Stop();
-                isPlaying = false;
-                playIconXAML.Source = playIcon;
-            }
-            Cards cardsPage = new Cards();
-            this.Content = new Frame() { Content = cardsPage };
-        }
-
-        private void Button_Click_4(object sender, RoutedEventArgs e)
-        {
-            if (isPlaying)
-            {
-                radioPlayer.Stop();
-                isPlaying = false;
-                playIconXAML.Source = playIcon;
-            }
             BooksPage booksPage = new BooksPage();
-            this.Content = new Frame() { Content = booksPage };
+            Content = new Frame() { Content = booksPage };
         }
 
-        public byte[] StreamToBytes(Stream image)
+        private void cardsButton_Click(object sender, RoutedEventArgs e)
         {
-            byte[] fileData = null;
-
-            using (var binaryReader = new BinaryReader(image))
+            if (isRadioPlaying)
             {
-                fileData = binaryReader.ReadBytes((int)image.Length);
+                radioPlayer.Stop();
+                isRadioPlaying = false;
+                playIconXAML.Source = playIcon;
             }
 
-            return fileData;
+            Cards cardsPage = new Cards();
+            Content = new Frame() { Content = cardsPage };
         }
 
-        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void settingsButton_Click(object sender, RoutedEventArgs e)
         {
-            if (listbox1.SelectedItem != null)
+            if (isRadioPlaying)
+            {
+                radioPlayer.Stop();
+                isRadioPlaying = false;
+                playIconXAML.Source = playIcon;
+            }
+
+            Settings settingsPage = new Settings();
+            Content = new Frame() { Content = settingsPage };
+        }
+
+        private void radiosListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (radiosListBox.SelectedItem != null)
             {
                 using (var db = new ApplicationContext())
                 {
-                    var currentRadio = db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem.ToString());
+                    var currentRadio = db.Radios.FirstOrDefault(radio => radio.Name == radiosListBox.SelectedItem.ToString());
 
                     if (currentRadio.Logotype != null)
                     {
-                        BitmapImage currentRadioImage = new BitmapImage();
-                        currentRadioImage.BeginInit();
-                        currentRadioImage.StreamSource = new MemoryStream(currentRadio.Logotype);
-                        currentRadioImage.EndInit();
-                        defaultRadioIconXAML.Source = currentRadioImage;
+                        BitmapImage currentRadioIcon = new BitmapImage();
+                        currentRadioIcon.BeginInit();
+                        currentRadioIcon.StreamSource = new MemoryStream(currentRadio.Logotype);
+                        currentRadioIcon.EndInit();
+                        defaultRadioIconXAML.Source = currentRadioIcon;
                     }
                     else
                     {
@@ -313,7 +308,7 @@ namespace RLD.Pages
                     }
                     catch
                     {
-                        MessageBox.Show("Invalid radio url");
+                        MessageBox.Show("Error: invalid radio URL.");
                     }
                 }
             }
@@ -323,9 +318,55 @@ namespace RLD.Pages
             }
         }
 
-        private void Button_Click_5(object sender, RoutedEventArgs e)
+        private void addButton_Click(object sender, RoutedEventArgs e)
         {
-            if (listbox1.SelectedItem != null)
+            RadioDialogWindow window = new RadioDialogWindow();
+            window.ShowDialog();
+
+            radiosListBox.Items.Clear();
+
+            using (var db = new ApplicationContext())
+            {
+                var radios = from r in db.Radios
+                             select r;
+
+                foreach (var radio in radios)
+                {
+                    radiosListBox.Items.Add(radio.Name);
+                }
+            }
+        }
+
+        private void editButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (radiosListBox.SelectedItem != null)
+            {
+                Radio radioForEdit;
+                using (var db = new ApplicationContext())
+                {
+                    radioForEdit = db.Radios.FirstOrDefault(radio => radio.Name == radiosListBox.SelectedItem.ToString());
+                }
+
+                RadioEditDialog window = new RadioEditDialog(radioForEdit.Name, radioForEdit.StreamURL);
+                window.ShowDialog();
+
+                radiosListBox.Items.Clear();
+                using (var db = new ApplicationContext())
+                {
+                    var radios = from r in db.Radios
+                                 select r;
+
+                    foreach (var radio in radios)
+                    {
+                        radiosListBox.Items.Add(radio.Name);
+                    }
+                }
+            }
+        }
+
+        private void removeButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (radiosListBox.SelectedItem != null)
             {
                 RadioConfirmDelete window = new RadioConfirmDelete();
                 window.ShowDialog();
@@ -336,89 +377,38 @@ namespace RLD.Pages
                 {
                     using (var db = new ApplicationContext())
                     {
-                        db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem.ToString()));
+                        db.Radios.Remove(db.Radios.FirstOrDefault(radio => radio.Name == radiosListBox.SelectedItem.ToString()));
                         db.SaveChanges();
                     }
-                    listbox1.Items.RemoveAt(listbox1.Items.IndexOf(listbox1.SelectedItem));
+                    radiosListBox.Items.RemoveAt(radiosListBox.Items.IndexOf(radiosListBox.SelectedItem));
                 }
             }
         }
 
-        private void Button_Click_6(object sender, RoutedEventArgs e)
+        private void playButton_Click(object sender, RoutedEventArgs e)
         {
-            RadioDialogWindow window = new RadioDialogWindow();
-            window.ShowDialog();
-
-            listbox1.Items.Clear();
-            using (var db = new ApplicationContext())
+            if (isRadioPlaying)
             {
-                var query = from b in db.Radios
-                            select b;
-
-                foreach (var item in query)
-                {
-                    listbox1.Items.Add(item.Name);
-                }
-            }
-        }
-
-        private void Button_Click_7(object sender, RoutedEventArgs e)
-        {
-            if (isPlaying)
-            {
-
                 radioPlayer.Stop();
-                isPlaying = false;
+                isRadioPlaying = false;
                 playIconXAML.Source = playIcon;
             }
             else
             {
                 radioPlayer.Play();
-                isPlaying = true;
+                isRadioPlaying = true;
                 playIconXAML.Source = pauseIcon;
             }
         }
 
-        private void Button_Click_8(object sender, RoutedEventArgs e)
+        private void volumeMinusButton_Click(object sender, RoutedEventArgs e)
         {
             radioPlayer.Volume -= 0.05;
         }
 
-        private void Button_Click_9(object sender, RoutedEventArgs e)
+        private void volumePlusButton_Click(object sender, RoutedEventArgs e)
         {
             radioPlayer.Volume += 0.05;
-        }
-
-        private void Button_Click_10(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_11(object sender, RoutedEventArgs e)
-        {
-            if (listbox1.SelectedItem != null)
-            {
-                Radio radio;
-                using (var db = new ApplicationContext())
-                {
-                    radio = db.Radios.FirstOrDefault(item => item.Name == listbox1.SelectedItem.ToString());
-                }
-
-                RadioEditDialog window = new RadioEditDialog(radio.Name, radio.StreamURL);
-                window.ShowDialog();
-
-                listbox1.Items.Clear();
-                using (var db = new ApplicationContext())
-                {
-                    var query = from b in db.Radios
-                                select b;
-
-                    foreach (var item in query)
-                    {
-                        listbox1.Items.Add(item.Name);
-                    }
-                }
-            }
         }
     }
 }

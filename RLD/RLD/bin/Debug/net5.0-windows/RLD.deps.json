@@ -9,9 +9,9 @@
       "RLD/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.4.4",
-          "Icons": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
+          "RLD.Resources": "1.0.0"
         },
         "runtime": {
           "RLD.dll": {}
@@ -1048,9 +1048,9 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Icons/1.0.0": {
+      "RLD.Resources/1.0.0": {
         "runtime": {
-          "Icons.dll": {}
+          "RLD.Resources.dll": {}
         }
       }
     }
@@ -1768,7 +1768,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Icons/1.0.0": {
+    "RLD.Resources/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
