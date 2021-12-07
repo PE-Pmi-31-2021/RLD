@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj": {}
+    "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\RLD.csproj": {}
   },
   "projects": {
-    "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj": {
+    "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\RLD.Resources.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj",
+        "projectUniqueName": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\RLD.Resources.csproj",
         "projectName": "RLD.Resources",
-        "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj",
-        "packagesPath": "C:\\Users\\kopyt\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\obj\\",
+        "projectPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\RLD.Resources.csproj",
+        "packagesPath": "C:\\Users\\swatik\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kopyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\swatik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,21 +58,17 @@
         }
       }
     },
-    "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj": {
+    "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\RLD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
+        "projectUniqueName": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\RLD.csproj",
         "projectName": "RLD",
-        "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
-        "packagesPath": "C:\\Users\\kopyt\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\obj\\",
+        "projectPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\RLD.csproj",
+        "packagesPath": "C:\\Users\\swatik\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kopyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\swatik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,8 +82,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj": {
-                "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj"
+              "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\RLD.Resources.csproj": {
+                "projectPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\RLD.Resources.csproj"
               }
             }
           }
@@ -115,6 +107,10 @@
               "version": "[5.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.11, )"
             }
