@@ -1,0 +1,4 @@
+Severity	Code	Description	Project	File	Line	Suppression State
+Warning	SA0001	XML comment analysis is disabled due to project configuration	RLD	D:\Repositories\University\RLD\RLD\RLD\CSC	1	Active
+Warning	MSB3290	Failed to create the wrapper assembly for type library "{215d64d2-031c-33c7-96e3-61794cd1ee61}". Type library 'System_Windows_Forms' was exported from a CLR assembly and cannot be re-imported as a CLR assembly.	RLD	D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets	2827	
+Warning	MSB3290	Failed to create the wrapper assembly for type library "{d37e2a3e-8545-3a39-9f4f-31827c9124ab}". Type library 'System_Drawing' was exported from a CLR assembly and cannot be re-imported as a CLR assembly.	RLD	D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets	2827	

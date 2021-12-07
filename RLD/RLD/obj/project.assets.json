@@ -659,6 +659,9 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
+      "StyleCop.Analyzers/1.1.118": {
+        "type": "package"
+      },
       "System.CodeDom/4.7.0": {
         "type": "package",
         "compile": {
@@ -2737,6 +2740,31 @@
         "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll",
         "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
         "sqlitepclraw.provider.dynamic_cdecl.nuspec"
+      ]
+    },
+    "StyleCop.Analyzers/1.1.118": {
+      "sha512": "Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.1.118",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "analyzers/dotnet/cs/de-DE/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/en-GB/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/es-MX/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/fr-FR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pl-PL/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/StyleCop.Analyzers.resources.dll",
+        "analyzers/dotnet/cs/ru-RU/StyleCop.Analyzers.resources.dll",
+        "stylecop.analyzers.1.1.118.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "System.CodeDom/4.7.0": {
@@ -6387,23 +6415,29 @@
       "Microsoft.EntityFrameworkCore >= 5.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.11",
-      "RLD.Resources >= 1.0.0"
+      "RLD.Resources >= 1.0.0",
+      "StyleCop.Analyzers >= 1.1.118"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\swatik\\.nuget\\packages\\": {}
+    "C:\\Users\\kopyt\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\RLD.csproj",
+      "projectUniqueName": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
       "projectName": "RLD",
-      "projectPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\RLD.csproj",
-      "packagesPath": "C:\\Users\\swatik\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\RLD\\obj\\",
+      "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
+      "packagesPath": "C:\\Users\\kopyt\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\swatik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kopyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6417,8 +6451,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\RLD.Resources.csproj": {
-              "projectPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\RLD.Resources.csproj"
+            "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj": {
+              "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj"
             }
           }
         }
@@ -6448,6 +6482,12 @@
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[5.0.11, )"
+          },
+          "StyleCop.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.1.118, )"
           }
         },
         "imports": [

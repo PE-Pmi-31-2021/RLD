@@ -1,19 +1,10 @@
-﻿using Microsoft.Win32;
-using RLD.BLL;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using Microsoft.Win32;
+using RLD.BLL;
 
 namespace RLD.Presentation.Windows
 {
@@ -22,8 +13,8 @@ namespace RLD.Presentation.Windows
     /// </summary>
     public partial class BookDialogWindow : Window
     {
-        byte[] image { get; set; }
-        string sFileName { get; set; }
+        private byte[] Image { get; set; }
+        private string SFileName { get; set; }
         public BookDialogWindow()
         {
             InitializeComponent();
@@ -56,7 +47,6 @@ namespace RLD.Presentation.Windows
                     cancelButton.Background = darkColor;
                     cancelButton.Foreground = lightColor;
                 }
-
                 else if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
                     var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
@@ -94,31 +84,31 @@ namespace RLD.Presentation.Windows
 
                 if (existingBook == null)
                 {
-                    if (bookNameInput.Text == "")
+                    if (bookNameInput.Text == string.Empty)
                     {
                         MessageBox.Show("Enter book name!");
                     }
-                    else if (bookGenreInput.Text == "")
+                    else if (bookGenreInput.Text == string.Empty)
                     {
                         MessageBox.Show("Enter genre of book!");
                     }
-                    else if (authorNameInput.Text == "")
+                    else if (authorNameInput.Text == string.Empty)
                     {
                         MessageBox.Show("Enter author of book!");
                     }
-                    else if (bookYearInput.Text == "")
+                    else if (bookYearInput.Text == string.Empty)
                     {
                         MessageBox.Show("Enter book release date!");
                     }
                     else
                     {
-                        Book book = new Book();
+                        Book book = new();
                         book.Name = bookNameInput.Text;
                         book.Author = authorNameInput.Text;
                         book.YearOfRelease = bookYearInput.SelectedDate.Value;
                         book.Genre = bookGenreInput.Text;
-                        book.Picture = image;
-                        book.bookURL = sFileName;
+                        book.Picture = Image;
+                        book.BookURL = SFileName;
                         db.Books.Add(book);
                         db.SaveChanges();
                         this.DialogResult = true;
@@ -156,7 +146,7 @@ namespace RLD.Presentation.Windows
 
                     if (fileData != null)
                     {
-                        image = fileData;
+                        Image = fileData;
                     }
                 }
             }
@@ -173,7 +163,7 @@ namespace RLD.Presentation.Windows
             choofdlog.ShowDialog();
             try
             {
-                sFileName = choofdlog.FileName;
+                SFileName = choofdlog.FileName;
             }
             catch (Exception)
             {

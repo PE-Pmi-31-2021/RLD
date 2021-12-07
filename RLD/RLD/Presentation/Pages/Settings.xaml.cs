@@ -1,28 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace RLD.Pages
 {
     public partial class Settings : Page
     {
-        BitmapImage booksIcon = new BitmapImage();
-        BitmapImage cardsIcon = new BitmapImage();
-        BitmapImage radiosIcon = new BitmapImage();
-        BitmapImage RLDIcon = new BitmapImage();
-        BitmapImage settingsIcon = new BitmapImage();
+        private readonly BitmapImage booksIcon = new();
+        private readonly BitmapImage cardsIcon = new();
+        private readonly BitmapImage radiosIcon = new();
+        private readonly BitmapImage RLDIcon = new();
+        private readonly BitmapImage settingsIcon = new();
 
         public Settings()
         {
@@ -85,7 +76,6 @@ namespace RLD.Pages
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
                 }
-
                 else if (db2.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
                     var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
@@ -143,7 +133,7 @@ namespace RLD.Pages
                 }
             }
 
-            using (ApplicationContext db = new ApplicationContext())
+            using (ApplicationContext db = new())
             {
                 var startPage = db.Settings.FirstOrDefault(item => item.Name == "StartPage");
                 if (startPage != null)
@@ -179,25 +169,25 @@ namespace RLD.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            RadiosPage radiosPage = new RadiosPage();
+            RadiosPage radiosPage = new();
             this.Content = new Frame() { Content = radiosPage };
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Cards cardsPage = new Cards();
+            Cards cardsPage = new();
             this.Content = new Frame() { Content = cardsPage };
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            BooksPage booksPage = new BooksPage();
+            BooksPage booksPage = new();
             this.Content = new Frame() { Content = booksPage };
         }
 
-        private void radioButtonBooks_Checked(object sender, RoutedEventArgs e)
+        private void RadioButtonBooks_Checked(object sender, RoutedEventArgs e)
         {
-            using (ApplicationContext db = new ApplicationContext())
+            using (ApplicationContext db = new())
             {
                 var startPage = db.Settings.FirstOrDefault(item => item.Name == "StartPage");
                 if (startPage != null)
@@ -208,9 +198,9 @@ namespace RLD.Pages
             }
         }
 
-        private void radioButtonRadios_Checked(object sender, RoutedEventArgs e)
+        private void RadioButtonRadios_Checked(object sender, RoutedEventArgs e)
         {
-            using (ApplicationContext db = new ApplicationContext())
+            using (ApplicationContext db = new())
             {
                 var startPage = db.Settings.FirstOrDefault(item => item.Name == "StartPage");
                 if (startPage != null)
@@ -221,9 +211,9 @@ namespace RLD.Pages
             }
         }
 
-        private void radioButtonCards_Checked(object sender, RoutedEventArgs e)
+        private void RadioButtonCards_Checked(object sender, RoutedEventArgs e)
         {
-            using (ApplicationContext db = new ApplicationContext())
+            using (ApplicationContext db = new())
             {
                 var startPage = db.Settings.FirstOrDefault(item => item.Name == "StartPage");
                 if (startPage != null)
@@ -236,7 +226,7 @@ namespace RLD.Pages
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            using (ApplicationContext db = new ApplicationContext())
+            using (ApplicationContext db = new())
             {
                 var theme = db.Settings.FirstOrDefault(item => item.Name == "Theme");
                 if (theme != null)
@@ -249,7 +239,7 @@ namespace RLD.Pages
 
         private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
         {
-            using (ApplicationContext db = new ApplicationContext())
+            using (ApplicationContext db = new())
             {
                 var theme = db.Settings.FirstOrDefault(item => item.Name == "Theme");
                 if (theme != null)

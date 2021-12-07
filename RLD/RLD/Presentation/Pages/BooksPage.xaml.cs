@@ -1,22 +1,14 @@
-﻿using RLD.BLL;
-using RLD.Presentation;
-using RLD.Presentation.Windows;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using RLD.BLL;
+using RLD.Presentation.Windows;
 
 namespace RLD.Pages
 {
@@ -25,17 +17,16 @@ namespace RLD.Pages
     /// </summary>
     public partial class BooksPage : Page
     {
-        BitmapImage RLDIcon = new BitmapImage();
-        BitmapImage radiosIcon = new BitmapImage();
-        BitmapImage booksIcon = new BitmapImage();
-        BitmapImage cardsIcon = new BitmapImage();
-        BitmapImage settingsIcon = new BitmapImage();
-        BitmapImage searchIcon = new BitmapImage();
-        BitmapImage defaultBooksIcon = new BitmapImage();
-        
-        public List<Book> booksList { get; set; }
-        public WebBrowser browser { get; set; }
-        
+        private readonly BitmapImage RLDIcon = new();
+        private readonly BitmapImage radiosIcon = new();
+        private readonly BitmapImage booksIcon = new();
+        private readonly BitmapImage cardsIcon = new();
+        private readonly BitmapImage settingsIcon = new();
+        private readonly BitmapImage searchIcon = new();
+        private readonly BitmapImage defaultBooksIcon = new();
+
+        public List<Book> BooksList { get; set; }
+        public WebBrowser Browser { get; set; }
 
         public BooksPage()
         {
@@ -117,7 +108,6 @@ namespace RLD.Pages
                     searchIcon.EndInit();
                     searchIconXAML.Source = searchIcon;
                 }
-
                 else if (db2.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
                     var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
@@ -194,23 +184,23 @@ namespace RLD.Pages
                 }
             }
 
-            browser = new WebBrowser();
+            Browser = new WebBrowser();
 
-            booksList = new List<Book> { };
+            BooksList = new List<Book> { };
 
-            var db = new ApplicationContext(); ;
+            var db = new ApplicationContext();
             db.Books.Load();
-            booksList = db.Books.Local.ToList();
-            booksDate.ItemsSource = booksList;
+            BooksList = db.Books.Local.ToList();
+            booksDate.ItemsSource = BooksList;
         }
 
-        private void txtNameToSearch_TextChanged(object sender, TextChangedEventArgs e)
+        private void TxtNameToSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
             string txtOrig = txtNameToSearch.Text;
             string upper = txtOrig.ToUpper();
             string lower = txtOrig.ToLower();
 
-            var booksFiltered = from book in booksList
+            var booksFiltered = from book in BooksList
                                 let ename = book.Name
                                 where ename.StartsWith(lower) || ename.StartsWith(upper) || ename.Contains(txtOrig)
                                 select book;
@@ -220,22 +210,23 @@ namespace RLD.Pages
 
         private void SettingsMenu(object sender, RoutedEventArgs e)
         {
-            Settings settingsPage = new Settings();
+            Settings settingsPage = new();
             this.Content = new Frame() { Content = settingsPage };
         }
 
         private void RadiosMenu(object sender, RoutedEventArgs e)
         {
-            RadiosPage radiosPage = new RadiosPage();
+            RadiosPage radiosPage = new();
             this.Content = new Frame() { Content = radiosPage };
         }
 
         private void CardsMenu(object sender, RoutedEventArgs e)
         {
-            Cards cardsPage = new Cards();
+            Cards cardsPage = new();
             this.Content = new Frame() { Content = cardsPage };
         }
-        private void addBook(object sender, RoutedEventArgs e)
+
+        private void AddBook(object sender, RoutedEventArgs e)
         {
             var window = new BookDialogWindow();
             window.ShowDialog();
@@ -245,24 +236,25 @@ namespace RLD.Pages
                 var query = from b in db.Books
                             select b;
 
-                booksList = query.ToList();
+                BooksList = query.ToList();
                 booksDate.ItemsSource = query.ToList();
             }
         }
-        private void readBook(object sender, RoutedEventArgs e)
+
+        private void ReadBook(object sender, RoutedEventArgs e)
         {
             var currentBook = (Book)booksDate.SelectedItem;
             try
             {
-                browserHost.Navigate(new Uri(String.Format("file:///" + currentBook.bookURL.Replace("\"", ""))));
+                browserHost.Navigate(new Uri(string.Format("file:///" + currentBook.BookURL.Replace("\"", string.Empty))));
             }
             catch
             {
                 MessageBox.Show("Invalid book url");
             }
-
         }
-        private void deleteBook(object sender, RoutedEventArgs e)
+
+        private void DeleteBook(object sender, RoutedEventArgs e)
         {
             if (booksDate.SelectedItem != null)
             {
@@ -282,7 +274,7 @@ namespace RLD.Pages
                         var query = from b in db.Books
                                     select b;
 
-                        booksList = query.ToList();
+                        BooksList = query.ToList();
                         booksDate.ItemsSource = query.ToList();
                     }
                 }
@@ -295,7 +287,7 @@ namespace RLD.Pages
             {
                 using (var db = new ApplicationContext())
                 {
-                    var currentBook  = (Book) booksDate.SelectedItem;
+                    var currentBook = (Book)booksDate.SelectedItem;
 
                     bookName.Text = currentBook.Name;
                     bookAuthor.Text = currentBook.Author;
@@ -311,18 +303,22 @@ namespace RLD.Pages
                         bookImage.Source = currentBookImage;
                     }
                     else
+                    {
                         bookImage.Source = defaultBooksIcon;
+                    }
                 }
             }
             else
+            {
                 bookImage.Source = defaultBooksIcon;
+            }
         }
 
-        private void editBook(object sender, RoutedEventArgs e)
+        private void EditBook(object sender, RoutedEventArgs e)
         {
             if (booksDate.SelectedItem != null)
             {
-                var selectedBook = (Book) booksDate.SelectedItem;
+                var selectedBook = (Book)booksDate.SelectedItem;
                 Book book;
                 using (var db = new ApplicationContext())
                 {
@@ -337,7 +333,7 @@ namespace RLD.Pages
                     var query = from b in db.Books
                                 select b;
 
-                    booksList = query.ToList();
+                    BooksList = query.ToList();
                     booksDate.ItemsSource = query.ToList();
                 }
             }

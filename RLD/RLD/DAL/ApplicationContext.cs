@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using RLD.BLL;
 
 namespace RLD
 {
-    class ApplicationContext : DbContext
+    internal class ApplicationContext : DbContext
     {
         public ApplicationContext()
         {
@@ -123,8 +119,7 @@ namespace RLD
                         Genre = RadioGenre.News,
                         IsFavorite = false
                     },
-
-            });
+                });
             modelBuilder.Entity<Book>().HasData(
                 new Book[]
                 {
@@ -144,7 +139,7 @@ namespace RLD
                         Genre = "Adventure",
                         YearOfRelease = new DateTime(1876, 6, 10)
                     }
-            });
+                });
             modelBuilder.Entity<Card>().HasData(
                 new Card[]
                 {
@@ -164,7 +159,7 @@ namespace RLD
                         Category = CardCategory.Motivation,
                         IsInDraft = true
                     }
-            });
+                });
             modelBuilder.Entity<Setting>().HasData(
                 new Setting[]
                 {
@@ -180,7 +175,7 @@ namespace RLD
                         Name = "StartPage",
                         Value = "Radios"
                     },
-            });
+                });
             modelBuilder.Entity<Link>().HasData(
                 new Link[]
                 {
@@ -190,7 +185,7 @@ namespace RLD
                         Name = "Link",
                         Url = "google.com"
                     },
-            });
+                });
         }
     }
 }

@@ -1,0 +1,1300 @@
+Severity	Code	Description	Project	File	Line	Suppression State
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\App.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\App.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\App.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\App.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\App.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\App.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\App.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\App.xaml.cs	7	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\AssemblyInfo.cs	1	Active
+Warning	SA1005	Single line comment should begin with a space.	RLD	D:\Repositories\University\RLD\RLD\RLD\AssemblyInfo.cs	4	Active
+Warning	SA1005	Single line comment should begin with a space.	RLD	D:\Repositories\University\RLD\RLD\RLD\AssemblyInfo.cs	5	Active
+Warning	SA1515	Single-line comment should be preceded by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\AssemblyInfo.cs	5	Active
+Warning	SA1005	Single line comment should begin with a space.	RLD	D:\Repositories\University\RLD\RLD\RLD\AssemblyInfo.cs	7	Active
+Warning	SA1005	Single line comment should begin with a space.	RLD	D:\Repositories\University\RLD\RLD\RLD\AssemblyInfo.cs	8	Active
+Warning	SA1515	Single-line comment should be preceded by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\AssemblyInfo.cs	8	Active
+Warning	SA1009	Closing parenthesis should not be preceded by a space.	RLD	D:\Repositories\University\RLD\RLD\RLD\AssemblyInfo.cs	10	Active
+Warning	SA1111	Closing parenthesis should be on line of last parameter	RLD	D:\Repositories\University\RLD\RLD\RLD\AssemblyInfo.cs	10	Active
+Warning	SA0001	XML comment analysis is disabled due to project configuration	RLD	D:\Repositories\University\RLD\RLD\RLD\CSC	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	1	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	7	Active
+Warning	SA1400	Element 'ApplicationContext' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	11	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	15	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	19	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	20	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	21	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	22	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	44	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	52	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	60	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	68	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	76	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	84	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	92	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	100	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	108	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	116	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	124	Active
+Warning	SA1137	Elements should have the same indentation	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	127	Active
+Warning	SA1508	A closing brace should not be preceded by a blank line.	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	127	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	137	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	139	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	145	Active
+Warning	SA1137	Elements should have the same indentation	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	147	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	157	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	159	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	165	Active
+Warning	SA1137	Elements should have the same indentation	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	167	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	175	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	181	Active
+Warning	SA1137	Elements should have the same indentation	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	183	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	191	Active
+Warning	SA1137	Elements should have the same indentation	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\ApplicationContext.cs	193	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	1	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	5	Active
+Warning	SA1505	An opening brace should not be followed by a blank line.	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	8	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	13	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	14	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	15	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	16	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	17	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	18	Active
+Warning	SA1300	Element 'bookURL' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Book.cs	18	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	5	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	14	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	20	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	21	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	22	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	23	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Card.cs	24	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Link.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Link.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Link.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Link.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Link.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Link.cs	5	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Link.cs	12	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Link.cs	13	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	5	Active
+Warning	SA1210	Using directives should be ordered alphabetically by the namespaces.	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	6	Active
+Warning	SA1413	Use trailing comma in multi-line initializers	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	12	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	18	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	19	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	20	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	21	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Radio.cs	22	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Setting.cs	1	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Setting.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Setting.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Setting.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Setting.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Setting.cs	5	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Setting.cs	12	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\DAL\Setting.cs	13	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	8	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	9	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	10	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	11	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	12	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	13	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	14	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	15	Active
+Warning	SA1028	Code should not contain trailing whitespace	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	18	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\MainWindow.xaml.cs	23	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	1	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	4	Active
+Warning	SA1208	Using directive for 'System' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	5	Active
+Warning	SA1208	Using directive for 'System.Collections.Generic' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	6	Active
+Warning	SA1208	Using directive for 'System.Data.Entity' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	7	Active
+Warning	SA1208	Using directive for 'System.IO' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	8	Active
+Warning	SA1208	Using directive for 'System.Linq' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	8	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	9	Active
+Warning	SA1208	Using directive for 'System.Text' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	9	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	10	Active
+Warning	SA1208	Using directive for 'System.Threading.Tasks' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	10	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	11	Active
+Warning	SA1208	Using directive for 'System.Windows' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	11	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	12	Active
+Warning	SA1208	Using directive for 'System.Windows.Controls' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	12	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	13	Active
+Warning	SA1208	Using directive for 'System.Windows.Data' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	13	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	14	Active
+Warning	SA1208	Using directive for 'System.Windows.Documents' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	14	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	15	Active
+Warning	SA1208	Using directive for 'System.Windows.Input' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	15	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	16	Active
+Warning	SA1208	Using directive for 'System.Windows.Media' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	16	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	17	Active
+Warning	SA1208	Using directive for 'System.Windows.Media.Imaging' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	17	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	18	Active
+Warning	SA1208	Using directive for 'System.Windows.Navigation' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	18	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	19	Active
+Warning	SA1208	Using directive for 'System.Windows.Shapes' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	19	Active
+Warning	SA1400	Element 'RLDIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	28	Active
+Warning	SA1306	Field 'RLDIcon' should begin with lower-case letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	28	Active
+Warning	SA1400	Element 'radiosIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	29	Active
+Warning	SA1400	Element 'booksIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	30	Active
+Warning	SA1400	Element 'cardsIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	31	Active
+Warning	SA1400	Element 'settingsIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	32	Active
+Warning	SA1400	Element 'searchIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	33	Active
+Warning	SA1400	Element 'defaultBooksIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	34	Active
+Warning	SA1028	Code should not contain trailing whitespace	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	35	Active
+Warning	SA1300	Element 'booksList' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	36	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	37	Active
+Warning	SA1300	Element 'browser' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	37	Active
+Warning	SA1028	Code should not contain trailing whitespace	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	38	Active
+Warning	SA1507	Code should not contain multiple blank lines in a row	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	38	Active
+Warning	SA1201	A constructor should not follow a property	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	40	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	42	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	51	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	53	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	54	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	55	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	56	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	57	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	59	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	60	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	61	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	62	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	63	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	65	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	66	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	68	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	69	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	70	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	71	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	73	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	74	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	76	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	77	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	78	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	79	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	80	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	81	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	82	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	83	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	85	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	86	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	87	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	88	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	88	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	90	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	91	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	92	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	93	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	93	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	95	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	96	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	97	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	98	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	98	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	100	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	101	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	102	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	103	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	103	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	105	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	106	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	107	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	108	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	108	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	110	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	111	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	112	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	113	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	113	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	115	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	116	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	117	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	118	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	118	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	121	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	126	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	128	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	129	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	130	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	131	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	132	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	134	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	135	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	136	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	137	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	138	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	140	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	141	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	143	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	144	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	145	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	146	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	148	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	149	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	151	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	152	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	153	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	154	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	155	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	156	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	157	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	158	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	160	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	161	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	162	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	163	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	163	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	165	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	166	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	167	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	168	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	168	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	170	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	171	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	172	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	173	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	173	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	175	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	176	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	177	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	178	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	178	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	180	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	181	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	182	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	183	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	183	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	185	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	186	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	187	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	188	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	188	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	190	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	191	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	192	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	193	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	193	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	197	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	199	Active
+Warning	SA1106	Code should not contain empty statements	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	201	Active
+Warning	SA1107	Code should not contain multiple statements on one line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	201	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	203	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	204	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	204	Active
+Warning	SA1300	Element 'txtNameToSearch_TextChanged' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	207	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	209	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	213	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	218	Active
+Warning	SA1513	Closing brace should be followed by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	237	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	238	Active
+Warning	SA1300	Element 'addBook' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	238	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	248	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	249	Active
+Warning	SA1513	Closing brace should be followed by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	251	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	252	Active
+Warning	SA1300	Element 'readBook' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	252	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	254	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	257	Active
+Warning	SA1121	Use built-in type alias	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	257	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	257	Active
+Warning	SA1508	A closing brace should not be preceded by a blank line.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	264	Active
+Warning	SA1513	Closing brace should be followed by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	264	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	265	Active
+Warning	SA1300	Element 'deleteBook' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	265	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	267	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	278	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	285	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	286	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	294	Active
+Warning	SA1025	Code should not contain multiple whitespace characters in a row.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	298	Active
+Warning	SA1009	Closing parenthesis should not be followed by a space.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	298	Active
+Warning	SA1003	Operator '(Book)' should not be followed by whitespace.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	298	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	298	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	300	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	301	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	302	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	303	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	311	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	314	Active
+Warning	SA1520	Use braces consistently	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	314	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	314	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	318	Active
+Warning	SA1520	Use braces consistently	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	318	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	318	Active
+Warning	SA1300	Element 'editBook' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	321	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	323	Active
+Warning	SA1009	Closing parenthesis should not be followed by a space.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	325	Active
+Warning	SA1003	Operator '(Book)' should not be followed by whitespace.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	325	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	325	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	340	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\BooksPage.xaml.cs	341	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	1	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	8	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	9	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	10	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	11	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	12	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	13	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	14	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	15	Active
+Warning	SA1400	Element 'booksIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	24	Active
+Warning	SA1400	Element 'cardsIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	25	Active
+Warning	SA1400	Element 'radiosIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	26	Active
+Warning	SA1400	Element 'RLDIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	27	Active
+Warning	SA1306	Field 'RLDIcon' should begin with lower-case letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	27	Active
+Warning	SA1400	Element 'settingsIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	28	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	32	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	41	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	42	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	44	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	45	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	46	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	47	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	48	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	50	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	51	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	52	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	53	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	54	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	56	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	58	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	59	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	60	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	61	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	62	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	63	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	65	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	66	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	68	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	69	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	70	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	71	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	72	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	73	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	74	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	75	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	77	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	78	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	79	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	80	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	80	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	82	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	83	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	84	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	85	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	85	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	87	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	88	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	89	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	90	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	90	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	92	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	93	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	94	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	95	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	95	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	97	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	98	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	99	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	100	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	100	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	103	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	108	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	110	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	111	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	112	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	113	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	114	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	116	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	117	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	118	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	119	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	120	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	122	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	124	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	125	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	126	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	127	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	128	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	129	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	131	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	132	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	134	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	135	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	136	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	137	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	138	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	139	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	140	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	141	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	143	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	144	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	145	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	146	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	146	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	148	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	149	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	150	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	151	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	151	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	153	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	154	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	155	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	156	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	156	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	158	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	159	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	160	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	161	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	161	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	163	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	164	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	165	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	166	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Cards.xaml.cs	166	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	1	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	8	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	9	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	10	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	11	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	12	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	13	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	14	Active
+Warning	SA1210	Using directives should be ordered alphabetically by the namespaces.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	14	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	15	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	16	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	17	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	18	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	19	Active
+Warning	SA1208	Using directive for 'System.IO' should appear before directive for 'RLD.Presentation.Windows'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	19	Active
+Warning	SA1306	Field 'RLDIcon' should begin with lower-case letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	25	Active
+Warning	SA1400	Element 'RLDIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	25	Active
+Warning	SA1400	Element 'radiosIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	26	Active
+Warning	SA1400	Element 'booksIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	27	Active
+Warning	SA1400	Element 'cardsIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	28	Active
+Warning	SA1400	Element 'settingsIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	29	Active
+Warning	SA1400	Element 'addIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	30	Active
+Warning	SA1400	Element 'editIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	31	Active
+Warning	SA1400	Element 'removeIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	32	Active
+Warning	SA1400	Element 'playIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	33	Active
+Warning	SA1400	Element 'pauseIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	34	Active
+Warning	SA1400	Element 'volumeMinusIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	35	Active
+Warning	SA1400	Element 'volumePlusIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	36	Active
+Warning	SA1400	Element 'defaultRadioIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	37	Active
+Warning	SA1400	Element 'isRadioPlaying' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	39	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	43	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	52	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	60	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	62	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	63	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	64	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	65	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	66	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	68	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	69	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	70	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	71	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	72	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	74	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	75	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	77	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	78	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	79	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	80	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	81	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	82	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	84	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	85	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	86	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	87	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	87	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	89	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	90	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	91	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	92	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	92	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	94	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	95	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	96	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	97	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	97	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	99	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	100	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	101	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	102	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	102	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	104	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	105	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	106	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	107	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	107	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	109	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	110	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	111	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	112	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	112	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	114	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	115	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	116	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	117	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	117	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	119	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	120	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	121	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	122	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	122	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	124	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	125	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	126	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	127	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	127	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	129	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	130	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	131	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	133	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	134	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	135	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	136	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	136	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	138	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	139	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	140	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	141	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	141	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	143	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	144	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	145	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	146	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	146	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	149	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	154	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	156	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	157	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	158	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	159	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	160	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	162	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	163	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	164	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	165	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	166	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	168	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	169	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	171	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	172	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	173	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	174	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	175	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	176	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	178	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	179	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	180	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	181	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	181	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	183	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	184	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	185	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	186	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	186	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	188	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	189	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	190	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	191	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	191	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	193	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	194	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	195	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	196	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	196	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	198	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	199	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	200	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	201	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	201	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	203	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	204	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	205	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	206	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	206	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	208	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	209	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	210	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	211	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	211	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	213	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	214	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	215	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	216	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	216	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	218	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	219	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	220	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	221	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	221	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	223	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	224	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	225	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	227	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	228	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	229	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	230	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	230	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	232	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	233	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	234	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	235	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	235	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	237	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	238	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	239	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	240	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	240	Active
+Warning	SA1300	Element 'booksButton_Click' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	245	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	247	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	249	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	250	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	251	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	251	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	255	Active
+Warning	SA1300	Element 'cardsButton_Click' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	258	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	260	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	262	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	263	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	264	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	264	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	268	Active
+Warning	SA1300	Element 'settingsButton_Click' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	271	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	273	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	275	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	276	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	277	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	277	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	281	Active
+Warning	SA1300	Element 'radiosListBox_SelectionChanged' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	284	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	286	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	290	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	298	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	302	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	302	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	307	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	317	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	317	Active
+Warning	SA1300	Element 'addButton_Click' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	321	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	326	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	335	Active
+Warning	SA1300	Element 'editButton_Click' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	340	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	342	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	347	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	353	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	361	Active
+Warning	SA1300	Element 'removeButton_Click' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	367	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	369	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	380	Active
+Warning	SA1513	Closing brace should be followed by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	382	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	383	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	383	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	383	Active
+Warning	SA1300	Element 'playButton_Click' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	388	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	390	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	392	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	393	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	394	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	394	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	398	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	399	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	400	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	400	Active
+Warning	SA1300	Element 'volumeMinusButton_Click' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	404	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	406	Active
+Warning	SA1300	Element 'volumePlusButton_Click' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	409	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\RadiosPage.xaml.cs	411	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	1	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	8	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	9	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	10	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	11	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	12	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	13	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	14	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	15	Active
+Warning	SA1400	Element 'booksIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	21	Active
+Warning	SA1400	Element 'cardsIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	22	Active
+Warning	SA1400	Element 'radiosIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	23	Active
+Warning	SA1400	Element 'RLDIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	24	Active
+Warning	SA1306	Field 'RLDIcon' should begin with lower-case letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	24	Active
+Warning	SA1400	Element 'settingsIcon' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	25	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	29	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	38	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	39	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	41	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	42	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	43	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	44	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	45	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	47	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	48	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	49	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	50	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	51	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	53	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	54	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	55	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	57	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	58	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	59	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	60	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	61	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	63	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	64	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	65	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	66	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	66	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	68	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	69	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	70	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	71	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	71	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	73	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	74	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	75	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	76	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	76	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	78	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	79	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	80	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	81	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	81	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	83	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	84	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	85	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	86	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	86	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	89	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	94	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	95	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	97	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	98	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	99	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	100	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	101	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	103	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	104	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	105	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	106	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	107	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	109	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	110	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	111	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	113	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	114	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	115	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	116	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	117	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	119	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	120	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	121	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	122	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	122	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	124	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	125	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	126	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	127	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	127	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	129	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	130	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	131	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	132	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	132	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	134	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	135	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	136	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	137	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	137	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	139	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	140	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	141	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	142	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	142	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	153	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	157	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	161	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	170	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	174	Active
+Warning	SA1300	Element 'radioButtonBooks_Checked' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	198	Active
+Warning	SA1300	Element 'radioButtonRadios_Checked' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	211	Active
+Warning	SA1300	Element 'radioButtonCards_Checked' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Pages\Settings.xaml.cs	224	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	8	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	9	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	10	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	11	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	12	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	13	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	24	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	33	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	34	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	36	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	38	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	39	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	40	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	41	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	44	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	49	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	50	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	52	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	54	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	55	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	56	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookConfirmDelete.xaml.cs	57	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	3	Active
+Warning	SA1208	Using directive for 'System' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	4	Active
+Warning	SA1208	Using directive for 'System.Collections.Generic' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	5	Active
+Warning	SA1208	Using directive for 'System.IO' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	6	Active
+Warning	SA1208	Using directive for 'System.Linq' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	7	Active
+Warning	SA1208	Using directive for 'System.Text' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	8	Active
+Warning	SA1208	Using directive for 'System.Threading.Tasks' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	8	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	9	Active
+Warning	SA1208	Using directive for 'System.Windows' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	9	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	10	Active
+Warning	SA1208	Using directive for 'System.Windows.Controls' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	10	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	11	Active
+Warning	SA1208	Using directive for 'System.Windows.Data' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	11	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	12	Active
+Warning	SA1208	Using directive for 'System.Windows.Documents' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	12	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	13	Active
+Warning	SA1208	Using directive for 'System.Windows.Input' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	13	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	14	Active
+Warning	SA1208	Using directive for 'System.Windows.Media' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	14	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	15	Active
+Warning	SA1208	Using directive for 'System.Windows.Media.Imaging' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	15	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	16	Active
+Warning	SA1208	Using directive for 'System.Windows.Shapes' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	16	Active
+Warning	SA1400	Element 'image' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	25	Active
+Warning	SA1300	Element 'image' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	25	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	26	Active
+Warning	SA1400	Element 'sFileName' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	26	Active
+Warning	SA1300	Element 'sFileName' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	26	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	27	Active
+Warning	SA1201	A constructor should not follow a property	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	27	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	29	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	38	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	39	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	41	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	42	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	43	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	44	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	45	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	46	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	47	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	48	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	50	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	51	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	52	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	53	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	54	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	55	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	56	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	57	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	60	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	65	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	66	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	68	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	69	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	70	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	71	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	72	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	73	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	74	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	75	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	77	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	78	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	79	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	80	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	81	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	82	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	83	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	84	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	93	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	97	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	97	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	101	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	101	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	105	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	105	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	109	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	109	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	116	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	117	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	118	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	119	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	120	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	121	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	159	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookDialogWindow.xaml.cs	176	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	1	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	3	Active
+Warning	SA1208	Using directive for 'System' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	4	Active
+Warning	SA1208	Using directive for 'System.IO' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	5	Active
+Warning	SA1208	Using directive for 'System.Linq' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	6	Active
+Warning	SA1208	Using directive for 'System.Windows' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	7	Active
+Warning	SA1208	Using directive for 'System.Windows.Controls' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	8	Active
+Warning	SA1208	Using directive for 'System.Windows.Media' should appear before directive for 'RLD.BLL'	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	8	Active
+Warning	SA1300	Element 'image' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	17	Active
+Warning	SA1400	Element 'image' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	17	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	18	Active
+Warning	SA1300	Element 'newBookUrl' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	18	Active
+Warning	SA1400	Element 'newBookUrl' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	18	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	19	Active
+Warning	SA1300	Element 'previousName' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	19	Active
+Warning	SA1400	Element 'previousName' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	19	Active
+Warning	SA1400	Element 'imageChanged' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	21	Active
+Warning	SA1201	A field should not follow a property	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	21	Active
+Warning	SA1400	Element 'urlChanged' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	22	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	26	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	35	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	36	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	38	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	39	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	40	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	41	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	42	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	43	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	44	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	45	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	47	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	48	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	49	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	50	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	51	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	52	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	53	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	54	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	57	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	62	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	63	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	65	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	66	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	67	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	68	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	69	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	70	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	71	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	72	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	74	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	75	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	76	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	77	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	78	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	79	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	80	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	81	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	85	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	87	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	88	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	89	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	90	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	97	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	101	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	101	Active
+Warning	SA1520	Use braces consistently	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	102	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	104	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	104	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	104	Active
+Warning	SA1520	Use braces consistently	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	105	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	107	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	107	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	107	Active
+Warning	SA1520	Use braces consistently	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	108	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	110	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	110	Active
+Warning	SA1520	Use braces consistently	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	111	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	113	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	115	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	116	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	117	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	118	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	120	Active
+Warning	SA1503	Braces should not be omitted	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	121	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	121	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	123	Active
+Warning	SA1503	Braces should not be omitted	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	124	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	124	Active
+Warning	SA1003	Operator '=' should be preceded by whitespace.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	133	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	133	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	136	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	137	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	140	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	140	Active
+Warning	SA1520	Use braces consistently	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	141	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	143	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	143	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	143	Active
+Warning	SA1520	Use braces consistently	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	144	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	146	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	146	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	146	Active
+Warning	SA1520	Use braces consistently	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	147	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	149	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	149	Active
+Warning	SA1520	Use braces consistently	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	150	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	152	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	155	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	156	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	157	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	158	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	159	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	160	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	163	Active
+Warning	SA1505	An opening brace should not be followed by a blank line.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	172	Active
+Warning	SA1508	A closing brace should not be preceded by a blank line.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	174	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	183	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	184	Active
+Warning	SA1513	Closing brace should be followed by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	190	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	191	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	203	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\BookEditDialog.xaml.cs	216	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	1	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	8	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	9	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	10	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	11	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	12	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	13	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	21	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	30	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	31	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	33	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	35	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	36	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	37	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	38	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	41	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	46	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	47	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	49	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	51	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	52	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	53	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioConfirmDelete.xaml.cs	54	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	8	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	9	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	10	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	11	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	12	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	13	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	14	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	15	Active
+Warning	SA1400	Element 'image' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	24	Active
+Warning	SA1300	Element 'image' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	24	Active
+Warning	SA1201	A constructor should not follow a property	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	26	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	28	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	37	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	38	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	40	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	41	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	42	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	43	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	45	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	46	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	47	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	48	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	49	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	50	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	53	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	58	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	59	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	61	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	62	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	63	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	64	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	66	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	67	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	68	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	69	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	70	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	71	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	80	Active
+Warning	SA1028	Code should not contain trailing whitespace	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	81	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	84	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	84	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	88	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	88	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	95	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	96	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	97	Active
+Warning	SA1505	An opening brace should not be followed by a blank line.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	111	Active
+Warning	SA1508	A closing brace should not be preceded by a blank line.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	113	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioDialogWindow.xaml.cs	139	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	1	Active
+Warning	SA1633	The file header is missing or not located at the top of the file.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	1	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	2	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	3	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	4	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	5	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	6	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	7	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	8	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	9	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	10	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	11	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	12	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	13	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	14	Active
+Warning	SA1200	Using directive should appear within a namespace declaration	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	15	Active
+Warning	SA1300	Element 'image' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	21	Active
+Warning	SA1400	Element 'image' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	21	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	22	Active
+Warning	SA1300	Element 'previousName' should begin with an uppercase letter	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	22	Active
+Warning	SA1400	Element 'previousName' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	22	Active
+Warning	SA1516	Elements should be separated by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	23	Active
+Warning	SA1400	Element 'imageChanged' should declare an access modifier	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	23	Active
+Warning	SA1201	A field should not follow a property	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	23	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	27	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	36	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	37	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	39	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	40	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	41	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	42	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	44	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	45	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	46	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	47	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	48	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	49	Active
+Warning	SA1510	'else' statement should not be preceded by a blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	52	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	57	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	58	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	60	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	61	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	62	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	63	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	65	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	66	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	67	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	68	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	69	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	70	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	74	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	75	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	76	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	83	Active
+Warning	SA1028	Code should not contain trailing whitespace	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	84	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	87	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	87	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	91	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	91	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	97	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	98	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	99	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	101	Active
+Warning	SA1513	Closing brace should be followed by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	102	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	110	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	113	Active
+Warning	SA1513	Closing brace should be followed by blank line	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	114	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	115	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	115	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	119	Active
+Warning	SA1122	Use string.Empty for empty strings	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	119	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	126	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	127	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	128	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	130	Active
+Warning	SA1505	An opening brace should not be followed by a blank line.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	139	Active
+Warning	SA1508	A closing brace should not be preceded by a blank line.	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	141	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	145	Active
+Warning	SA1101	Prefix local calls with this	RLD	D:\Repositories\University\RLD\RLD\RLD\Presentation\Windows\RadioEditDialog.xaml.cs	168	Active
+Warning	MSB3290	Failed to create the wrapper assembly for type library "{215d64d2-031c-33c7-96e3-61794cd1ee61}". Type library 'System_Windows_Forms' was exported from a CLR assembly and cannot be re-imported as a CLR assembly.	RLD	D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets	2827	
+Warning	MSB3290	Failed to create the wrapper assembly for type library "{d37e2a3e-8545-3a39-9f4f-31827c9124ab}". Type library 'System_Drawing' was exported from a CLR assembly and cannot be re-imported as a CLR assembly.	RLD	D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets	2827	

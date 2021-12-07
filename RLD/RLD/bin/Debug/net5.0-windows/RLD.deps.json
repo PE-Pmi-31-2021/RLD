@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore": "5.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.11",
-          "RLD.Resources": "1.0.0"
+          "RLD.Resources": "1.0.0",
+          "StyleCop.Analyzers": "1.1.118"
         },
         "runtime": {
           "RLD.dll": {}
@@ -586,6 +587,7 @@
           }
         }
       },
+      "StyleCop.Analyzers/1.1.118": {},
       "System.CodeDom/4.7.0": {},
       "System.Collections/4.3.0": {
         "dependencies": {
@@ -1518,6 +1520,13 @@
       "sha512": "sha512-AY6+vv/4ji1mCkLrS6HP/88rHT9YFKRyg3LUj8RyIk6imJMUFdQDiP8rK8gq0a/0FbqspLjK1t7rtKcr7FXRYA==",
       "path": "sqlitepclraw.provider.dynamic_cdecl/2.0.4",
       "hashPath": "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.1.118": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Onx6ovGSqXSK07n/0eM3ZusiNdB6cIlJdabQhWGgJp3Vooy9AaLS/tigeybOJAobqbtggTamoWndz72JscZBvw==",
+      "path": "stylecop.analyzers/1.1.118",
+      "hashPath": "stylecop.analyzers.1.1.118.nupkg.sha512"
     },
     "System.CodeDom/4.7.0": {
       "type": "package",
