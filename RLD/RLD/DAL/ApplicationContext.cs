@@ -23,7 +23,7 @@ namespace RLD
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=RLD;Trusted_Connection=True;");
+            optionsBuilder.UseSqlite("Data Source=RLDDatabase.db");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
