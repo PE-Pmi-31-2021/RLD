@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace RLD.Pages
 {
@@ -21,11 +12,11 @@ namespace RLD.Pages
     /// </summary>
     public partial class Cards : Page
     {
-        BitmapImage booksIcon = new BitmapImage();
-        BitmapImage cardsIcon = new BitmapImage();
-        BitmapImage radiosIcon = new BitmapImage();
-        BitmapImage RLDIcon = new BitmapImage();
-        BitmapImage settingsIcon = new BitmapImage();
+        private readonly BitmapImage booksIcon = new();
+        private readonly BitmapImage cardsIcon = new();
+        private readonly BitmapImage radiosIcon = new();
+        private readonly BitmapImage RLDIcon = new();
+        private readonly BitmapImage settingsIcon = new();
 
         public Cards()
         {
@@ -99,7 +90,6 @@ namespace RLD.Pages
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
                 }
-
                 else if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
                     var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
@@ -170,19 +160,19 @@ namespace RLD.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Settings settingsPage = new Settings();
+            Settings settingsPage = new();
             this.Content = new Frame() { Content = settingsPage };
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            RadiosPage radiosPage = new RadiosPage();
+            RadiosPage radiosPage = new();
             this.Content = new Frame() { Content = radiosPage };
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            BooksPage booksPage = new BooksPage();
+            BooksPage booksPage = new();
             this.Content = new Frame() { Content = booksPage };
         }
     }

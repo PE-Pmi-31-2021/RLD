@@ -8,19 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\swatik\\.nuget\\packages\\": {}
+    "C:\\Users\\kopyt\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\RLD.Resources.csproj",
+      "projectUniqueName": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj",
       "projectName": "RLD.Resources",
-      "projectPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\RLD.Resources.csproj",
-      "packagesPath": "C:\\Users\\swatik\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\git\\RLD3\\RLD\\RLD\\Resources\\obj\\",
+      "projectPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\RLD.Resources.csproj",
+      "packagesPath": "C:\\Users\\kopyt\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositories\\University\\RLD\\RLD\\Resources\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\swatik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kopyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

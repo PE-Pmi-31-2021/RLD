@@ -96,9 +96,9 @@
                 </Grid.RowDefinitions>
 
                 <Label x:Name="startupPageLabel" Margin="25 -15 0 0" Grid.Row="1" FontSize="16" Foreground="Black">Startup page</Label>
-                <RadioButton x:Name="radioButtonBooks" Margin="50 0 0 0" Grid.Row="2" Checked="radioButtonBooks_Checked">Books</RadioButton>
-                <RadioButton x:Name="radioButtonRadios" Margin="50 0 0 0" Grid.Row="3" Checked="radioButtonRadios_Checked">Radios</RadioButton>
-                <RadioButton x:Name="radioButtonCards" Margin="50 0 0 0" Grid.Row="4" Checked="radioButtonCards_Checked">Cards</RadioButton>
+                <RadioButton x:Name="radioButtonBooks" Margin="50 0 0 0" Grid.Row="2" Checked="RadioButtonBooks_Checked">Books</RadioButton>
+                <RadioButton x:Name="radioButtonRadios" Margin="50 0 0 0" Grid.Row="3" Checked="RadioButtonRadios_Checked">Radios</RadioButton>
+                <RadioButton x:Name="radioButtonCards" Margin="50 0 0 0" Grid.Row="4" Checked="RadioButtonCards_Checked">Cards</RadioButton>
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="0">

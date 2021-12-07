@@ -1,42 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using Microsoft.Win32;
 using RLD.BLL;
 using RLD.Presentation;
 using RLD.Presentation.Windows;
-using System.IO;
 
 namespace RLD.Pages
 {
     public partial class RadiosPage : Page
     {
-        BitmapImage RLDIcon = new BitmapImage();
-        BitmapImage radiosIcon = new BitmapImage();
-        BitmapImage booksIcon = new BitmapImage();
-        BitmapImage cardsIcon = new BitmapImage();
-        BitmapImage settingsIcon = new BitmapImage();
-        BitmapImage addIcon = new BitmapImage();
-        BitmapImage editIcon = new BitmapImage();
-        BitmapImage removeIcon = new BitmapImage();
-        BitmapImage playIcon = new BitmapImage();
-        BitmapImage pauseIcon = new BitmapImage();
-        BitmapImage volumeMinusIcon = new BitmapImage();
-        BitmapImage volumePlusIcon = new BitmapImage();
-        BitmapImage defaultRadioIcon = new BitmapImage();
+        private readonly BitmapImage RLDIcon = new();
+        private readonly BitmapImage radiosIcon = new();
+        private readonly BitmapImage booksIcon = new();
+        private readonly BitmapImage cardsIcon = new();
+        private readonly BitmapImage settingsIcon = new();
+        private readonly BitmapImage addIcon = new();
+        private readonly BitmapImage editIcon = new();
+        private readonly BitmapImage removeIcon = new();
+        private readonly BitmapImage playIcon = new();
+        private readonly BitmapImage pauseIcon = new();
+        private readonly BitmapImage volumeMinusIcon = new();
+        private readonly BitmapImage volumePlusIcon = new();
+        private readonly BitmapImage defaultRadioIcon = new();
 
-        bool isRadioPlaying = false;
+        private bool isRadioPlaying;
 
         public RadiosPage()
         {
@@ -145,7 +135,6 @@ namespace RLD.Pages
                     defaultRadioIcon.EndInit();
                     defaultRadioIconXAML.Source = defaultRadioIcon;
                 }
-
                 else if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
                     var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
@@ -242,7 +231,7 @@ namespace RLD.Pages
             }
         }
 
-        private void booksButton_Click(object sender, RoutedEventArgs e)
+        private void BooksButton_Click(object sender, RoutedEventArgs e)
         {
             if (isRadioPlaying)
             {
@@ -251,11 +240,11 @@ namespace RLD.Pages
                 playIconXAML.Source = playIcon;
             }
 
-            BooksPage booksPage = new BooksPage();
+            BooksPage booksPage = new();
             Content = new Frame() { Content = booksPage };
         }
 
-        private void cardsButton_Click(object sender, RoutedEventArgs e)
+        private void CardsButton_Click(object sender, RoutedEventArgs e)
         {
             if (isRadioPlaying)
             {
@@ -264,11 +253,11 @@ namespace RLD.Pages
                 playIconXAML.Source = playIcon;
             }
 
-            Cards cardsPage = new Cards();
+            Cards cardsPage = new();
             Content = new Frame() { Content = cardsPage };
         }
 
-        private void settingsButton_Click(object sender, RoutedEventArgs e)
+        private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {
             if (isRadioPlaying)
             {
@@ -277,11 +266,11 @@ namespace RLD.Pages
                 playIconXAML.Source = playIcon;
             }
 
-            Settings settingsPage = new Settings();
+            Settings settingsPage = new();
             Content = new Frame() { Content = settingsPage };
         }
 
-        private void radiosListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void RadiosListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (radiosListBox.SelectedItem != null)
             {
@@ -291,7 +280,7 @@ namespace RLD.Pages
 
                     if (currentRadio.Logotype != null)
                     {
-                        BitmapImage currentRadioIcon = new BitmapImage();
+                        BitmapImage currentRadioIcon = new();
                         currentRadioIcon.BeginInit();
                         currentRadioIcon.StreamSource = new MemoryStream(currentRadio.Logotype);
                         currentRadioIcon.EndInit();
@@ -318,9 +307,9 @@ namespace RLD.Pages
             }
         }
 
-        private void addButton_Click(object sender, RoutedEventArgs e)
+        private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            RadioDialogWindow window = new RadioDialogWindow();
+            RadioDialogWindow window = new();
             window.ShowDialog();
 
             radiosListBox.Items.Clear();
@@ -337,7 +326,7 @@ namespace RLD.Pages
             }
         }
 
-        private void editButton_Click(object sender, RoutedEventArgs e)
+        private void EditButton_Click(object sender, RoutedEventArgs e)
         {
             if (radiosListBox.SelectedItem != null)
             {
@@ -347,7 +336,7 @@ namespace RLD.Pages
                     radioForEdit = db.Radios.FirstOrDefault(radio => radio.Name == radiosListBox.SelectedItem.ToString());
                 }
 
-                RadioEditDialog window = new RadioEditDialog(radioForEdit.Name, radioForEdit.StreamURL);
+                RadioEditDialog window = new(radioForEdit.Name, radioForEdit.StreamURL);
                 window.ShowDialog();
 
                 radiosListBox.Items.Clear();
@@ -364,11 +353,11 @@ namespace RLD.Pages
             }
         }
 
-        private void removeButton_Click(object sender, RoutedEventArgs e)
+        private void RemoveButton_Click(object sender, RoutedEventArgs e)
         {
             if (radiosListBox.SelectedItem != null)
             {
-                RadioConfirmDelete window = new RadioConfirmDelete();
+                RadioConfirmDelete window = new();
                 window.ShowDialog();
 
                 bool? result = window.DialogResult;
@@ -380,12 +369,13 @@ namespace RLD.Pages
                         db.Radios.Remove(db.Radios.FirstOrDefault(radio => radio.Name == radiosListBox.SelectedItem.ToString()));
                         db.SaveChanges();
                     }
+
                     radiosListBox.Items.RemoveAt(radiosListBox.Items.IndexOf(radiosListBox.SelectedItem));
                 }
             }
         }
 
-        private void playButton_Click(object sender, RoutedEventArgs e)
+        private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
             if (isRadioPlaying)
             {
@@ -401,12 +391,12 @@ namespace RLD.Pages
             }
         }
 
-        private void volumeMinusButton_Click(object sender, RoutedEventArgs e)
+        private void VolumeMinusButton_Click(object sender, RoutedEventArgs e)
         {
             radioPlayer.Volume -= 0.05;
         }
 
-        private void volumePlusButton_Click(object sender, RoutedEventArgs e)
+        private void VolumePlusButton_Click(object sender, RoutedEventArgs e)
         {
             radioPlayer.Volume += 0.05;
         }
