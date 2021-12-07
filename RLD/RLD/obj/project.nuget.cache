@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GaSmGDGONyewgapTxONHQvkWWUwXZqg08snT6veFeOI0HkEz9TYHNqovcFlodBpg/J5QqFK0GLJW9fyOQtJaMg==",
+  "dgSpecHash": "vebKNbkMx8bDrjbUOHzyp342wGSHUOchKJ5Xw8bI8kDr2UhDfAayL+zRDNgKtcrimI2MO/mZC7PrJCz7rk6njA==",
   "success": true,
   "projectFilePath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\kopyt\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\kopyt\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\kopyt\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kopyt\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\kopyt\\.nuget\\packages\\system.codedom\\4.7.0\\system.codedom.4.7.0.nupkg.sha512",
     "C:\\Users\\kopyt\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\kopyt\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
