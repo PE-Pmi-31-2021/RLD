@@ -1,28 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace RLD.Pages
 {
     public partial class Settings : Page
     {
-        BitmapImage booksIcon = new BitmapImage();
-        BitmapImage cardsIcon = new BitmapImage();
-        BitmapImage radiosIcon = new BitmapImage();
-        BitmapImage RLDIcon = new BitmapImage();
-        BitmapImage settingsIcon = new BitmapImage();
+        private readonly BitmapImage booksIcon = new BitmapImage();
+        private readonly BitmapImage cardsIcon = new BitmapImage();
+        private readonly BitmapImage radiosIcon = new BitmapImage();
+        private readonly BitmapImage RLDIcon = new BitmapImage();
+        private readonly BitmapImage settingsIcon = new BitmapImage();
 
         public Settings()
         {
@@ -85,7 +76,6 @@ namespace RLD.Pages
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
                 }
-
                 else if (db2.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
                     var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
@@ -195,7 +185,7 @@ namespace RLD.Pages
             this.Content = new Frame() { Content = booksPage };
         }
 
-        private void radioButtonBooks_Checked(object sender, RoutedEventArgs e)
+        private void RadioButtonBooks_Checked(object sender, RoutedEventArgs e)
         {
             using (ApplicationContext db = new ApplicationContext())
             {
@@ -208,7 +198,7 @@ namespace RLD.Pages
             }
         }
 
-        private void radioButtonRadios_Checked(object sender, RoutedEventArgs e)
+        private void RadioButtonRadios_Checked(object sender, RoutedEventArgs e)
         {
             using (ApplicationContext db = new ApplicationContext())
             {
@@ -221,7 +211,7 @@ namespace RLD.Pages
             }
         }
 
-        private void radioButtonCards_Checked(object sender, RoutedEventArgs e)
+        private void RadioButtonCards_Checked(object sender, RoutedEventArgs e)
         {
             using (ApplicationContext db = new ApplicationContext())
             {

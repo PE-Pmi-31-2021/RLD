@@ -1,27 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using RLD.BLL;
 
 namespace RLD.Presentation
 {
     /// <summary>
-    /// Interaction logic for RadioDialogWindow.xaml
+    /// Interaction logic for RadioDialogWindow.xaml.
     /// </summary>
     public partial class RadioDialogWindow : Window
     {
-        byte[] image { get; set; }
+        private byte[] Image { get; set; }
 
         public RadioDialogWindow()
         {
@@ -49,7 +41,6 @@ namespace RLD.Presentation
                     cancelButton.Background = darkColor;
                     cancelButton.Foreground = lightColor;
                 }
-
                 else if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
                     var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
@@ -78,14 +69,14 @@ namespace RLD.Presentation
             using (var db = new ApplicationContext())
             {
                 var existingRadio = db.Radios.FirstOrDefault(item => item.Name == radioNameInput.Text);
-                
+
                 if (existingRadio == null)
                 {
-                    if (radioNameInput.Text == "")
+                    if (radioNameInput.Text == string.Empty)
                     {
                         MessageBox.Show("Enter radio name");
                     }
-                    else if (radioUrlInput.Text == "")
+                    else if (radioUrlInput.Text == string.Empty)
                     {
                         MessageBox.Show("Enter radio url");
                     }
@@ -94,7 +85,7 @@ namespace RLD.Presentation
                         Radio radio = new Radio();
                         radio.Name = radioNameInput.Text;
                         radio.StreamURL = radioUrlInput.Text;
-                        radio.Logotype = image;
+                        radio.Logotype = Image;
                         db.Radios.Add(radio);
                         db.SaveChanges();
                         this.DialogResult = true;
@@ -109,7 +100,6 @@ namespace RLD.Presentation
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -136,7 +126,7 @@ namespace RLD.Presentation
 
                     if (fileData != null)
                     {
-                        image = fileData;
+                        Image = fileData;
                     }
                 }
             }

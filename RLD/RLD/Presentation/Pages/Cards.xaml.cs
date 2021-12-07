@@ -1,31 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace RLD.Pages
 {
     /// <summary>
-    /// Interaction logic for Cards.xaml
+    /// Interaction logic for Cards.xaml.
     /// </summary>
     public partial class Cards : Page
     {
-        BitmapImage booksIcon = new BitmapImage();
-        BitmapImage cardsIcon = new BitmapImage();
-        BitmapImage radiosIcon = new BitmapImage();
-        BitmapImage RLDIcon = new BitmapImage();
-        BitmapImage settingsIcon = new BitmapImage();
+        private readonly BitmapImage booksIcon = new BitmapImage();
+        private readonly BitmapImage cardsIcon = new BitmapImage();
+        private readonly BitmapImage radiosIcon = new BitmapImage();
+        private readonly BitmapImage RLDIcon = new BitmapImage();
+        private readonly BitmapImage settingsIcon = new BitmapImage();
 
         public Cards()
         {
@@ -99,7 +90,6 @@ namespace RLD.Pages
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
                 }
-
                 else if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
                     var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));

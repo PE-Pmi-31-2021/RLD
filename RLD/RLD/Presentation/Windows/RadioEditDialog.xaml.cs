@@ -1,26 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using RLD.BLL;
 
 namespace RLD.Presentation.Windows
 {
     public partial class RadioEditDialog : Window
     {
-        byte[] image { get; set; }
-        string previousName { get; set; }
-        bool imageChanged = false;
+        private byte[] Image { get; set; }
+        private string PreviousName { get; set; }
+
+        private bool imageChanged;
 
         public RadioEditDialog(string radioName, string radioUrl)
         {
@@ -48,7 +41,6 @@ namespace RLD.Presentation.Windows
                     cancelButton.Background = darkColor;
                     cancelButton.Foreground = lightColor;
                 }
-
                 else if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Light")
                 {
                     var lightColor = new SolidColorBrush(Color.FromRgb(235, 235, 235));
@@ -71,7 +63,7 @@ namespace RLD.Presentation.Windows
                 }
             }
 
-            previousName = radioName;
+            PreviousName = radioName;
             radioNameInput.Text = radioName;
             radioUrlInput.Text = radioUrl;
         }
@@ -81,14 +73,14 @@ namespace RLD.Presentation.Windows
             using (var db = new ApplicationContext())
             {
                 var existingRadio = db.Radios.FirstOrDefault(item => item.Name == radioNameInput.Text);
-                
+
                 if (existingRadio != null)
                 {
-                    if (radioNameInput.Text == "")
+                    if (radioNameInput.Text == string.Empty)
                     {
                         MessageBox.Show("Enter radio name");
                     }
-                    else if (radioUrlInput.Text == "")
+                    else if (radioUrlInput.Text == string.Empty)
                     {
                         MessageBox.Show("Enter radio url");
                     }
@@ -98,8 +90,9 @@ namespace RLD.Presentation.Windows
                         existingRadio.StreamURL = radioUrlInput.Text;
                         if (imageChanged)
                         {
-                            existingRadio.Logotype = image;
+                            existingRadio.Logotype = Image;
                         }
+
                         db.Update(existingRadio);
                         db.SaveChanges();
                         this.DialogResult = true;
@@ -107,16 +100,17 @@ namespace RLD.Presentation.Windows
                 }
                 else
                 {
-                    var previousRadio = db.Radios.FirstOrDefault(item => item.Name == previousName);
+                    var previousRadio = db.Radios.FirstOrDefault(item => item.Name == PreviousName);
                     if (previousRadio != null)
                     {
-                        image = previousRadio.Logotype;
+                        Image = previousRadio.Logotype;
                     }
-                    if (radioNameInput.Text == "")
+
+                    if (radioNameInput.Text == string.Empty)
                     {
                         MessageBox.Show("Enter radio name");
                     }
-                    else if (radioUrlInput.Text == "")
+                    else if (radioUrlInput.Text == string.Empty)
                     {
                         MessageBox.Show("Enter radio url");
                     }
@@ -125,9 +119,9 @@ namespace RLD.Presentation.Windows
                         Radio radio = new Radio();
                         radio.Name = radioNameInput.Text;
                         radio.StreamURL = radioUrlInput.Text;
-                        radio.Logotype = image;
+                        radio.Logotype = Image;
                         db.Radios.Add(radio);
-                        db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == previousName));
+                        db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == PreviousName));
                         db.SaveChanges();
                         this.DialogResult = true;
                     }
@@ -137,7 +131,6 @@ namespace RLD.Presentation.Windows
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -165,7 +158,7 @@ namespace RLD.Presentation.Windows
 
                     if (fileData != null)
                     {
-                        image = fileData;
+                        Image = fileData;
                     }
                 }
             }
