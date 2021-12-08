@@ -5,12 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RLD.Presentation.Windows"
         mc:Ignorable="d"
-<<<<<<< HEAD
-        Title="BookDialogWindow" Height="350" Width="300"
+        Title="Edit bookEdit book" Height="350" Width="300"
         WindowStartupLocation="CenterScreen">
-=======
-        Title="Edit book" Height="350" Width="300">
->>>>>>> 7a32dee4cfc4318ba02c413cadca502836ca1d2a
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*" />

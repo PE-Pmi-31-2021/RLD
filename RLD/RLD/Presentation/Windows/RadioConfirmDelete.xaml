@@ -5,12 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RLD.Presentation"
         mc:Ignorable="d"
-<<<<<<< HEAD
-        Title="RadioConfirmDelete" Height="150" Width="250"
+        Title="Delete radio" Height="150" Width="300"
         WindowStartupLocation="CenterScreen">
-=======
-        Title="Delete radio" Height="150" Width="300">
->>>>>>> 7a32dee4cfc4318ba02c413cadca502836ca1d2a
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30" />
