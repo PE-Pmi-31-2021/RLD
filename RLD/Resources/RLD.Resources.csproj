@@ -5,6 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Icons\SplashScreen.jpg" />
+    <None Remove="SplashScreen.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\SplashScreen.jpg" />
+    <Resource Include="SplashScreen.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="DarkThemeIcons.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

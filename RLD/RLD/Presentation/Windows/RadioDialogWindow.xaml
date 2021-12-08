@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RLD.Presentation"
         mc:Ignorable="d"
-        Title="Add new radio" Height="220" Width="300">
+        Title="Add new radio" Height="220" Width="300"
+        WindowStartupLocation="CenterScreen">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="20" />
