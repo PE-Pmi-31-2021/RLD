@@ -533,3 +533,6 @@ D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-arm
 D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\log4net.config
+D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\log4net.dll
+D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD_Content.g.cs

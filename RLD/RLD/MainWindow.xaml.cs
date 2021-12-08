@@ -1,14 +1,18 @@
 ﻿using System.Linq;
 using System.Windows;
+using log4net;
 using RLD.Pages;
 
 namespace RLD
 {
     public partial class MainWindow : Window
     {
+        private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public MainWindow()
         {
             InitializeComponent();
+
+            log4net.Config.XmlConfigurator.Configure();
 
             using (ApplicationContext db = new())
             {

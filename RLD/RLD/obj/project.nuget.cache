@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IJH2yRnfkuE0lrd9Z1ARs+v8w2eigMi7fd1jPUelpvsxeVF8kOFByYFXfQ0BPVoL1NfPtKyEr6DB45QK05Hr0A==",
+  "dgSpecHash": "giq4jo1HhAI3MhJC8NYsRDtFi4ir4PZ2p50hoE/1LUpO5XdfbfbKDmOJpU3gT8YpddqOzeu9DvhppVvw3LXodQ==",
   "success": true,
   "projectFilePath": "D:\\Repositories\\University\\RLD\\RLD\\RLD\\RLD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kopyt\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\kopyt\\.nuget\\packages\\log4net\\2.0.13\\log4net.2.0.13.nupkg.sha512",
     "C:\\Users\\kopyt\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\kopyt\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\kopyt\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
