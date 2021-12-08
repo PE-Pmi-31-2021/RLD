@@ -13,7 +13,7 @@ namespace RLD
         protected override void OnStartup(StartupEventArgs e)
         {
             log4net.Config.XmlConfigurator.Configure();
-            Log.Info("App loaded");
+            Log.Info("App loaded.");
             base.OnStartup(e);
         }
     }
