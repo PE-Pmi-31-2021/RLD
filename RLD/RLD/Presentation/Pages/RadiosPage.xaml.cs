@@ -4,6 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using log4net;
 using RLD.BLL;
 using RLD.Presentation;
 using RLD.Presentation.Windows;
@@ -12,6 +13,8 @@ namespace RLD.Pages
 {
     public partial class RadiosPage : Page
     {
+        private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         private readonly BitmapImage RLDIcon = new();
         private readonly BitmapImage radiosIcon = new();
         private readonly BitmapImage booksIcon = new();
@@ -31,6 +34,8 @@ namespace RLD.Pages
         public RadiosPage()
         {
             InitializeComponent();
+
+            log4net.Config.XmlConfigurator.Configure();
 
             using (var db = new ApplicationContext())
             {
@@ -242,6 +247,8 @@ namespace RLD.Pages
 
             BooksPage booksPage = new();
             Content = new Frame() { Content = booksPage };
+
+            log.Info("Opened Books page.");
         }
 
         private void CardsButton_Click(object sender, RoutedEventArgs e)
@@ -255,6 +262,9 @@ namespace RLD.Pages
 
             Cards cardsPage = new();
             Content = new Frame() { Content = cardsPage };
+
+            log.Info("Opened Cards page.");
+
         }
 
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
@@ -268,6 +278,8 @@ namespace RLD.Pages
 
             Settings settingsPage = new();
             Content = new Frame() { Content = settingsPage };
+
+            log.Info("Opened Settings page.");
         }
 
         private void RadiosListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
