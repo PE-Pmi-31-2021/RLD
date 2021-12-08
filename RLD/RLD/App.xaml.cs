@@ -12,6 +12,8 @@ namespace RLD
 
         protected override void OnStartup(StartupEventArgs e)
         {
+            var splash = new SplashScreen("SplashScreen.jpg");
+            splash.Show(true, true);
             log4net.Config.XmlConfigurator.Configure();
             Log.Info("App loaded.");
             base.OnStartup(e);

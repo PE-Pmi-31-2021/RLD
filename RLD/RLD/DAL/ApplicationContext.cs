@@ -120,46 +120,6 @@ namespace RLD
                         IsFavorite = false
                     },
                 });
-            modelBuilder.Entity<Book>().HasData(
-                new Book[]
-                {
-                    new Book
-                    {
-                        Id = 1,
-                        Name = "Робінзон Крузо",
-                        Author = "Данієль Дефо",
-                        Genre = "Adventure",
-                        YearOfRelease = new DateTime(1719, 4, 25)
-                    },
-                    new Book
-                    {
-                        Id = 2,
-                        Name = "Том Сойер",
-                        Author = "Марк Твен",
-                        Genre = "Adventure",
-                        YearOfRelease = new DateTime(1876, 6, 10)
-                    }
-                });
-            modelBuilder.Entity<Card>().HasData(
-                new Card[]
-                {
-                    new Card
-                    {
-                        Id = 1,
-                        Name = "Card1",
-                        Description = "Health card",
-                        Category = CardCategory.Health,
-                        IsInDraft = true
-                    },
-                    new Card
-                    {
-                        Id = 2,
-                        Name = "Card2",
-                        Description = "Motivational card",
-                        Category = CardCategory.Motivation,
-                        IsInDraft = true
-                    }
-                });
             modelBuilder.Entity<Setting>().HasData(
                 new Setting[]
                 {
@@ -174,16 +134,6 @@ namespace RLD
                         Id = 2,
                         Name = "StartPage",
                         Value = "Radios"
-                    },
-                });
-            modelBuilder.Entity<Link>().HasData(
-                new Link[]
-                {
-                    new Link
-                    {
-                        Id = 1,
-                        Name = "Link",
-                        Url = "google.com"
                     },
                 });
         }

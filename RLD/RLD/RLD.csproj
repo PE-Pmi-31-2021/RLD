@@ -12,6 +12,7 @@
     <None Remove="Presentation\Pages\BooksIcon.png" />
     <None Remove="Presentation\Pages\VolumeMinusIcon.png" />
     <None Remove="Presentation\Pages\VolumePlusIcon.png" />
+    <None Remove="SplashScreen.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -76,6 +77,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Resources\RLD.Resources.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="SplashScreen.jpg" />
   </ItemGroup>
 
   <ItemGroup>

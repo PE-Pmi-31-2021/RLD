@@ -5,7 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RLD.Presentation.Windows"
         mc:Ignorable="d"
-        Title="BookConfirmDelete" Height="450" Width="800">
+<<<<<<< HEAD
+        Title="BookConfirmDelete" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+=======
+        Title="Delete book" Height="150" Width="300">
+>>>>>>> 7a32dee4cfc4318ba02c413cadca502836ca1d2a
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30" />
