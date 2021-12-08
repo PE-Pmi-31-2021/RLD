@@ -536,3 +536,6 @@ D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\runtimes\win-x86
 D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\log4net.config
 D:\Repositories\University\RLD\RLD\RLD\bin\Debug\net5.0-windows\log4net.dll
 D:\Repositories\University\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD_Content.g.cs
+D:\Projects\git\RLD3\RLD\RLD\RLD\bin\Debug\net5.0-windows\log4net.config
+D:\Projects\git\RLD3\RLD\RLD\RLD\bin\Debug\net5.0-windows\log4net.dll
+D:\Projects\git\RLD3\RLD\RLD\RLD\obj\Debug\net5.0-windows\RLD_Content.g.cs
