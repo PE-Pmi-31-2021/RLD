@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Media;
+using log4net;
 using Microsoft.Win32;
 using RLD.BLL;
 
@@ -13,11 +14,15 @@ namespace RLD.Presentation.Windows
     /// </summary>
     public partial class BookDialogWindow : Window
     {
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         private byte[] Image { get; set; }
         private string SFileName { get; set; }
         public BookDialogWindow()
         {
             InitializeComponent();
+
+            log4net.Config.XmlConfigurator.Configure();
 
             using (var db = new ApplicationContext())
             {
@@ -73,6 +78,8 @@ namespace RLD.Presentation.Windows
                     cancelButton.Background = lightColor;
                     cancelButton.Foreground = darkColor;
                 }
+
+                Log.Info("Opened book adding dialog window");
             }
         }
 
@@ -111,6 +118,7 @@ namespace RLD.Presentation.Windows
                         book.BookURL = SFileName;
                         db.Books.Add(book);
                         db.SaveChanges();
+                        Log.Info($"Added new book [Name: {book.Name}, Author: {book.Author}, Release Date: {book.YearOfRelease}, Genre: {book.Genre}, Image: {(Image == null ? "not set" : "set")}, URL: {book.BookURL}]");
                         this.DialogResult = true;
                     }
                 }

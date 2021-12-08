@@ -4,6 +4,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
+using log4net;
 using Microsoft.Win32;
 using RLD.BLL;
 
@@ -14,6 +15,8 @@ namespace RLD.Presentation.Windows
     /// </summary>
     public partial class BookEditDialog : Window
     {
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         private byte[] Image { get; set; }
         private string NewBookUrl { get; set; }
         private string PreviousName { get; set; }
@@ -24,6 +27,8 @@ namespace RLD.Presentation.Windows
         public BookEditDialog(string bookName, string bookAuthor, string bookGenre, DateTime bookNewTime)
         {
             InitializeComponent();
+
+            log4net.Config.XmlConfigurator.Configure();
 
             using (var db = new ApplicationContext())
             {
@@ -87,6 +92,8 @@ namespace RLD.Presentation.Windows
             authorNameInput.Text = bookAuthor;
             bookGenreInput.Text = bookGenre;
             bookYearInput.SelectedDate = bookNewTime;
+
+            Log.Info("Opened book editing dialog window");
         }
 
         private void Book_Add_Click(object sender, RoutedEventArgs e)
@@ -132,6 +139,7 @@ namespace RLD.Presentation.Windows
 
                         db.Update(existingBook);
                         db.SaveChanges();
+                        Log.Info($"Edited book {existingBook.Name}\n New book data: [[Name: {existingBook.Name}, Author: {existingBook.Author}, Release Date: {existingBook.YearOfRelease}, Genre: {existingBook.Genre}, Image: {(Image == null ? "not set" : "set")}, URL: {existingBook.BookURL}]");
                         this.DialogResult = true;
                     }
                 }
@@ -175,6 +183,7 @@ namespace RLD.Presentation.Windows
                         db.Books.Add(book);
                         db.Books.Remove(db.Books.FirstOrDefault(item => item.Name == PreviousName));
                         db.SaveChanges();
+                        Log.Info($"Edited book {previousBook.Name}\n New book data: [[Name: {book.Name}, Author: {book.Author}, Release Date: {book.YearOfRelease}, Genre: {book.Genre}, Image: {(Image == null ? "not set" : "set")}, URL: {book.BookURL}]");
                         this.DialogResult = true;
                     }
                 }

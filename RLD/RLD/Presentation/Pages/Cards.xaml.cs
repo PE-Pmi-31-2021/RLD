@@ -4,6 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using log4net;
 
 namespace RLD.Pages
 {
@@ -12,6 +13,8 @@ namespace RLD.Pages
     /// </summary>
     public partial class Cards : Page
     {
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         private readonly BitmapImage booksIcon = new();
         private readonly BitmapImage cardsIcon = new();
         private readonly BitmapImage radiosIcon = new();
@@ -21,6 +24,9 @@ namespace RLD.Pages
         public Cards()
         {
             InitializeComponent();
+
+            log4net.Config.XmlConfigurator.Configure();
+            
 
             using (var db = new ApplicationContext())
             {
@@ -155,6 +161,8 @@ namespace RLD.Pages
                     settingsIcon.EndInit();
                     settingsIconXAML.Source = settingsIcon;
                 }
+
+                Log.Info("Opened Cards page.");
             }
         }
 

@@ -7,6 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using log4net;
 using RLD.BLL;
 using RLD.Presentation.Windows;
 
@@ -17,6 +18,8 @@ namespace RLD.Pages
     /// </summary>
     public partial class BooksPage : Page
     {
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         private readonly BitmapImage RLDIcon = new();
         private readonly BitmapImage radiosIcon = new();
         private readonly BitmapImage booksIcon = new();
@@ -31,6 +34,8 @@ namespace RLD.Pages
         public BooksPage()
         {
             InitializeComponent();
+
+            log4net.Config.XmlConfigurator.Configure();
 
             using (var db2 = new ApplicationContext())
             {
@@ -192,6 +197,8 @@ namespace RLD.Pages
             db.Books.Load();
             BooksList = db.Books.Local.ToList();
             booksDate.ItemsSource = BooksList;
+
+            Log.Info("Opened Books page.");
         }
 
         private void TxtNameToSearch_TextChanged(object sender, TextChangedEventArgs e)
@@ -206,6 +213,8 @@ namespace RLD.Pages
                                 select book;
 
             booksDate.ItemsSource = booksFiltered;
+
+            Log.Info($"Searched books for {txtOrig}");
         }
 
         private void SettingsMenu(object sender, RoutedEventArgs e)
@@ -247,6 +256,7 @@ namespace RLD.Pages
             try
             {
                 browserHost.Navigate(new Uri(string.Format("file:///" + currentBook.BookURL.Replace("\"", string.Empty))));
+                Log.Info($"Opened book {currentBook.Name}");
             }
             catch
             {
@@ -271,6 +281,8 @@ namespace RLD.Pages
                         db.Books.Remove(db.Books.FirstOrDefault(item => item.Name == book.Name));
                         db.SaveChanges();
 
+                        Log.Info($"Deleted book {book.Name}");
+
                         var query = from b in db.Books
                                     select b;
 
@@ -288,6 +300,8 @@ namespace RLD.Pages
                 using (var db = new ApplicationContext())
                 {
                     var currentBook = (Book)booksDate.SelectedItem;
+
+                    Log.Info($"Selected book {currentBook.Name}");
 
                     bookName.Text = currentBook.Name;
                     bookAuthor.Text = currentBook.Author;

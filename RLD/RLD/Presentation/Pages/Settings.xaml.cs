@@ -4,11 +4,15 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using log4net;
 
 namespace RLD.Pages
 {
     public partial class Settings : Page
     {
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+
         private readonly BitmapImage booksIcon = new();
         private readonly BitmapImage cardsIcon = new();
         private readonly BitmapImage radiosIcon = new();
@@ -18,6 +22,8 @@ namespace RLD.Pages
         public Settings()
         {
             InitializeComponent();
+
+            log4net.Config.XmlConfigurator.Configure();
 
             using (var db2 = new ApplicationContext())
             {
@@ -165,6 +171,8 @@ namespace RLD.Pages
                     }
                 }
             }
+
+            Log.Info("Opened Cards page.");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -196,6 +204,8 @@ namespace RLD.Pages
                     db.SaveChanges();
                 }
             }
+
+            Log.Info("Startup page set to Book page");
         }
 
         private void RadioButtonRadios_Checked(object sender, RoutedEventArgs e)
@@ -209,6 +219,8 @@ namespace RLD.Pages
                     db.SaveChanges();
                 }
             }
+
+            Log.Info("Startup page set to Radio page");
         }
 
         private void RadioButtonCards_Checked(object sender, RoutedEventArgs e)
@@ -222,6 +234,8 @@ namespace RLD.Pages
                     db.SaveChanges();
                 }
             }
+
+            Log.Info("Startup page set to Cards page");
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
@@ -235,6 +249,8 @@ namespace RLD.Pages
                     db.SaveChanges();
                 }
             }
+
+            Log.Info("Theme set to Dark");
         }
 
         private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
@@ -248,6 +264,8 @@ namespace RLD.Pages
                     db.SaveChanges();
                 }
             }
+
+            Log.Info("Theme set to Light");
         }
     }
 }
