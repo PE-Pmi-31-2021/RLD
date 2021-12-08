@@ -131,10 +131,12 @@ namespace RLD.Presentation.Windows
 
         private void Browse_Image(object sender, RoutedEventArgs e)
         {
-            var dialog = new Microsoft.Win32.OpenFileDialog();
-            dialog.FileName = "Image";
-            dialog.DefaultExt = ".png";
-            dialog.Filter = "Image (.png)|*.png";
+            var dialog = new Microsoft.Win32.OpenFileDialog
+            {
+                FileName = "Image",
+                DefaultExt = ".png",
+                Filter = "Image (.png)|*.png"
+            };
 
             bool? result = dialog.ShowDialog();
 
@@ -166,8 +168,10 @@ namespace RLD.Presentation.Windows
 
         private void Browse_Book(object sender, RoutedEventArgs e)
         {
-            var choofdlog = new OpenFileDialog();
-            choofdlog.Filter = "Pdf Files|*.pdf";
+            var choofdlog = new OpenFileDialog
+            {
+                Filter = "Pdf Files|*.pdf"
+            };
             choofdlog.ShowDialog();
             try
             {

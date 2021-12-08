@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\swatik\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\swatik\\.nuget\\packages"
-    ]
-  }
-}

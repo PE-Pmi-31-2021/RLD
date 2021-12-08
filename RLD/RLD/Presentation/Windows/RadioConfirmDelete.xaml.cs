@@ -1,14 +1,21 @@
 ﻿using System.Linq;
 using System.Windows;
 using System.Windows.Media;
+using log4net;
 
 namespace RLD.Presentation
 {
     public partial class RadioConfirmDelete : Window
     {
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         public RadioConfirmDelete()
         {
             InitializeComponent();
+
+            log4net.Config.XmlConfigurator.Configure();
+
+            Log.Info("Opened RadioConfirmDelete window.");
 
             using (var db = new ApplicationContext())
             {
@@ -42,12 +49,15 @@ namespace RLD.Presentation
                     cancelButton.Background = lightColor;
                     cancelButton.Foreground = darkColor;
                 }
+
+                Log.Info($"{db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value} theme enabled.");
             }
         }
 
         private void Accept_Click(object sender, RoutedEventArgs e)
         {
-            this.DialogResult = true;
+            Log.Info("Results accepted.");
+            DialogResult = true; 
         }
     }
 }

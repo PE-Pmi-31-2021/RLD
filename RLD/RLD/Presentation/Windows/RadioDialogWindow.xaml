@@ -20,7 +20,7 @@
         <TextBlock Grid.Row="0">Radio name</TextBlock>
         <TextBox x:Name="radioNameInput" Grid.Row="1" MinWidth="250"></TextBox>
         <TextBlock Grid.Row="2">Radio url</TextBlock>
-        <TextBox x:Name="radioUrlInput" Grid.Row="3" MinWidth="250" TextChanged="TextBox_TextChanged"></TextBox>
+        <TextBox x:Name="radioUrlInput" Grid.Row="3" MinWidth="250"></TextBox>
         <TextBlock Grid.Row="4">Radio image</TextBlock>
         <Button x:Name="browseButton" MinHeight="25" HorizontalAlignment="Left" Grid.Row="5" MaxWidth="100" MinWidth="75" Click="Button_Click">Browse</Button>
         <WrapPanel Grid.Row="6" HorizontalAlignment="Right" Margin="0,10,0,0">
