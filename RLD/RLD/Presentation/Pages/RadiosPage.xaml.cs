@@ -13,7 +13,7 @@ namespace RLD.Pages
 {
     public partial class RadiosPage : Page
     {
-        private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         private readonly BitmapImage RLDIcon = new();
         private readonly BitmapImage radiosIcon = new();
@@ -37,6 +37,8 @@ namespace RLD.Pages
 
             log4net.Config.XmlConfigurator.Configure();
 
+            Log.Info("Opened Radios page.");
+
             using (var db = new ApplicationContext())
             {
                 var radios = from r in db.Radios
@@ -45,6 +47,15 @@ namespace RLD.Pages
                 foreach (var radio in radios)
                 {
                     radiosListBox.Items.Add(radio.Name);
+                }
+
+                if (radios.Count() == 1)
+                {
+                    Log.Info("1 radio was loaded.");
+                }
+                else
+                {
+                    Log.Info($"{radios.Count()} radios were loaded.");
                 }
 
                 if (db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value == "Dark")
@@ -233,6 +244,8 @@ namespace RLD.Pages
                     defaultRadioIcon.EndInit();
                     defaultRadioIconXAML.Source = defaultRadioIcon;
                 }
+
+                Log.Info($"{db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value} theme enabled.");
             }
         }
 
@@ -243,12 +256,12 @@ namespace RLD.Pages
                 radioPlayer.Stop();
                 isRadioPlaying = false;
                 playIconXAML.Source = playIcon;
+
+                Log.Info("Radio playing was stopped.");
             }
 
             BooksPage booksPage = new();
             Content = new Frame() { Content = booksPage };
-
-            log.Info("Opened Books page.");
         }
 
         private void CardsButton_Click(object sender, RoutedEventArgs e)
@@ -258,13 +271,12 @@ namespace RLD.Pages
                 radioPlayer.Stop();
                 isRadioPlaying = false;
                 playIconXAML.Source = playIcon;
+
+                Log.Info("Radio playing was stopped.");
             }
 
             Cards cardsPage = new();
             Content = new Frame() { Content = cardsPage };
-
-            log.Info("Opened Cards page.");
-
         }
 
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
@@ -274,12 +286,12 @@ namespace RLD.Pages
                 radioPlayer.Stop();
                 isRadioPlaying = false;
                 playIconXAML.Source = playIcon;
+
+                Log.Info("Radio playing was stopped.");
             }
 
             Settings settingsPage = new();
             Content = new Frame() { Content = settingsPage };
-
-            log.Info("Opened Settings page.");
         }
 
         private void RadiosListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -301,6 +313,7 @@ namespace RLD.Pages
                     else
                     {
                         defaultRadioIconXAML.Source = defaultRadioIcon;
+                        Log.Warn("Radio icon is null.");
                     }
 
                     try
@@ -310,12 +323,16 @@ namespace RLD.Pages
                     catch
                     {
                         MessageBox.Show("Error: invalid radio URL.");
+                        Log.Error($"Radio have invalid URL: {currentRadio.StreamURL}.");
                     }
+
+                    Log.Info($"Radio was changed to {currentRadio.Name}.");
                 }
             }
             else
             {
                 defaultRadioIconXAML.Source = defaultRadioIcon;
+                Log.Error("Radio is null.");
             }
         }
 
@@ -335,6 +352,8 @@ namespace RLD.Pages
                 {
                     radiosListBox.Items.Add(radio.Name);
                 }
+
+                Log.Info($"Radio was added.");
             }
         }
 
@@ -362,7 +381,14 @@ namespace RLD.Pages
                         radiosListBox.Items.Add(radio.Name);
                     }
                 }
+
+                Log.Info($"Radio {radioForEdit.Name} was edited.");
             }
+            else
+            {
+                Log.Error("Radio is null.");
+            }
+
         }
 
         private void RemoveButton_Click(object sender, RoutedEventArgs e)
@@ -384,7 +410,11 @@ namespace RLD.Pages
 
                     radiosListBox.Items.RemoveAt(radiosListBox.Items.IndexOf(radiosListBox.SelectedItem));
                 }
+
+                Log.Info("Radio was removed.");
             }
+
+            Log.Error("Radio is null.");
         }
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
@@ -394,23 +424,27 @@ namespace RLD.Pages
                 radioPlayer.Stop();
                 isRadioPlaying = false;
                 playIconXAML.Source = playIcon;
+                Log.Info("Radio playing was stopped.");
             }
             else
             {
                 radioPlayer.Play();
                 isRadioPlaying = true;
                 playIconXAML.Source = pauseIcon;
+                Log.Info("Radio is playing.");
             }
         }
 
         private void VolumeMinusButton_Click(object sender, RoutedEventArgs e)
         {
             radioPlayer.Volume -= 0.05;
+            Log.Info($"Volume was reduced to {radioPlayer.Volume}.");
         }
 
         private void VolumePlusButton_Click(object sender, RoutedEventArgs e)
         {
             radioPlayer.Volume += 0.05;
+            Log.Info($"Volume was increased to {radioPlayer.Volume}.");
         }
     }
 }

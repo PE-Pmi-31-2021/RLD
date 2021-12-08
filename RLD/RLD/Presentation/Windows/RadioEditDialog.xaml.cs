@@ -4,12 +4,15 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
+using log4net;
 using RLD.BLL;
 
 namespace RLD.Presentation.Windows
 {
     public partial class RadioEditDialog : Window
     {
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         private bool imageChanged;
         private byte[] Image { get; set; }
         private string PreviousName { get; set; }
@@ -17,6 +20,10 @@ namespace RLD.Presentation.Windows
         public RadioEditDialog(string radioName, string radioUrl)
         {
             InitializeComponent();
+
+            log4net.Config.XmlConfigurator.Configure();
+
+            Log.Info("Opened RadioEditDialog window.");
 
             using (var db = new ApplicationContext())
             {
@@ -60,6 +67,8 @@ namespace RLD.Presentation.Windows
                     cancelButton.Background = lightColor;
                     cancelButton.Foreground = darkColor;
                 }
+
+                Log.Info($"{db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value} theme enabled.");
             }
 
             PreviousName = radioName;
@@ -77,10 +86,12 @@ namespace RLD.Presentation.Windows
                 {
                     if (radioNameInput.Text == string.Empty)
                     {
+                        Log.Warn("Radio name is not entered.");
                         MessageBox.Show("Enter radio name");
                     }
                     else if (radioUrlInput.Text == string.Empty)
                     {
+                        Log.Warn("Radio URL is not entered.");
                         MessageBox.Show("Enter radio url");
                     }
                     else
@@ -94,7 +105,8 @@ namespace RLD.Presentation.Windows
 
                         db.Update(existingRadio);
                         db.SaveChanges();
-                        this.DialogResult = true;
+
+                        DialogResult = true;
                     }
                 }
                 else
@@ -107,10 +119,12 @@ namespace RLD.Presentation.Windows
 
                     if (radioNameInput.Text == string.Empty)
                     {
+                        Log.Warn("Radio name is not entered.");
                         MessageBox.Show("Enter radio name");
                     }
                     else if (radioUrlInput.Text == string.Empty)
                     {
+                        Log.Warn("Radio URL is not entered.");
                         MessageBox.Show("Enter radio url");
                     }
                     else
@@ -122,23 +136,21 @@ namespace RLD.Presentation.Windows
                         db.Radios.Add(radio);
                         db.Radios.Remove(db.Radios.FirstOrDefault(item => item.Name == PreviousName));
                         db.SaveChanges();
-                        this.DialogResult = true;
+                        DialogResult = true;
                     }
                 }
             }
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             imageChanged = true;
-            var dialog = new Microsoft.Win32.OpenFileDialog();
-            dialog.FileName = "Image";
-            dialog.DefaultExt = ".png";
-            dialog.Filter = "Image (.png)|*.png";
+            var dialog = new Microsoft.Win32.OpenFileDialog
+            {
+                FileName = "Image",
+                DefaultExt = ".png",
+                Filter = "Image (.png)|*.png"
+            };
 
             bool? result = dialog.ShowDialog();
 
@@ -160,9 +172,12 @@ namespace RLD.Presentation.Windows
                         Image = fileData;
                     }
                 }
+
+                Log.Info("Radio icon was updated.");
             }
             catch (Exception)
             {
+                Log.Error("Unknown error happened.");
                 return;
             }
         }

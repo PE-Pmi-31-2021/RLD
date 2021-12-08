@@ -2,8 +2,8 @@
 using System.IO;
 using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Media;
+using log4net;
 using RLD.BLL;
 
 namespace RLD.Presentation
@@ -13,11 +13,17 @@ namespace RLD.Presentation
     /// </summary>
     public partial class RadioDialogWindow : Window
     {
+        private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         private byte[] Image { get; set; }
 
         public RadioDialogWindow()
         {
             InitializeComponent();
+
+            log4net.Config.XmlConfigurator.Configure();
+
+            Log.Info("Opened RadioDialog window.");
 
             using (var db = new ApplicationContext())
             {
@@ -61,6 +67,8 @@ namespace RLD.Presentation
                     cancelButton.Background = lightColor;
                     cancelButton.Foreground = darkColor;
                 }
+
+                Log.Info($"{db.Settings.Where(item => item.Name == "Theme").FirstOrDefault().Value} theme enabled.");
             }
         }
 
@@ -74,11 +82,13 @@ namespace RLD.Presentation
                 {
                     if (radioNameInput.Text == string.Empty)
                     {
+                        Log.Warn("Radio name is not entered.");
                         MessageBox.Show("Enter radio name");
                     }
                     else if (radioUrlInput.Text == string.Empty)
                     {
-                        MessageBox.Show("Enter radio url");
+                        Log.Warn("Radio URL is not entered.");
+                        MessageBox.Show("Enter radio URL");
                     }
                     else
                     {
@@ -88,26 +98,25 @@ namespace RLD.Presentation
                         radio.Logotype = Image;
                         db.Radios.Add(radio);
                         db.SaveChanges();
-                        this.DialogResult = true;
+                        DialogResult = true;
                     }
                 }
                 else
                 {
+                    Log.Warn($"Radio {existingRadio.Name} already exists.");
                     MessageBox.Show("Radio with this name already exists");
                 }
             }
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new Microsoft.Win32.OpenFileDialog();
-            dialog.FileName = "Image";
-            dialog.DefaultExt = ".png";
-            dialog.Filter = "Image (.png)|*.png";
+            var dialog = new Microsoft.Win32.OpenFileDialog
+            {
+                FileName = "Image",
+                DefaultExt = ".png",
+                Filter = "Image (.png)|*.png"
+            };
 
             bool? result = dialog.ShowDialog();
 
@@ -129,9 +138,12 @@ namespace RLD.Presentation
                         Image = fileData;
                     }
                 }
+
+                Log.Info("Radio icon was added.");
             }
             catch (Exception)
             {
+                Log.Error("Unknown error happened.");
                 return;
             }
         }
