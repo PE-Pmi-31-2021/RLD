@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RLD.Presentation.Windows"
         mc:Ignorable="d"
-        Title="BookDialogWindow" Height="350" Width="300">
+        Title="Add new book" Height="350" Width="300">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*" />
