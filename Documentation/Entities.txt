@@ -1,0 +1,6 @@
+Books -> Id, Name, Author, YearOfRelease, Genre,  File, Cover
+Cards -> Id, Name, Description, Category, Background, IsInDraft
+Radios -> Id, Name, StreamUrl, Genre, Logotype, IsFavorite
+Settings -> Id, Name, Value
+Links -> Id, Name, Url
+ 
